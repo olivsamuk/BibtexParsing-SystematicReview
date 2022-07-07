@@ -1,6 +1,7 @@
 import bibtexparser
 import re
-
+import sys
+import csv
 import matplotlib.pyplot as plt
 
 font = {'family' : 'Latin Modern Roman'}
@@ -15,8 +16,18 @@ plt.rc('legend', fontsize=18)    # legend fontsize
 plt.rc('figure', titlesize=18)  # fontsize of the figure title
 
 
-def new_csv(k):
-    pass
+def new_csv(dict):
+    fields = ['id']
+    for item in list(dict[0].keys()): fields.append(item)
+
+    with open('papers.csv', 'w', newline='') as csvfile:
+        w = csv.DictWriter(csvfile, fieldnames=fields)
+        w.writeheader()
+        for key, val in sorted(dict.items()):
+            row = {'id': key}
+            row.update(val)
+            w.writerow(row)
+    # return w
 
 def normalize_titles(title):
     return re.sub(re.compile('<.*?>'), '', title.upper().replace("\n", " "))
@@ -108,6 +119,26 @@ def ce1(FullList,ev_list,ieeexplore_list,scopus_list,sd_list,wos_list):
 
     return NewFullList
 
+def join_bases(dict):
+    for each_paper in dict.values():
+        bases = []
+        for each_base in list(each_paper['bases'].values()):
+            if each_base == 'EV':
+                bases.append('Engineering Village')
+            elif each_base == 'IEEE':
+                bases.append('IEEExplore')
+            elif each_base == 'SCOPUS':
+                bases.append('Scopus')
+            elif each_base == 'SD':
+                bases.append('Science Direct')
+            elif each_base == 'WOS':
+                bases.append('Web of Science')
+
+        s = '-'.join(bases)
+        each_paper['bases'] = s
+
+    return dict
+
 def main():
 
     with open('new_citations/EV.bib') as ev:
@@ -129,11 +160,20 @@ def main():
 
     BasesList = [ev_citations_list, ieeexplore_citations_list, scopus_citations_list, sd_citations_list, wos_citations_list]
     FullList = GetFullList(BasesList)
+
     # print(FullList)
     # print("EV: ", len(ev_citations_list), "\nIEEE: ", len(ieeexplore_citations_list), "\nSCOPUS", len(scopus_citations_list), "\nSD: ", len(sd_citations_list), "\nWOS: ", len(wos_citations_list), "\nTOTAL: ", len(ev_citations_list)+len(ieeexplore_citations_list)+len(scopus_citations_list)+len(sd_citations_list)+len(wos_citations_list))
 
+    # LIST OF ALL PAPERS (DUPLICATIONS REMOVED)
     after_ce1 = ce1(FullList,ev_citations_list,ieeexplore_citations_list,scopus_citations_list,sd_citations_list,wos_citations_list)
-    print(after_ce1)
+
+    # JOIN BASES. e.g. 'WOS-IEEE-SD'
+    bases_joint = join_bases(after_ce1)
+    print(bases_joint)
+
+    # WRITE CSV
+    # new_csv(bases_joint)
+
 
 
 
@@ -168,7 +208,7 @@ def main():
     # plt.show()
 
     # PAPERS PER BASE ---------------------
-    #
+
     # data = [len(scopus_citations_list),len(wos_citations_list),len(ieeexplore_citations_list),len(sd_citations_list),len(ev_citations_list)]
     # labels = ['Scopus', 'Web of Science', 'IEEExplore', 'Science Direct', 'Eng. Village']
     #
