@@ -165,11 +165,11 @@ def main():
     # print("EV: ", len(ev_citations_list), "\nIEEE: ", len(ieeexplore_citations_list), "\nSCOPUS", len(scopus_citations_list), "\nSD: ", len(sd_citations_list), "\nWOS: ", len(wos_citations_list), "\nTOTAL: ", len(ev_citations_list)+len(ieeexplore_citations_list)+len(scopus_citations_list)+len(sd_citations_list)+len(wos_citations_list))
 
     # LIST OF ALL PAPERS (DUPLICATIONS REMOVED)
-    after_ce1 = ce1(FullList,ev_citations_list,ieeexplore_citations_list,scopus_citations_list,sd_citations_list,wos_citations_list)
-
+    after_ce1 = ce1(FullList, ev_citations_list, ieeexplore_citations_list, scopus_citations_list, sd_citations_list, wos_citations_list)
     # JOIN BASES. e.g. 'WOS-IEEE-SD'
+    print(after_ce1)
+
     bases_joint = join_bases(after_ce1)
-    print(bases_joint)
 
     # WRITE CSV
     # new_csv(bases_joint)
