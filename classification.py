@@ -51,7 +51,7 @@ for each_paper in after_ce1.values():
                     print(_counter, ' - ', each_ref['title'], '\n', each_ref['abstract'])
 
         _counter += 1
-        classification = input('Informe a classificação, ou -1 para sair')
+        classification = input('Informe a classificação, ou -1 para sair: \n')
 
         if classification == '-1':
             f = open("json.txt", "w")
@@ -61,6 +61,19 @@ for each_paper in after_ce1.values():
             break
         else:
             each_paper['classification'] = classification
+
+
+#SOLUTION
+        solution = input('Informe a solução, ou -1 para sair: \n')
+
+        if solution == '-1':
+            f = open("json.txt", "w")
+            f.write(str(after_ce1))
+            f.close()
+
+            break
+        else:
+            each_paper['solution'] = solution
             print('\n' * 50)
     else:
         _counter+=1
