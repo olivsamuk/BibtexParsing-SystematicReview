@@ -2,6 +2,7 @@ import bibtexparser
 import re
 import sys
 import csv
+import json
 import matplotlib.pyplot as plt
 
 font = {'family' : 'Latin Modern Roman'}
@@ -28,6 +29,12 @@ def new_csv(dict):
             row.update(val)
             w.writerow(row)
     # return w
+
+def new_json(dict):
+    # JSON EXPORT
+    f = open("json.txt", "w")
+    f.write(str(dict))
+    f.close()
 
 def normalize_titles(title):
     return re.sub(re.compile('<.*?>'), '', title.upper().replace("\n", " "))
@@ -166,11 +173,12 @@ def main():
 
     # LIST OF ALL PAPERS (DUPLICATIONS REMOVED)
     after_ce1 = ce1(FullList, ev_citations_list, ieeexplore_citations_list, scopus_citations_list, sd_citations_list, wos_citations_list)
-    # JOIN BASES. e.g. 'WOS-IEEE-SD'
     print(after_ce1)
+    # WRITE JSON
+    new_json(after_ce1)
 
-    bases_joint = join_bases(after_ce1)
-
+    # JOIN BASES. e.g. 'WOS-IEEE-SD'
+    # bases_joint = join_bases(after_ce1)
     # WRITE CSV
     # new_csv(bases_joint)
 
