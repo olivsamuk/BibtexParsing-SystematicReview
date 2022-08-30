@@ -216,7 +216,7 @@ def main():
     # plt.show()
 
     # PAPERS PER BASE ---------------------
-
+    #
     # data = [len(scopus_citations_list),len(wos_citations_list),len(ieeexplore_citations_list),len(sd_citations_list),len(ev_citations_list)]
     # labels = ['Scopus', 'Web of Science', 'IEEExplore', 'Science Direct', 'Eng. Village']
     #
