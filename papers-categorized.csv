@@ -1,9 +1,9 @@
 id,title,year,bases,problem,attack,methods,modeling
 1,INTRUSION DETECTION IN CONTROLLED DISCRETE EVENT SYSTEMS,2006,IEEExplore-Scopus-Web of Science,attack detection and mitigation,actuator,sct,finite-state automata
-2,OPACITY ENFORCING CONTROL SYNTHESIS,2008,IEEExplore-Scopus-Web of Science,secrecy,passive,opacity enforcement-sct,Labelled Transitions Systems (LTS)
+2,OPACITY ENFORCING CONTROL SYNTHESIS,2008,IEEExplore-Scopus-Web of Science,secrecy,passive,opacity enforcement-sct,Labeled Transition Systems (LTS)
 3,OPACITY-ENFORCING SUPERVISORY STRATEGIES FOR SECURE DISCRETE EVENT SYSTEMS,2008,IEEExplore-Scopus-Web of Science,secrecy,passive,initial state opacity enforcement,finite-state automata
 4,VERIFICATION OF INITIAL-STATE OPACITY IN SECURITY APPLICATIONS OF DES,2008,IEEExplore-Scopus-Web of Science,secrecy,passive,initial state opacity verification,finite-state automata
-5,MONITORING CONFIDENTIALITY BY DIAGNOSIS TECHNIQUES,2009,IEEExplore-Scopus,secrecy,passive,opacity verification-diagnosability-predictability,Labelled Transitions Systems (LTS)
+5,MONITORING CONFIDENTIALITY BY DIAGNOSIS TECHNIQUES,2009,IEEExplore-Scopus,secrecy,passive,opacity verification-diagnosability-predictability,Labeled Transition Systems (LTS)
 6,VERIFICATION OF INFINITE-STEP OPACITY AND ANALYSIS OF ITS COMPLEXITY,2009,Scopus,secrecy,passive,Verification of Infinite Step Opacity,finite-state automata
 7,VERIFICATION OF K-STEP OPACITY AND ANALYSIS OF ITS COMPLEXITY,2009,IEEExplore-Scopus-Web of Science,secrecy,passive,k step opacity verification,finite-state automata
 8,OPACITY VERIFICATION IN STOCHASTIC DISCRETE EVENT SYSTEMS,2010,IEEExplore-Scopus-Web of Science,secrecy,passive,opacity verification-step based almost current-state opacity,probabilistic finite-state automata
@@ -14,7 +14,7 @@ id,title,year,bases,problem,attack,methods,modeling
 13,VERIFICATION OF INFINITE-STEP OPACITY AND COMPLEXITY CONSIDERATIONS,2012,IEEExplore-Scopus-Web of Science,secrecy,passive,infinite step opacity verification,finite-state automata
 14,INITIAL STATE OPACITY IN STOCHASTIC DES,2013,IEEExplore-Scopus,secrecy,passive,opacity verification-step based almost initial state opacity,probabilistic finite-state automata
 15,VERIFICATION OF INITIAL-STATE OPACITY IN SECURITY APPLICATIONS OF DISCRETE EVENT SYSTEMS,2013,Scopus-Science Direct-Web of Science,secrecy,passive,verification of initial state opacity,finite-state automata
-16,AN ON-THE-FLY APPROACH FOR THE VERIFICATION OF OPACITY IN CRITICAL SYSTEMS,2014,Web of Science,secrecy,passive,opacity verification,Labeled Transition System (LTS)
+16,AN ON-THE-FLY APPROACH FOR THE VERIFICATION OF OPACITY IN CRITICAL SYSTEMS,2014,Web of Science,secrecy,passive,opacity verification,Labeled Transition Systems (LTS)
 17,CURRENT-STATE OPACITY FORMULATIONS IN PROBABILISTIC FINITE AUTOMATA,2014,IEEExplore-Scopus-Web of Science,secrecy,passive,opacity verification-probabilistic current state opacity,probabilistic finite-state automata
 18,OPACITY FORMULATIONS AND VERIFICATION IN DISCRETE EVENT SYSTEMS,2014,IEEExplore-Scopus-Web of Science,review,review,review,review
 19,SYNTHESIS OF INSERTION FUNCTIONS FOR ENFORCEMENT OF OPACITY SECURITY PROPERTIES,2014,Scopus-Science Direct-Web of Science,secrecy,passive,opacity enforcement,finite-state automata
@@ -23,7 +23,7 @@ id,title,year,bases,problem,attack,methods,modeling
 22,CONSTRUCTION OF FALSE SEQUENCE ATTACK AGAINST PLC BASED POWER CONTROL SYSTEM,2016,IEEExplore,attack model,sensor,identification algorithm,finite-state automata
 23,DETECTION AND PREVENTION OF ACTUATOR ENABLEMENT ATTACKS IN SUPERVISORY CONTROL SYSTEMS,2016,IEEExplore,attack detection and mitigation,actuator,sct,finite-state automata
 24,ENFORCEMENT OF OPACITY SECURITY PROPERTIES FOR SHIP INFORMATION SYSTEM,2016,Web of Science,secrecy,passive,opacity enforcement,finite-state automata
-25,ENFORCING OPACITY WITH ORWELLIAN OBSERVATION,2016,IEEExplore-Web of Science,secrecy,passive,Orwellian projections,Labelled Transitions Systems (LTS)
+25,ENFORCING OPACITY WITH ORWELLIAN OBSERVATION,2016,IEEExplore-Web of Science,secrecy,passive,Orwellian projections,Labeled Transition Systems (LTS)
 26,ON TWO-WAY OBSERVER AND ITS APPLICATION TO THE VERIFICATION OF INFINITE-STEP AND K-STEP OPACITY,2016,IEEExplore-Scopus-Web of Science,secrecy,passive,Verification of Infinite Step and K Step Opacity,finite-state automata
 27,PROBABILISTIC SYSTEM OPACITY IN DISCRETE EVENT SYSTEMS,2016,IEEExplore-Scopus-Web of Science,secrecy,passive,Probabilistic system opacity,Hidden Markov Model (HMM)
 28,QUANTIFICATION OF DISTRIBUTED SECRECY LOSS IN STOCHASTIC DISCRETE EVENT SYSTEMS UNDER BOUNDED-DELAY COMMUNICATIONS,2016,IEEExplore-Scopus-Web of Science,secrecy,passive,Jensen-Shannon Divergence (JSD),probabilistic finite-state automata
@@ -88,8 +88,8 @@ id,title,year,bases,problem,attack,methods,modeling
 87,DEPTH-FIRST SEARCH APPROACH FOR LANGUAGE-BASED OPACITY VERIFICATION USING PETRI NETS,2020,Scopus-Science Direct-Web of Science,secrecy,passive,Verification of Language Based Opacity,petri nets
 88,DETECTION AND PREVENTION OF CYBER-ATTACKS IN NETWORKED CONTROL SYSTEMS,2020,Scopus-Web of Science,attack detection and mitigation,actuator,AE-safe controllability,finite-state automata
 89,DETECTION AND PREVENTION OF CYBER-ATTACKS IN NETWORKED CONTROL SYSTEMS,2020,Science Direct,attack detection and mitigation,actuator,sct,finite-state automata
-90,DISCRETE CONTROL OF RESPONSE FOR CYBERSECURITY IN INDUSTRIAL CONTROL,2020,Scopus-Science Direct-Web of Science,attack detection and mitigation,denail of service,reconfiguration,Labelled Transitions Systems (LTS)
-91,ENFORCING OPACITY IN MODULAR SYSTEMS,2020,Engineering Village-Scopus-Science Direct-Web of Science,secrecy,passive,opacity verification,Labelled Transitions Systems (LTS)
+90,DISCRETE CONTROL OF RESPONSE FOR CYBERSECURITY IN INDUSTRIAL CONTROL,2020,Scopus-Science Direct-Web of Science,attack detection and mitigation,denail of service,reconfiguration,Labeled Transition Systems (LTS)
+91,ENFORCING OPACITY IN MODULAR SYSTEMS,2020,Engineering Village-Scopus-Science Direct-Web of Science,secrecy,passive,opacity verification,Labeled Transition Systems (LTS)
 92,HOMOMORPHIC ENCRYPTION OF SUPERVISORY CONTROL SYSTEMS USING AUTOMATA,2020,IEEExplore-Scopus-Web of Science,secrecy,passive,Homomorphic Encryption,finite-state automata
 93,K-MEMORY-EMBEDDED INSERTION MECHANISM FOR OPACITY ENFORCEMENT,2020,Scopus-Science Direct-Web of Science,secrecy,passive,enforcement of current state opacity,finite-state automata
 94,MATRIX APPROACH FOR VERIFICATION OF OPACITY OF PARTIALLY OBSERVED DISCRETE EVENT SYSTEMS,2020,Scopus-Web of Science,secrecy,passive,opacity verification,finite-state automata
@@ -146,7 +146,7 @@ id,title,year,bases,problem,attack,methods,modeling
 145,DISCRETE-EVENT SYSTEMS SUBJECT TO UNKNOWN SENSOR ATTACKS,2022,Scopus-Web of Science,attack detection and mitigation,sensor,P-observability test,finite-state automata
 146,ENFORCEMENT FOR INFINITE-STEP OPACITY AND K-STEP OPACITY VIA INSERTION MECHANISM,2022,Scopus-Science Direct,secrecy,passive,Enforcement of infinite step and k step opacity ,finite-state automata
 147,FUZZY INFINITE-STEP OPACITY MEASURE OF DISCRETE EVENT SYSTEMS AND ITS APPLICATIONS,2022,IEEExplore-Scopus-Web of Science,secrecy,passive,fuzzy infinite-step opacity (FIO),finite-state automata
-148,HYPER SYMBOLIC OBSERVATION GRAPH TO ENFORCE OPACITY OF DISCRETE EVENT SYSTEMS USING SUPERVISORY CONTROL,2022,IEEExplore,secrecy,passive,state based opacity enforcement,Labeled Transition System (LTS)
+148,HYPER SYMBOLIC OBSERVATION GRAPH TO ENFORCE OPACITY OF DISCRETE EVENT SYSTEMS USING SUPERVISORY CONTROL,2022,IEEExplore,secrecy,passive,state based opacity enforcement,Labeled Transition Systems (LTS)
 149,IDENTIFICATION OF SYSTEM VULNERABILITY UNDER A SMART SENSOR ATTACK VIA ATTACK MODEL REDUCTION,2022,IEEExplore,attack detection and mitigation,sensor,supervisor reduction,finite-state automata
 150,LANGUAGE-BASED OPACITY VERIFICATION AND ENFORCEMENT IN THE FRAMEWORK OF LABELED PETRI NETS,2022,Scopus-Web of Science,secrecy,passive,Verification and Enforcement of Language based Opacity,petri nets
 151,NECESSARY AND SUFFICIENT CONDITION TO ASSESS INITIAL-STATE-OPACITY IN LIVE BOUNDED AND REVERSIBLE DISCRETE EVENT SYSTEMS,2022,IEEExplore-Scopus-Web of Science,secrecy,passive,verification of initial state opacity,petri nets
