@@ -29,10 +29,10 @@ def get_data(csv_file):
     papers = pd.read_csv(csv_file)
     data = {}
     for index, each_paper in papers.iterrows():
-        if data.get(each_paper['attack']):
-            data[each_paper['attack']] += 1
+        if data.get(each_paper['problem']):
+            data[each_paper['problem']] += 1
         else:
-            data[each_paper['attack']] = 1
+            data[each_paper['problem']] = 1
     return data
 
 papers = get_data('papers-categorized-new.csv')

@@ -98,7 +98,6 @@ id,title,year,bases,problem,attack,methods,modeling
 97,SYMBOLIC VERIFICATION OF CURRENT-STATE OPACITY OF DISCRETE EVENT SYSTEMS USING PETRI NETS,2022,Engineering Village-IEEExplore-Scopus-Web of Science,verification,passive,Multi valued decision diagrams (MDDs) – Current-State Opacity verification,petri nets
 98,VERIFICATION OF K-STEP AND INFINITE-STEP OPACITY OF BOUNDED LABELED PETRI NETS,2022,Engineering Village-Scopus-Science Direct-Web of Science,verification,passive,verification of K step and infinite step opacity,petri nets
 99,INTRUSION DETECTION IN CONTROLLED DISCRETE EVENT SYSTEMS,2006,IEEExplore-Scopus-Web of Science,attack detection and mitigation,actuator,sct,finite-state automata
-100,OPACITY FORMULATIONS AND VERIFICATION IN DISCRETE EVENT SYSTEMS,2014,IEEExplore-Scopus-Web of Science,review,review,review,review
 101,CONSTRUCTION OF FALSE SEQUENCE ATTACK AGAINST PLC BASED POWER CONTROL SYSTEM,2016,IEEExplore,attack model,sensor,identification algorithm,finite-state automata
 102,DETECTION AND PREVENTION OF ACTUATOR ENABLEMENT ATTACKS IN SUPERVISORY CONTROL SYSTEMS,2016,IEEExplore,attack detection and mitigation,actuator,sct,finite-state automata
 103,A CYBER ATTACK MODEL WITH BOUNDED SENSOR READING ALTERATIONS,2017,Engineering Village-IEEExplore-Scopus-Web of Science,attack model,sensor,Finite state transducers,finite-state automata
@@ -108,7 +107,6 @@ id,title,year,bases,problem,attack,methods,modeling
 107,DETECTABLE AND UNDETECTABLE NETWORK ATTACK SECURITY OF CYBER-PHYSICAL SYSTEMS,2018,Scopus-Science Direct-Web of Science,attack detection and mitigation,sensor-actuator,sct,finite-state automata
 108,DETECTION AND MITIGATION OF CLASSES OF ATTACKS IN SUPERVISORY CONTROL SYSTEMS,2018,Scopus-Science Direct-Web of Science,attack detection and mitigation,sensor-actuator,sct,finite-state automata
 109,MODELING AND DETECTION OF CYBER ATTACKS ON DISCRETE EVENT SYSTEMS,2018,Scopus-Science Direct-Web of Science,attack detection and mitigation,sensor-actuator,permutation matrices ,petri nets
-110,PARTIALLY OBSERVED DISCRETE-EVENT SYSTEMS: FROM STATE ESTIMATION TO INTRUSION DETECTION,2018,Scopus-Science Direct,review,review,review,review
 111,STEALTHY ATTACKS FOR PARTIALLY-OBSERVED DISCRETE EVENT SYSTEMS,2018,IEEExplore-Scopus-Web of Science,attack model,sensor,sct,finite-state automata
 112,SUPERVISOR SYNTHESIS TO THWART CYBER ATTACK WITH BOUNDED SENSOR READING ALTERATIONS,2018,Engineering Village-Scopus-Science Direct-Web of Science,supervisor synthesis,sensor,sct,finite-state automata
 113,ATTACK-RESILIENT SUPERVISORY CONTROL WITH INTERMITTENTLY SECURE COMMUNICATION,2019,IEEExplore-Scopus-Web of Science,supervisor synthesis,sensor-actuator,Finite state transducers,finite-state automata
@@ -118,7 +116,6 @@ id,title,year,bases,problem,attack,methods,modeling
 117,SENSOR AND ACTUATOR ATTACKS OF CYBER-PHYSICAL SYSTEMS: A STUDY BASED ON SUPERVISORY CONTROL OF DISCRETE EVENT SYSTEMS,2019,Engineering Village-IEEExplore-Scopus-Web of Science,attack model,sensor-actuator,sct,finite-state automata
 118,SUPERVISOR OBFUSCATION AGAINST ACTUATOR ENABLEMENT ATTACK,2019,IEEExplore-Scopus-Web of Science,supervisor synthesis,actuator,sct,finite-state automata
 119,SUPERVISORY CONTROL OF DISCRETE EVENT SYSTEMS IN THE PRESENCE OF SENSOR AND ACTUATOR ATTACKS,2019,IEEExplore-Scopus-Web of Science,supervisor synthesis,sensor-actuator,Finite state transducers,finite-state transducer
-120,SUPERVISORY CONTROL OF DISCRETE-EVENT SYSTEMS UNDER ATTACKS: AN OVERVIEW AND OUTLOOK,2019,IEEExplore-Scopus-Web of Science,review,review,review,review
 121,SYNTHESIS OF COVERT ACTUATOR ATTACKERS FOR FREE,2019,Engineering Village-Scopus-Web of Science,attack model,actuator,sct,finite-state automata
 122,SYNTHESIS OF SENSOR DECEPTION ATTACKS FOR SYSTEMS MODELED AS PROBABILISTIC AUTOMATA,2019,IEEExplore-Scopus-Web of Science,attack model,sensor,stochastic graph games,probabilistic finite-state automata
 123,SYNTHESIS OF SUPREMAL SUCCESSFUL NORMAL ACTUATOR ATTACKERS ON NORMAL SUPERVISORS,2019,IEEExplore-Scopus-Web of Science,attack model,actuator,sct,finite-state automata
@@ -131,7 +128,6 @@ id,title,year,bases,problem,attack,methods,modeling
 130,MOVING TARGET DEFENSE BASED ON SWITCHED SUPERVISORY CONTROL: A NEW TECHNIQUE FOR MITIGATING SENSOR DECEPTION ATTACKS,2020,Scopus-Web of Science,attack detection and mitigation,sensor,moving target defense,finite-state automata
 131,ON ATTACK MITIGATION IN SUPERVISORY CONTROL SYSTEMS: A TOLERANT CONTROL APPROACH,2020,IEEExplore-Scopus-Web of Science,attack detection and mitigation,actuator,sct,finite-state automata
 132,OPACITY OF DISCRETE EVENT SYSTEMS WITH ACTIVE INTRUDER,2020,Engineering Village,verification,sensor-actuator,reactive current state opacity,finite-state transducer
-133,OVERVIEW OF OPACITY IN DISCRETE EVENT SYSTEMS,2020,IEEExplore-Scopus-Web of Science,review,review,review,review
 134,STEALTHY SENSOR ATTACKS FOR PLANTS MODELED BY LABELED PETRI NETS,2020,Scopus-Web of Science,attack model,sensor,reachability graph,petri nets
 135,SYNTHESIS OF COVERT ACTUATOR AND SENSOR ATTACKERS AS SUPERVISOR SYNTHESIS,2020,Scopus-Web of Science,attack model,sensor-actuator,sct,finite-state automata
 136,SYNTHESIS OF SENSOR DECEPTION ATTACKS AT THE SUPERVISORY LAYER OF CYBER-PHYSICAL SYSTEMS,2020,Web of Science,attack model,sensor,sct,finite-state automata
@@ -152,7 +148,6 @@ id,title,year,bases,problem,attack,methods,modeling
 151,A LIVENESS-ENFORCING SUPERVISOR TOLERANT TO SENSOR-READING MODIFICATION ATTACKS,2022,IEEExplore-Scopus-Web of Science,supervisor synthesis,sensor,liveness enforcement,petri nets
 152,A POLYNOMIAL APPROACH TO VERIFYING THE EXISTENCE OF A THREATENING SENSOR ATTACKER,2022,IEEExplore-Web of Science,attack detection and mitigation,sensor,sct,finite-state automata
 153,A POLYNOMIAL APPROACH TO VERIFYING THE EXISTENCE OF A THREATENING SENSOR ATTACKER*,2022,Engineering Village-Scopus,attack detection and mitigation,sensor,All Sensor Attack Automaton,finite-state automata
-154,A SURVEY OF CYBER ATTACKS ON CYBER PHYSICAL SYSTEMS: RECENT ADVANCES AND CHALLENGES,2022,Web of Science,review,review,review,review
 155,DISCRETE-EVENT SYSTEMS SUBJECT TO UNKNOWN SENSOR ATTACKS,2022,Scopus-Web of Science,attack detection and mitigation,sensor,P-observability test,finite-state automata
 156,IDENTIFICATION OF SYSTEM VULNERABILITY UNDER A SMART SENSOR ATTACK VIA ATTACK MODEL REDUCTION,2022,IEEExplore,attack detection and mitigation,sensor,supervisor reduction,finite-state automata
 157,OBSERVATION-ASSISTED HEURISTIC SYNTHESIS OF COVERT ATTACKERS AGAINST UNKNOWN SUPERVISORS,2022,Scopus-Web of Science,attack model,sensor-actuator,heuristic synthesis algorithm,finite-state automata
