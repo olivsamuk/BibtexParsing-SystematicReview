@@ -70,6 +70,7 @@ id,title,year,bases,problem,attack,methods,modeling
 69,SUPERVISORY CONTROL OF DISCRETE-EVENT SYSTEMS FOR INFINITE-STEP OPACITY,2020,Web of Science,enforcement,passive,infinite step opacity enforcement,finite-state automata
 70,SYNTHESIS OF DYNAMIC MASKS FOR INFINITE-STEP OPACITY (2020),2020,IEEExplore-Scopus-Web of Science,enforcement,passive,infinite step opacity enforcement,finite-state automata
 71,VERIFICATION OF INFINITE-STEP OPACITY USING LABELED PETRI NETS,2020,Scopus-Science Direct-Web of Science,verification,passive,inifinite step opacity verification,petri nets
+34,OPACITY OF DISCRETE EVENT SYSTEMS WITH ACTIVE INTRUDER,2020,Engineering Village,verification,sensor-actuator,reactive current state opacity,finite-state transducer
 72,ASSESSMENT OF BISIMULATION NON-INTERFERENCE IN DISCRETE EVENT SYSTEMS MODELLED WITH BOUNDED PETRI NETS,2021,IEEExplore-Scopus-Web of Science,verification,passive,strong non deterministic noninterference (SNNI),petri nets
 73,BOUNDED OPACITY FOR TIMED SYSTEMS,2021,Scopus-Science Direct-Web of Science,verification,passive,bounded timed opacity,timed finite-state automata
 74,ENFORCING CURRENT-STATE OPACITY THROUGH SHUFFLE AND DELETIONS OF EVENT OBSERVATIONS,2021,Scopus-Science Direct-Web of Science,enforcement,passive,enforcement of current state opacity,finite-state automata

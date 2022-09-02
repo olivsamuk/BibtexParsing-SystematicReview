@@ -29,7 +29,6 @@ id,title,year,bases,problem,attack,methods,modeling
 31,MITIGATION OF CLASSES OF ATTACKS USING A PROBABILISTIC DISCRETE EVENT SYSTEM FRAMEWORK,2020,Engineering Village-Scopus-Web of Science,attack detection and mitigation,sensor,Markov decision processes (MDPs),probabilistic finite-state automata
 32,MOVING TARGET DEFENSE BASED ON SWITCHED SUPERVISORY CONTROL: A NEW TECHNIQUE FOR MITIGATING SENSOR DECEPTION ATTACKS,2020,Scopus-Web of Science,attack detection and mitigation,sensor,moving target defense,finite-state automata
 33,ON ATTACK MITIGATION IN SUPERVISORY CONTROL SYSTEMS: A TOLERANT CONTROL APPROACH,2020,IEEExplore-Scopus-Web of Science,attack detection and mitigation,actuator,sct,finite-state automata
-34,OPACITY OF DISCRETE EVENT SYSTEMS WITH ACTIVE INTRUDER,2020,Engineering Village,verification,sensor-actuator,reactive current state opacity,finite-state transducer
 36,STEALTHY SENSOR ATTACKS FOR PLANTS MODELED BY LABELED PETRI NETS,2020,Scopus-Web of Science,attack model,sensor,reachability graph,petri nets
 37,SYNTHESIS OF COVERT ACTUATOR AND SENSOR ATTACKERS AS SUPERVISOR SYNTHESIS,2020,Scopus-Web of Science,attack model,sensor-actuator,sct,finite-state automata
 38,SYNTHESIS OF SENSOR DECEPTION ATTACKS AT THE SUPERVISORY LAYER OF CYBER-PHYSICAL SYSTEMS,2020,Web of Science,attack model,sensor,sct,finite-state automata
