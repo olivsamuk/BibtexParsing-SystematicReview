@@ -73,7 +73,8 @@ import plotly.offline as pyo
 
 def get_data(csv_file, period):
     papers = pd.read_csv(csv_file)
-    data = {'attack model': 0, 'attack detection and mitigation': 0, 'diagnosabilty': 0, 'state estimation': 0, 'supervisor synthesis': 0, 'system recovery': 0, 'verification':0, 'enforcement':0}
+    # data = {'attack model': 0, 'attack detection and mitigation': 0, 'diagnosabilty': 0, 'state estimation': 0, 'supervisor synthesis': 0, 'system recovery': 0, 'verification':0, 'enforcement':0}
+    data = {'attack model': 0, 'attack detection and mitigation': 0, 'diagnosabilty': 0, 'state estimation': 0, 'supervisor synthesis': 0, 'system recovery': 0, 'verification':0}
     for index, each_paper in papers.iterrows():
         if period == 1:
             if each_paper['year'] >= 2006 and each_paper['year'] <= 2016:
@@ -88,12 +89,12 @@ def get_data(csv_file, period):
 
     return data
 
-papers_p1 = get_data('papers-categorized-new.csv',1)
-papers_p2 = get_data('papers-categorized-new.csv',2)
-papers_p3 = get_data('papers-categorized-new.csv',3)
+papers_p1 = get_data('papers-categorized_active.csv',1)
+papers_p2 = get_data('papers-categorized_active.csv',2)
+papers_p3 = get_data('papers-categorized_active.csv',3)
 print(papers_p3)
 
-categories = ['attack model', 'attack detection and mitigation', 'diagnosabilty', 'state estimation',  'supervisor synthesis', 'system recovery', 'verification', 'enforcement']
+categories = ['attack model', 'attack detection and mitigation', 'diagnosabilty', 'state estimation',  'supervisor synthesis', 'system recovery', 'verification']
 categories = [*categories, categories[0]]
 
 restaurant_1 = list(papers_p1.values())
