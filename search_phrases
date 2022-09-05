@@ -3,5 +3,5 @@
     'SD':           '(cybersecurity OR cyber-security OR "cyber security" OR attack OR intrusion OR intruder ) ( "discrete-event system" OR "discrete event system" ) -(DEVS OR "discrete event system specification")',
     'WOS':          'TS=((cybersecurity OR cyber-security OR "cyber security" OR attack* OR intrusion OR intruder ) AND ( "discrete-event system*" OR "discrete event system*" ) NOT (DEVS OR "discrete event system specification"))',
     'IEEExplore':   '("All Metadata":cybersecurity OR "All Metadata":cyber-security OR "All Metadata":"cyber security" OR "All Metadata":attack* OR "All Metadata":intrusion OR "All Metadata":intruder) AND ("All Metadata":"discrete-event system*" OR "All Metadata":"discrete event system*") NOT ("All Metadata":DEVS OR "All Metadata":"discrete event system specification")',
-    'EV':           '((((cybersecurity OR cyber-security OR "cyber security" OR attack* OR intrusion OR intruder) WN KY) AND (("discrete-event system*" OR "discrete event system*") WN KY)) NOT ((DEVS OR "discrete event system specification") WN ALL))'
+    'EV':           '(((cybersecurity OR cyber-security OR "cyber security" OR attack* OR intrusion OR intruder) AND ("discrete-event system*" OR "discrete event system*") NOT (DEVS OR "discrete event system specification")) WN KY)'
 }
