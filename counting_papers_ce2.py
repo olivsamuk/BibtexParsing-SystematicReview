@@ -9,7 +9,7 @@ import pandas as pd
 def substring_after(s, delim):
     return s.partition(delim)[0]
 
-papers = pd.read_csv("papers-categorized.csv")
+papers = pd.read_csv("papers-categorized-new.csv")
 data = {}
 
 ev_counter = 0
@@ -32,7 +32,7 @@ for index, each_paper in papers.iterrows():
     elif base == 'Web of Science':
         wos_counter+=1
 
-print('EV: ', ev_counter, '\nIEEE: ', ieee_counter, '\nSCOPUS: ', scopus_counter, '\nSD: ', sd_counter, '\nWOS: ', wos_counter)
+print('EV: ', ev_counter, '\nIEEE: ', ieee_counter, '\nSCOPUS: ', scopus_counter, '\nSD: ', sd_counter, '\nWOS: ', wos_counter, '\nTotal: ', ev_counter+ieee_counter+scopus_counter+sd_counter+wos_counter)
 
 # for each_paper in after_ce1.values():
 #

@@ -15,5 +15,5 @@ plt.rc('font', **font)
 movies = pd.read_csv("papers.csv")
 movies_by_genre = from_memberships(movies.bases.str.split('-'), data=movies)
 
-UpSet(movies_by_genre, show_counts=True, facecolor='#365841', shading_color='#dfece3').plot()
+UpSet(movies_by_genre, show_counts=True, facecolor='#365841', shading_color='#efefef').plot()
 plt.show()

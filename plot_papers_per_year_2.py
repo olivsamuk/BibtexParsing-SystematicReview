@@ -3,19 +3,20 @@
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
+from scipy.interpolate import make_interp_spline
 
 
 
 font = {'family' : 'Latin Modern Roman'}
 plt.rc('font', **font)
 #
-plt.rc('font', size=15)          # controls default text sizes
-plt.rc('axes', titlesize=15)     # fontsize of the axes title
-plt.rc('axes', labelsize=15)    # fontsize of the x and y labels
-plt.rc('xtick', labelsize=15)    # fontsize of the tick labels
-plt.rc('ytick', labelsize=15)    # fontsize of the tick labels
-plt.rc('legend', fontsize=15)    # legend fontsize
-plt.rc('figure', titlesize=15)  # fontsize of the figure title
+plt.rc('font', size=28)          # controls default text sizes
+plt.rc('axes', titlesize=28)     # fontsize of the axes title
+plt.rc('axes', labelsize=28)    # fontsize of the x and y labels
+plt.rc('xtick', labelsize=28)    # fontsize of the tick labels
+plt.rc('ytick', labelsize=28)    # fontsize of the tick labels
+plt.rc('legend', fontsize=28)    # legend fontsize
+plt.rc('figure', titlesize=28)  # fontsize of the figure title
 
 # Define Data
 # team = ['Team 1','Team 2','Team 3','Team 4','Team 5']
@@ -56,13 +57,29 @@ print(len(get_sum(list(papers_active), list(papers_passive))))
 # plt.bar_label(bar2)
 # plt.bar_label(bar3)
 # Xticks
-
-plt.xticks(x_axis, [2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022])
+x = [2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022]
+plt.xticks(x_axis, x)
 plt.yticks(np.arange(0, 29, 2.0))
 
-# plt.plot(get_sum(list(papers_active), list(papers_passive)), '-o', color='orange')
+total_sum = get_sum(list(papers_active), list(papers_passive))
+# lin = np.linspace(total_sum[0],total_sum[-1], len(total_sum))
+# plt.plot(lin, color='black', linewidth=.5)
 
-plt.grid(axis='y', zorder=1, linestyle='-', color='#EAEDED')
+
+y = np.array(total_sum)
+
+
+#calculate equation for quadratic trendline
+z = np.polyfit(x_axis, y, 5)
+p = np.poly1d(z)
+# plt.plot(x_axis, p(x_axis))
+
+X_Y_Spline = make_interp_spline(x_axis, p(x_axis))
+X_ = np.linspace(x_axis.min(), x_axis.max(), 500)
+Y_ = X_Y_Spline(X_)
+plt.plot(X_, Y_+.8, color='#7B241C', linewidth='.7')
+
+plt.grid(zorder=1, linestyle='-', color='#EAEDED')
 plt.legend()
 counter = 0
 for spine in plt.gca().spines.values():
