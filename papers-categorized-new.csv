@@ -133,7 +133,7 @@ id,title,year,bases,problem,attack,methods,modeling
 132,USABILITY AWARE SECRET PROTECTION WITH MINIMUM COST,2021,Engineering Village-Scopus-Science Direct-Web of Science,verification,passive,Sct-usability aware cost levels,finite-state automata
 133,VERIFICATION AND ENFORCEMENT OF STRONG INFINITE- AND K-STEP OPACITY USING STATE RECOGNIZERS,2021,Scopus-Science Direct-Web of Science,enforcement,passive,Verification and Enforcement of strong infinite and k step opacity,finite-state automata
 134,APPLICATION OF SUPERVISORY CONTROL TO SECRET PROTECTION IN DISCRETE-EVENT SYSTEMS,2021,Complementary,verification,passive,Sct-usability aware cost levels,finite-state automata
-135,OPTIMAL SECRET PROTECTIONS IN DISCRETE-EVENT SYSTEMS,2021,Web of Science,verification,passive,security automaton,finite-state automata
+135,OPTIMAL SECRET PROTECTIONS IN DISCRETE-EVENT SYSTEMS,2022,Web of Science,verification,passive,security automaton,finite-state automata
 136,A FRAMEWORK FOR CURRENT-STATE OPACITY UNDER DYNAMIC INFORMATION RELEASE MECHANISM,2022,Scopus-Science Direct-Web of Science,verification,passive,verification of current state opacity,finite-state automata
 137,A GENERAL LANGUAGE-BASED FRAMEWORK FOR SPECIFYING AND VERIFYING NOTIONS OF OPACITY,2022,Scopus-Web of Science,verification,passive,language and state based opacity,finite-state automata
 138,A LIVENESS-ENFORCING SUPERVISOR TOLERANT TO SENSOR-READING MODIFICATION ATTACKS,2022,IEEExplore-Scopus-Web of Science,supervisor synthesis,sensor,liveness enforcement,petri nets
@@ -160,3 +160,4 @@ id,title,year,bases,problem,attack,methods,modeling
 159,SECRET INFERENCE AND ATTACKTABILITY ANALYSIS OF DISCRETE EVENT SYSTEMS,2022,Science Direct,attack model,sensor,-,petri nets
 160,ASSESSMENT OF INITIAL-STATE-OPACITY IN LIVE BOUNDED AND REVERSIBLE DISCRETE EVENT SYSTEMS VIA INTEGER LINEAR PROGRAMMING,2022,IEEExplore,verification,passive,Integer Linear Programming,petri nets
 161,SYNTHESIS OF THE SUPREMAL COVERT ATTACKER AGAINST UNKNOWN SUPERVISORS BY USING OBSERVATIONS,2022,IEEExplore,attack model,sensor-actuator,sct,finite-state automata
+162,Secret Protections in Discrete-Event Systems with Minimum Costs,2022, Complementary, verification, passive, -,finite-state automata

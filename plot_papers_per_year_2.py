@@ -49,8 +49,8 @@ fig, ax = plt.subplots()
 x_axis = np.arange(17)
 
 # Multi bar Chart
-bar1 = ax.bar(x_axis -0.25, papers_passive, width=0.20, label = 'Privacy',color='#CACFD2', edgecolor='#797D7F',zorder=2)
-bar2 = ax.bar(x_axis +0.0, papers_active, width=0.20, label = 'Integrity/Availability',color='#5499C7', edgecolor='#154360',zorder=2)
+bar1 = ax.bar(x_axis -0.25, papers_passive, width=0.20, label = 'Passive attacks',color='#CACFD2', edgecolor='#797D7F',zorder=2)
+bar2 = ax.bar(x_axis +0.0, papers_active, width=0.20, label = 'Active Attacks',color='#5499C7', edgecolor='#154360',zorder=2)
 bar3 = ax.bar(x_axis +0.25, get_sum(list(papers_active), list(papers_passive)), width=0.20, label = 'Total',color='#D98880', edgecolor='#7B241C',zorder=2)
 print(len(get_sum(list(papers_active), list(papers_passive))))
 # plt.bar_label(bar1)

@@ -87,7 +87,7 @@ id,title,year,bases,problem,attack,methods,modeling
 86,USABILITY AWARE SECRET PROTECTION WITH MINIMUM COST,2021,Engineering Village-Scopus-Science Direct-Web of Science,verification,passive,Sct-usability aware cost levels,finite-state automata
 87,VERIFICATION AND ENFORCEMENT OF STRONG INFINITE- AND K-STEP OPACITY USING STATE RECOGNIZERS,2021,Scopus-Science Direct-Web of Science,enforcement,passive,Verification and Enforcement of strong infinite and k step opacity,finite-state automata
 88,APPLICATION OF SUPERVISORY CONTROL TO SECRET PROTECTION IN DISCRETE-EVENT SYSTEMS,2021,Complementary,verification,passive,Sct-usability aware cost levels,finite-state automata
-89,OPTIMAL SECRET PROTECTIONS IN DISCRETE-EVENT SYSTEMS,2021,Web of Science,verification,passive,security automaton,finite-state automata
+89,OPTIMAL SECRET PROTECTIONS IN DISCRETE-EVENT SYSTEMS,2022,Web of Science,verification,passive,security automaton,finite-state automata
 90,A FRAMEWORK FOR CURRENT-STATE OPACITY UNDER DYNAMIC INFORMATION RELEASE MECHANISM,2022,Scopus-Science Direct-Web of Science,verification,passive,verification of current state opacity,finite-state automata
 91,A GENERAL LANGUAGE-BASED FRAMEWORK FOR SPECIFYING AND VERIFYING NOTIONS OF OPACITY,2022,Scopus-Web of Science,verification,passive,language and state based opacity,finite-state automata
 92,ASSESSMENT OF MULTILEVEL INTRANSITIVE NON-INTERFERENCE FOR DISCRETE EVENT SYSTEMS,2022,IEEExplore-Scopus-Web of Science,verification,passive,Multi level intransitive non interference ,petri nets
@@ -100,3 +100,4 @@ id,title,year,bases,problem,attack,methods,modeling
 99,SYMBOLIC VERIFICATION OF CURRENT-STATE OPACITY OF DISCRETE EVENT SYSTEMS USING PETRI NETS,2022,Engineering Village-IEEExplore-Scopus-Web of Science,verification,passive,Multi valued decision diagrams (MDDs) – Current-State Opacity verification,petri nets
 100,VERIFICATION OF K-STEP AND INFINITE-STEP OPACITY OF BOUNDED LABELED PETRI NETS,2022,Engineering Village-Scopus-Science Direct-Web of Science,verification,passive,verification of K step and infinite step opacity,petri nets
 101,ASSESSMENT OF INITIAL-STATE-OPACITY IN LIVE BOUNDED AND REVERSIBLE DISCRETE EVENT SYSTEMS VIA INTEGER LINEAR PROGRAMMING,2022,IEEExplore,verification,passive,Integer Linear Programming,petri nets
+102,Secret Protections in Discrete-Event Systems with Minimum Costs,2022, Complementary, verification, passive, -,finite-state automata
