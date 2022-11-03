@@ -14,7 +14,7 @@ plt.rc('ytick', labelsize=16)    # fontsize of the tick labels
 plt.rc('legend', fontsize=16)    # legend fontsize
 plt.rc('figure', titlesize=16)  # fontsize of the figure title
 
-papers = pd.read_csv("papers-categorized.csv")
+papers = pd.read_csv("papers-categorized-new.csv")
 data = {}
 # COUNT PAPERS PER YEAR
 counter = 0

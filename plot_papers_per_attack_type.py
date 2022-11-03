@@ -44,56 +44,38 @@ def get_data(csv_file):
     return data
 
 papers = get_data('papers-categorized-new.csv')
-
-# ------------------ BAR CHART ---------------------------------------------------------------
-# width = .8       # the width of the bars: can also be len(x) sequence
-#
-#
-#
-# fig, ax = plt.subplots()
-#
-# bars = ax.bar(papers.keys(), papers.values(), width, label='Artigos', zorder=2,color='#27AE60', edgecolor='#145A32')
-# ax.bar_label(bars)
-#
-#
-# plt.xticks(list(papers.keys()), rotation=45, ha='right')
-#
-# plt.tick_params(
-#     axis='y',  # changes apply to the x-axis
-#     which='both',  # both major and minor ticks are affected
-#     bottom=False,  # ticks along the bottom edge are off
-#     top=False,  # ticks along the top edge are off
-#     labelbottom=False)  # labels along the bottom edge are off
-#
-# plt.grid(zorder=1, linestyle='-', color='#EAEDED')
-#
-# counter = 0
-# for spine in plt.gca().spines.values():
-#     if counter == 2 or counter == 0:
-#         spine.set_visible(True)
-#     else:
-#         spine.set_visible(False)
-#     counter += 1
-#
-#
-# plt.show()
-# ------------------ DONUT CHART ---------------------------------------------------------------
-
+print(papers)
 
 names = change_names(list(papers.keys()))
-size = list(papers.values())
+amount = list(papers.values())
 
-# Create a circle at the center of the plot
-my_circle = plt.Circle((0, 0), 0.7, color='white')
 
-# Not enough colors --> colors will cycle
-plt.pie(size,wedgeprops = { 'linewidth' : 2, 'edgecolor' : 'white' }, colors=['#6495ED', '#CCCCFF', '#DE3163', '#9FE2BF', '#40E0D0', '#FFBF00', '#FF7F50', '#7A1B9D'])
-p = plt.gcf()
-p.gca().add_artist(my_circle)
-plt.legend(names,
-          title="Attack types",
-          loc="center left",
-          bbox_to_anchor=(1, 0, 0.5, 1))
+# # Create a circle at the center of the plot
+# my_circle = plt.Circle((0, 0), 0.7, color='white')
+#
+# # Not enough colors --> colors will cycle
+# plt.pie(size,wedgeprops = { 'linewidth' : 2, 'edgecolor' : 'white' }, colors=['#6495ED', '#CCCCFF', '#DE3163', '#9FE2BF', '#40E0D0', '#FFBF00', '#FF7F50', '#7A1B9D'])
+# p = plt.gcf()
+# p.gca().add_artist(my_circle)
+# plt.legend(names,
+#           title="Attack types",
+#           loc="center left",
+#           bbox_to_anchor=(1, 0, 0.5, 1))
+#
+# # Show the graph
+# plt.show()
 
-# Show the graph
+
+fig, ax = plt.subplots()
+size = 0.3
+
+
+ax.pie([papers['actuator'], papers['sensor'], papers['sensor-actuator'], papers['denail of service'],103],
+        colors=['#6495ED', '#CCCCFF', '#DE3163', '#9FE2BF', '#FFFFFF','#40E0D0', '#FFBF00', '#FF7F50', '#7A1B9D'],
+       autopct='%1.2f%%', pctdistance=0.8,
+       radius=1, wedgeprops=dict(width=size, edgecolor='w', linewidth=2))
+ax.pie([papers['actuator']+papers['sensor']+papers['sensor-actuator']+papers['denail of service'], papers['passive']],
+       autopct='%1.2f%%', pctdistance=.7,
+       radius=1-size, wedgeprops=dict(width=size, edgecolor='w', linewidth=2))
+plt.title('Population')
 plt.show()
