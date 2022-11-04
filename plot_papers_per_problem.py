@@ -90,21 +90,38 @@ papers = get_data('papers-categorized-new.csv')
 
 
 names = change_names(list(papers.keys()))
-print(names, papers.values())
-size = list(papers.values())
+print(papers)
+amount = list(papers.values())
 
-# Create a circle at the center of the plot
-my_circle = plt.Circle((0, 0), 0.7, color='white')
+strategies_grouped          = [papers['verification']+papers['enforcement'], papers['attack model'], papers['attack detection and mitigation']+papers['supervisor synthesis']+papers['system recovery'], papers['diagnosabilty'], papers['state estimation']]
+strategies_grouped_label    = ['Protection of secrets', 'Attack synthesis', 'Attack-tolerant control', 'Fault diagnosis', 'State estimation']
+strategies_ungrouped        = [papers['verification'],papers['enforcement'], papers['attack model'], papers['attack detection and mitigation'],papers['supervisor synthesis'],papers['system recovery'], papers['diagnosabilty'], papers['state estimation']]
+strategies_ungrouped_label  = ['Verification', 'Enforcement', 'Attack synthesis', 'Attack detection', 'Supervisor synthesis', 'System recovery', 'Fault diagnosis', 'State estimation']
 
-# Not enough colors --> colors will cycle
-plt.pie(size,wedgeprops = { 'linewidth' : 2, 'edgecolor' : 'white' }, colors=['#6495ED', '#CCCCFF', '#DE3163', '#9FE2BF', '#40E0D0', '#FFBF00', '#FF7F50', '#7A1B9D'])
-p = plt.gcf()
-p.gca().add_artist(my_circle)
+fig, ax = plt.subplots()
+size = 0.3
 
-plt.legend(names,
-          title="Strategies in Cyber-security of DES",
-          loc="center left",
-          bbox_to_anchor=(1, 0, 0.5, 1))
+def make_autopct(values):
+    def my_autopct(pct):
+        total = sum(values)
+        val = int(round(pct*total/100.0))
+        return '{v:d}'.format(p=pct,v=val)
+    return my_autopct
 
-# Show the graph
+
+ax.pie(strategies_ungrouped,
+       # labels=strategies_ungrouped_label,
+        colors=['#929afc', '#929afc', '#FFFFFF', '#f48876', '#f48876', '#f48876','#FFFFFF', '#FFFFFF'],
+        # autopct=make_autopct(strategies_ungrouped),
+        pctdistance=0.8,
+        radius=1, wedgeprops=dict(width=size, edgecolor='w', linewidth=2))
+
+
+ax.pie(strategies_grouped,
+       # labels=strategies_grouped_label,
+       colors=['#636efa', '#4ddbb6', '#ef553b', '#c492fc', '#ffbd8c'],
+       # autopct=make_autopct(strategies_grouped),
+       pctdistance=.7,
+       radius=1-size, wedgeprops=dict(width=size, edgecolor='w', linewidth=2))
+# plt.title('Population')
 plt.show()

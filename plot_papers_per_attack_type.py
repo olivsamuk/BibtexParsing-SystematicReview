@@ -69,15 +69,23 @@ print(names)
 fig, ax = plt.subplots()
 size = 0.3
 
+def make_autopct(values):
+    def my_autopct(pct):
+        total = sum(values)
+        val = int(round(pct*total/100.0))
+        return '{v:d}'.format(p=pct,v=val)
+    return my_autopct
+
 
 ax.pie([papers['actuator'], papers['sensor'], papers['sensor-actuator'], papers['denail of service'],103],
        labels=['Actuator attacks', 'Sensor attacks', 'Sensor-actuator attacks', 'Denail of Service (DoS)', 'Passive attacks (Eavesdropping)'],
-        colors=['#6495ED', '#CCCCFF', '#DE3163', '#9FE2BF', '#FFFFFF','#40E0D0', '#FFBF00', '#FF7F50', '#7A1B9D'],
-       # autopct='%1.2f%%',
-       pctdistance=0.8,
-       radius=1, wedgeprops=dict(width=size, edgecolor='w', linewidth=2))
+        colors=['#929afc', '#929afc', '#929afc', '#929afc', '#FFFFFF','#40E0D0', '#FFBF00', '#FF7F50', '#7A1B9D'],
+        autopct=make_autopct([papers['actuator'], papers['sensor'], papers['sensor-actuator'], papers['denail of service'],103]),
+        pctdistance=0.8,
+        radius=1, wedgeprops=dict(width=size, edgecolor='w', linewidth=2))
 ax.pie([papers['actuator']+papers['sensor']+papers['sensor-actuator']+papers['denail of service'], papers['passive']],
-       # autopct='%1.2f%%',
+       colors=['#636efa', '#4ddbb6'],
+       autopct=make_autopct([papers['actuator']+papers['sensor']+papers['sensor-actuator']+papers['denail of service'], papers['passive']]),
        pctdistance=.7,
        radius=1-size, wedgeprops=dict(width=size, edgecolor='w', linewidth=2))
 # plt.title('Population')
