@@ -21,7 +21,7 @@ def new_csv(dict):
     fields = ['id']
     for item in list(dict[0].keys()): fields.append(item)
 
-    with open('papers.csv', 'w', newline='') as csvfile:
+    with open('papers-categorized-2022.csv', 'w', newline='') as csvfile:
         w = csv.DictWriter(csvfile, fieldnames=fields)
         w.writeheader()
         for key, val in sorted(dict.items()):
@@ -148,15 +148,15 @@ def join_bases(dict):
 
 def main():
 
-    with open('new_citations/EV.bib') as ev:
+    with open('new_citations_2022/EV.bib') as ev:
         ev_database = bibtexparser.load(ev)
-    with open('new_citations/ieeexplore.bib') as ieeexplore:
+    with open('new_citations_2022/ieeexplore.bib') as ieeexplore:
         ieeexplore_database = bibtexparser.load(ieeexplore)
-    with open('new_citations/scopus.bib') as scopus:
+    with open('new_citations_2022/scopus.bib') as scopus:
         scopus_database = bibtexparser.load(scopus)
-    with open('new_citations/SD.bib') as sd:
+    with open('new_citations_2022/SD.bib') as sd:
         sd_database = bibtexparser.load(sd)
-    with open('new_citations/WOS.bib') as wos:
+    with open('new_citations_2022/WOS.bib') as wos:
         wos_database = bibtexparser.load(wos)
 
     ev_citations_list = ev_database.entries
@@ -175,12 +175,12 @@ def main():
     after_ce1 = ce1(FullList, ev_citations_list, ieeexplore_citations_list, scopus_citations_list, sd_citations_list, wos_citations_list)
     print(after_ce1)
     # WRITE JSON
-    new_json(after_ce1)
+    # new_json(after_ce1)
 
     # JOIN BASES. e.g. 'WOS-IEEE-SD'
-    # bases_joint = join_bases(after_ce1)
+    bases_joint = join_bases(after_ce1)
     # WRITE CSV
-    # new_csv(bases_joint)
+    new_csv(bases_joint)
 
 
 
