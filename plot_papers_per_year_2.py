@@ -59,7 +59,7 @@ print(len(get_sum(list(papers_active), list(papers_passive))))
 # Xticks
 x = [2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022]
 plt.xticks(x_axis, x)
-plt.yticks(np.arange(0, 29, 2.0))
+plt.yticks(np.arange(0, 50, 2.0))
 
 total_sum = get_sum(list(papers_active), list(papers_passive))
 # lin = np.linspace(total_sum[0],total_sum[-1], len(total_sum))
@@ -70,7 +70,7 @@ y = np.array(total_sum)
 
 
 #calculate equation for quadratic trendline
-z = np.polyfit(x_axis, y, 5)
+z = np.polyfit(x_axis, y, 3)
 p = np.poly1d(z)
 # plt.plot(x_axis, p(x_axis))
 

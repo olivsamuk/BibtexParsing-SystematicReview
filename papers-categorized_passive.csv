@@ -102,3 +102,12 @@ id,title,year,bases,problem,attack,methods,modeling
 101,VERIFICATION OF K-STEP AND INFINITE-STEP OPACITY OF BOUNDED LABELED PETRI NETS,2022,Engineering Village-Scopus-Science Direct-Web of Science,verification,passive,verification of K step and infinite step opacity,petri nets
 102,ASSESSMENT OF INITIAL-STATE-OPACITY IN LIVE BOUNDED AND REVERSIBLE DISCRETE EVENT SYSTEMS VIA INTEGER LINEAR PROGRAMMING,2022,IEEExplore,verification,passive,Integer Linear Programming,petri nets
 103,SECRET PROTECTIONS IN DISCRETE-EVENT SYSTEMS WITH MINIMUM COSTS,2022, Complementary, verification, passive, -,finite-state automata
+104,HOW ATTACKS AFFECT DETECTABILITY IN DISCRETE-EVENT SYSTEMS?,2022,Engineering Village-IEEExplore-Scopus-Web of Science,secrecy,passive,,finite-state automata
+105,SECURE YOUR INTENTION: ON NOTIONS OF PRE-OPACITY IN DISCRETE-EVENT SYSTEMS,2022,IEEExplore-Scopus,secrecy,passive,,finite-state automata
+106,TRANSFORMATIONS BETWEEN OPACITY FOR DISCRETE-EVENT SYSTEMS,2022,IEEExplore-Scopus,secrecy,passive,,finite-state automata
+107,MODULAR VERIFICATION OF OPACITY FOR INTERCONNECTED CONTROL SYSTEMS VIA BARRIER CERTIFICATES,2022,IEEExplore-Scopus-Web of Science,secrecy,passive,,finite-state automata
+108,ON TRANSFORMATIONS AMONG OPACITY NOTIONS,2022,IEEExplore,secrecy,passive,,finite-state automata
+109,ENSURING CONFIDENTIALITY OF CYBER-PHYSICAL SYSTEMS USING EVENT-BASED CRYPTOGRAPHY,2022,Science Direct,secrecy,passive,cryptpgraphy,finite-state automata
+110,YOU DON'T KNOW WHAT I KNOW: ON NOTION OF HIGH-ORDER OPACITY IN DISCRETE-EVENT SYSTEMS,2022,Science Direct-Web of Science,secrecy,passive,,finite-state automata
+111,EVENT-BASED CRYPTOGRAPHY FOR AUTOMATION NETWORKS OF CYBER-PHYSICAL SYSTEMS USING THE STREAM CIPHER CHACHA20,2022,Science Direct-Web of Science,secrecy,passive,cryptpgraphy,finite-state automata
+112,ON VERIFICATION OF WEAK AND STRONG K-STEP OPACITY FOR DISCRETE-EVENT SYSTEMS,2022,Web of Science,secrecy,passive,,finite-state automata
