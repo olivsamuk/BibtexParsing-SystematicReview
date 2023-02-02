@@ -9,5 +9,5 @@ def get_data(csv_file):
         data[index] = {'title': each_paper['title'], 'base':substring_after(each_paper['bases'], "-")}
     return data
 
-papers = get_data('papers-categorized-new.csv')
+papers = get_data('papers-categorized.csv')
 print(papers)

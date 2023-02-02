@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 
 
 
-papers = pd.read_csv("papers-categorized-new.csv")
+papers = pd.read_csv("papers-categorized.csv")
 data = {}
 # COUNT PAPERS PER YEAR
 
