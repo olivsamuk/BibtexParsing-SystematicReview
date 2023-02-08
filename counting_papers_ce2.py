@@ -7,15 +7,15 @@ import re
 def normalize_titles(title):
     return re.sub(re.compile('<.*?>'), '', title.upper().replace("\n", " "))
 
-with open('new_citations/EV.bib') as ev:
+with open('citations_up_to_2022/EV.bib') as ev:
     ev_database = bibtexparser.load(ev)
-with open('new_citations/ieeexplore.bib') as ieeexplore:
+with open('citations_up_to_2022/ieeexplore.bib') as ieeexplore:
     ieeexplore_database = bibtexparser.load(ieeexplore)
-with open('new_citations/scopus.bib') as scopus:
+with open('citations_up_to_2022/scopus.bib') as scopus:
     scopus_database = bibtexparser.load(scopus)
-with open('new_citations/SD.bib') as sd:
+with open('citations_up_to_2022/SD.bib') as sd:
     sd_database = bibtexparser.load(sd)
-with open('new_citations/WOS.bib') as wos:
+with open('citations_up_to_2022/WOS.bib') as wos:
     wos_database = bibtexparser.load(wos)
 
 ev_citations_list = ev_database.entries
@@ -27,7 +27,7 @@ wos_citations_list = wos_database.entries
 def substring_after(s, delim):
     return s.partition(delim)[0]
 
-papers = pd.read_csv("papers-categorized.csv")
+papers = pd.read_csv("papers-categorized-total.csv")
 data = {}
 
 ev_counter = 0
@@ -78,7 +78,7 @@ for index, each_paper in papers.iterrows():
             if normalize_titles(each_ref['title']) == each_paper['title']:
                 final_bib.append(each_ref)
 
-# print(data, '\nEV: ', ev_counter, '\nIEEE: ', ieee_counter, '\nSCOPUS: ', scopus_counter, '\nSD: ', sd_counter, '\nWOS: ', wos_counter, '\nTotal: ', ev_counter+ieee_counter+scopus_counter+sd_counter+wos_counter)
+print(data, '\nEV: ', ev_counter, '\nIEEE: ', ieee_counter, '\nSCOPUS: ', scopus_counter, '\nSD: ', sd_counter, '\nWOS: ', wos_counter, '\nTotal: ', ev_counter+ieee_counter+scopus_counter+sd_counter+wos_counter)
 
 new_db = BibDatabase()
 new_db.entries = final_bib
@@ -92,4 +92,4 @@ for each_ref in new_db.entries:
     elif 'booktitle' in each_ref.keys():
         print(each_ref['booktitle'])
     else:
-        print('manoooo: ', each_ref['title'], each_ref['doi'])
+        print('manoooo: ', each_ref['title'])

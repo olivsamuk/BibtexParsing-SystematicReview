@@ -152,7 +152,7 @@ models = data.keys()
 amount = data.values()
 final = dict(zip(models, amount))
 geral = update_mf(final)
-print('final: ', final.keys(), '\n', 'geral: ', geral.keys())
+print('final: ', final.keys(), '\n', 'geral: ', geral.keys(), '\ndata: ', data)
 
 fig, ax = plt.subplots()
 size = 0.3

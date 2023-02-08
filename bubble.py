@@ -67,8 +67,9 @@ for each_line in range(len(dfu_orig)):
     a = dfu_orig.iloc[each_line]
     b = dfu.iloc[each_line]
     if a["S"] > 0:
+        temp = (a["S"] / papers_count) * 100
         # plt.annotate(str((a["S"]*papers_count)/100)+'%', (list(data).index(a["X"]), y_cols.index(a["Y"])-(b["S"]/100000)), ha='left', va='baseline', size=10)
-        plt.annotate(str((a["S"] * papers_count) / 100) + '%',
+        plt.annotate(str(round(temp,1)) + '%',
                      (list(data).index(a["X"]), getypos(y_cols.index(a["Y"]))), ha='left', va='baseline',
                      size=10)
 

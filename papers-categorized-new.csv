@@ -66,119 +66,118 @@ id,title,year,bases,problem,attack,methods,modeling
 65,SELECTION OF A STEALTHY AND HARMFUL ATTACK FUNCTION IN DISCRETE EVENT SYSTEMS,2022,Scopus-Web of Science,state estimation,sensor,,finite-state automata
 66,OBSERVER DESIGN FOR LABELED FINITE AUTOMATA WITH INPUTS UNDER STEALTHY ACTUATORS ATTACKS,2022,Science Direct-Web of Science,attack detection and mitigation,actuator,,finite-state automata
 67,MALICIOUS ORIGIN OF DEADLOCKS IN FLEXIBLE MANUFACTURING SYSTEMS,2022,Science Direct-Web of Science,attack detection and mitigation,sensor,,petri nets
-68,A SECURITY TESTBED FOR NETWORKED DES CONTROL SYSTEMS,2022,Science Direct-Web of Science,testbed,sensor-actuator,,finite-state automata
-69,SENSOR AND ACTUATOR ATTACKS IN DISCRETE EVENT SYSTEMS,2022,Science Direct-Web of Science,attack model,sensor-actuator,,finite-state automata
-70,TAMPER-TOLERANT DIAGNOSABILITY UNDER BOUNDED OR UNBOUNDED ATTACKS,2022,Science Direct-Web of Science,diagnosability,sensor,,finite-state automata
-71,ATTACKABLE DETECTABILITY OF PARTIALLY-OBSERVED DISCRETE-EVENT SYSTEMS UNDER SENSOR ATTACK,2022,Science Direct-Web of Science,state estimation,sensor,,finite-state automata
-72,NOTIONS OF SECURITY AND OPACITY IN DISCRETE EVENT SYSTEMS,2007,Complementary,verification,passive,opacity verification,finite-state automata
-73,OPACITY ENFORCING CONTROL SYNTHESIS,2008,IEEExplore-Scopus-Web of Science,enforcement,passive,opacity enforcement-sct,Labeled Transition System (LTS)
-74,OPACITY-ENFORCING SUPERVISORY STRATEGIES FOR SECURE DISCRETE EVENT SYSTEMS,2008,IEEExplore-Scopus-Web of Science,enforcement,passive,initial state opacity enforcement,finite-state automata
-75,VERIFICATION OF INITIAL-STATE OPACITY IN SECURITY APPLICATIONS OF DES,2008,IEEExplore-Scopus-Web of Science,verification,passive,initial state opacity verification,finite-state automata
-76,MONITORING CONFIDENTIALITY BY DIAGNOSIS TECHNIQUES,2009,IEEExplore-Scopus,verification,passive,opacity verification-diagnosability-predictability,Labeled Transition System (LTS)
-77,VERIFICATION OF INFINITE-STEP OPACITY AND ANALYSIS OF ITS COMPLEXITY,2009,Scopus,verification,passive,Verification of Infinite Step Opacity,finite-state automata
-78,VERIFICATION OF K-STEP OPACITY AND ANALYSIS OF ITS COMPLEXITY,2009,IEEExplore-Scopus-Web of Science,verification,passive,k step opacity verification,finite-state automata
-79,OPACITY VERIFICATION IN STOCHASTIC DISCRETE EVENT SYSTEMS,2010,IEEExplore-Scopus-Web of Science,verification,passive,opacity verification-step based almost current-state opacity,probabilistic finite-state automata
-80,REDUCED-COMPLEXITY VERIFICATION FOR INITIAL-STATE OPACITY IN MODULAR DISCRETE EVENT SYSTEMS,2010,Scopus-Science Direct,verification,passive,verification of initial state opacity,finite-state automata
-81,VERIFICATION OF $K$-STEP OPACITY AND ANALYSIS OF ITS COMPLEXITY (2011),2011,IEEExplore-Scopus-Web of Science,verification,passive,k step opacity verification,finite-state automata
-82,OPACITY-ENFORCING SUPERVISORY STRATEGIES VIA STATE ESTIMATOR CONSTRUCTIONS,2012,Complementary,enforcement,passive,opacity enforcement,finite-state automata
-83,ENFORCEMENT OF OPACITY PROPERTIES USING INSERTION FUNCTIONS,2012,IEEExplore-Scopus-Web of Science,enforcement,passive,"opacity enforcement, insertion function",finite-state automata
-84,RESOLUTION OF INITIAL-STATE IN SECURITY APPLICATIONS OF DES,2012,IEEExplore-Scopus,verification,passive,initial state resolution-state estimation,finite-state automata
-85,VERIFICATION OF INFINITE-STEP OPACITY AND COMPLEXITY CONSIDERATIONS,2012,IEEExplore-Scopus-Web of Science,verification,passive,infinite step opacity verification,finite-state automata
-86,INITIAL STATE OPACITY IN STOCHASTIC DES,2013,IEEExplore-Scopus,verification,passive,opacity verification-step based almost initial state opacity,probabilistic finite-state automata
-87,VERIFICATION OF INITIAL-STATE OPACITY IN SECURITY APPLICATIONS OF DISCRETE EVENT SYSTEMS,2013,Scopus-Science Direct-Web of Science,verification,passive,verification of initial state opacity,finite-state automata
-88,AN ON-THE-FLY APPROACH FOR THE VERIFICATION OF OPACITY IN CRITICAL SYSTEMS,2014,Web of Science,verification,passive,opacity verification,Labeled Transition System (LTS)
-89,CURRENT-STATE OPACITY FORMULATIONS IN PROBABILISTIC FINITE AUTOMATA,2014,IEEExplore-Scopus-Web of Science,verification,passive,opacity verification-probabilistic current state opacity,probabilistic finite-state automata
-90,SYNTHESIS OF INSERTION FUNCTIONS FOR ENFORCEMENT OF OPACITY SECURITY PROPERTIES,2014,Scopus-Science Direct-Web of Science,enforcement,passive,opacity enforcement,finite-state automata
-91,VERIFICATION OF CURRENT-STATE OPACITY USING PETRI NETS,2015,IEEExplore-Scopus-Web of Science,verification,passive,verification of current state opacity,petri nets
-92,VERIFICATION OF INITIAL-STATE OPACITY IN PETRI NETS,2015,IEEExplore-Scopus-Web of Science,verification,passive,verification of initial state opacity,petri nets
-93,ENFORCEMENT OF OPACITY SECURITY PROPERTIES FOR SHIP INFORMATION SYSTEM,2016,Web of Science,enforcement,passive,opacity enforcement,finite-state automata
-94,ENFORCING OPACITY WITH ORWELLIAN OBSERVATION,2016,IEEExplore-Web of Science,enforcement,passive,opacity enforcement,Labeled Transition System (LTS)
-95,ON TWO-WAY OBSERVER AND ITS APPLICATION TO THE VERIFICATION OF INFINITE-STEP AND K-STEP OPACITY,2016,IEEExplore-Scopus-Web of Science,verification,passive,Verification of Infinite Step and K Step Opacity,finite-state automata
-96,PROBABILISTIC SYSTEM OPACITY IN DISCRETE EVENT SYSTEMS,2016,IEEExplore-Scopus-Web of Science,verification,passive,Probabilistic system opacity,Hidden Markov Model (HMM)
-97,QUANTIFICATION OF DISTRIBUTED SECRECY LOSS IN STOCHASTIC DISCRETE EVENT SYSTEMS UNDER BOUNDED-DELAY COMMUNICATIONS,2016,IEEExplore-Scopus-Web of Science,verification,passive,Jensen-Shannon Divergence (JSD),probabilistic finite-state automata
-98,SUPERVISORY ENFORCEMENT OF CURRENT-STATE OPACITY WITH UNCOMPARABLE OBSERVATIONS,2016,IEEExplore-Scopus-Web of Science,enforcement,passive,sct,finite-state automata
-99,VERIFICATION OF LANGUAGE-BASED OPACITY IN PETRI NETS USING VERIFIER,2016,IEEExplore-Web of Science,verification,passive,Verification of Language Based Opacity,petri nets
-100,A NEW APPROACH FOR THE VERIFICATION OF INFINITE-STEP AND K-STEP OPACITY USING TWO-WAY OBSERVERS,2017,Scopus-Science Direct-Web of Science,verification,passive,Verification of Infinite Step and K Step Opacity,finite-state automata
-101,DECIDABILITY OF OPACITY VERIFICATION PROBLEMS IN LABELED PETRI NET SYSTEMS,2017,Scopus-Science Direct-Web of Science,verification,passive,verification of initial state – current state and language based opacity,petri nets
-102,INFINITE-STEP OPACITY OF STOCHASTIC DISCRETE-EVENT SYSTEMS,2017,IEEExplore-Scopus-Web of Science,verification,passive,Verification of Infinite Step Opacity,probabilistic finite-state automata
-103,QUANTIFICATION OF SECRECY IN PARTIALLY OBSERVED STOCHASTIC DISCRETE EVENT SYSTEMS,2017,IEEExplore-Scopus-Web of Science,verification,passive,Jensen-Shannon Divergence (JSD),probabilistic finite-state automata
-104,VERIFICATION OF STATE-BASED OPACITY USING PETRI NETS,2017,IEEExplore-Scopus-Web of Science,verification,passive,Verification of state Based Opacity,petri nets
-105,AN ALGEBRAIC CHARACTERIZATION OF LANGUAGE-BASED OPACITY IN LABELED PETRI NETS,2018,Scopus-Science Direct-Web of Science,verification,passive,Verification of Language Based Opacity,petri nets
-106,CURRENT-STATE OPACITY ENFORCEMENT IN DISCRETE EVENT SYSTEMS UNDER INCOMPARABLE OBSERVATIONS,2018,Scopus-Web of Science,enforcement,passive,opacity enforcement,finite-state automata
-107,DECENTRALIZED OPACITY ENFORCEMENT IN DISCRETE EVENT SYSTEMS USING SUPERVISORY CONTROL,2018,IEEExplore-Scopus-Web of Science,enforcement,passive,enforcement of current state opacity,finite-state automata
-108,ENFORCEMENT OF OPACITY BY PUBLIC AND PRIVATE INSERTION FUNCTIONS,2018,Scopus-Science Direct-Web of Science,enforcement,passive,opacity enforcement,finite-state automata
-109,ENFORCING CURRENT-STATE OPACITY THROUGH SHUFFLE IN EVENT OBSERVATIONS⁎,2018,Scopus,enforcement,passive,enforcement of current state opacity,finite-state automata
-110,NON-INTERFERENCE ASSESSMENT IN BOUNDED PETRI NETS VIA INTEGER LINEAR PROGRAMMING,2018,IEEExplore,verification,passive,strong non-deterministic non-interference (SNNI) and bisimulation SNNI (BSNNI),petri nets
-111,ON-LINE ALGORITHM FOR CURRENT STATE OPACITY ENFORCEMENT IN A PETRI NET FRAMEWORK,2018,Web of Science,enforcement,passive,opacity enforcement,petri nets
-112,ON-LINE VERIFICATION OF CURRENT-STATE OPACITY BY PETRI NETS AND INTEGER LINEAR PROGRAMMING,2018,Scopus-Science Direct-Web of Science,verification,passive,verification of current state opacity,petri nets
-113,PARAMETER AND INSERTION FUNCTION CO-SYNTHESIS FOR OPACITY ENHANCEMENT IN PARAMETRIC STOCHASTIC DISCRETE EVENT SYSTEMS,2018,Engineering Village-IEEExplore-Scopus-Web of Science,enforcement,passive,Current state opacity-parametric Markov Decision Process (PMDP),finite-state automata
-114,PROBABILISTIC SYSTEM OPACITY IN DISCRETE EVENT SYSTEMS (2018),2018,Scopus-Web of Science,enforcement,passive,probabilistic system opacity,probabilistic finite-state automata
-115,SYNTHESIS OF DYNAMIC MASKS FOR INFINITE-STEP OPACITY,2018,Scopus-Science Direct-Web of Science,enforcement,passive,infinite step opacity enforcement,finite-state automata
-116,SYNTHESIS OF INSERTION FUNCTIONS TO ENFORCE DECENTRALIZED AND JOINT OPACITY PROPERTIES OF DISCRETE-EVENT SYSTEMS,2018,Engineering Village-IEEExplore-Scopus-Web of Science,enforcement,passive,opacity enforcement,finite-state automata
-117,VERIFICATION OF OPACITY IN NETWORKED SUPERVISORY CONTROL SYSTEMS WITH INSECURE CONTROL CHANNELS,2018,IEEExplore-Scopus-Web of Science,verification,passive,verification of decision and event based opacity,finite-state automata
-118,AN OPACITY APPROACH FOR SECURITY EXPOSURE OF IOT COMPONENTS IN CRITICAL INFRASTRUCTURES,2019,IEEExplore-Scopus-Web of Science,verification,passive,verification and enforcement of state based opacity,finite-state automata
-119,CONTROLLER ENCRYPTION FOR DISCRETE EVENT SYSTEMS,2019,IEEExplore-Scopus-Web of Science,enforcement,passive,homomorphic encryption,signal interpreted Petri nets
-120,CURRENT-STATE OPACITY VERIFICATION IN MODULAR DISCRETE EVENT SYSTEMS,2019,IEEExplore-Scopus-Web of Science,verification,passive,verification of current state opacity,finite-state automata
-121,ENFORCING OPACITY BY INSERTION FUNCTIONS UNDER MULTIPLE ENERGY CONSTRAINTS,2019,Scopus-Science Direct-Web of Science,enforcement,passive,opacity enforcement,finite-state automata
-122,EXPOSURE TIME AS A MEASURE OF OPACITY IN TIMED DISCRETE EVENT SYSTEMS,2019,IEEExplore-Scopus-Web of Science,verification,passive,verification of current state opacity,Stochastic Petri nets
-123,INFINITE-STEP OPACITY AND K-STEP OPACITY OF STOCHASTIC DISCRETE-EVENT SYSTEMS,2019,Scopus-Science Direct-Web of Science,verification,passive,Verification of Infinite Step and K Step Opacity,probabilistic finite-state automata
-124,ON-LINE VERIFICATION OF INITIAL-STATE OPACITY BY PETRI NETS AND INTEGER LINEAR PROGRAMMING,2019,Scopus-Science Direct-Web of Science,verification,passive,verification of initial state opacity,petri nets
-125,OPACITY ENFORCEMENT USING NONDETERMINISTIC PUBLICLY KNOWN EDIT FUNCTIONS,2019,IEEExplore-Scopus-Web of Science,enforcement,passive,state based opacity enforcement,finite-state automata
-126,OPACITY OF FUZZY DISCRETE EVENT SYSTEMS,2019,IEEExplore-Scopus-Web of Science,verification,passive,Verification of Fuzzy Language and state based Opacity,finite-state automata
-127,OPACITY OF NETWORKED DISCRETE EVENT SYSTEMS,2019,IEEExplore-Scopus-Web of Science,verification,passive,verification of current state – initial state - initial final state and K step opacity,finite-state automata
-128,OPACITY OF NETWORKED SUPERVISORY CONTROL SYSTEMS OVER INSECURE MULTIPLE CHANNEL NETWORKS,2019,Engineering Village-IEEExplore-Scopus-Web of Science,verification,passive,opacity verification,finite-state automata
-129,REVELATION TIME FOR INITIAL-STATE OPACITY MEASUREMENT IN TIMED DISCRETE EVENT SYSTEMS,2019,IEEExplore-Scopus-Web of Science,verification,passive,initial state opacity ,Stochastic Petri nets
-130,SECRET SECURING WITH MULTIPLE PROTECTIONS AND MINIMUM COSTS,2019,Complementary,verification,passive,Sct-usability aware cost levels,finite-state automata
-131,COMPOSITIONAL AND ABSTRACTION-BASED APPROACH FOR SYNTHESIS OF EDIT FUNCTIONS FOR OPACITY ENFORCEMENT,2020,IEEExplore-Scopus-Web of Science,enforcement,passive,enforcement of state based opacity,finite-state automata
-132,CONFIDENTIALITY OF CYBER-PHYSICAL SYSTEMS USING EVENT-BASED CRYPTOGRAPHY,2020,Engineering Village-Scopus-Science Direct-Web of Science,enforcement,passive,Event based cryptography,finite-state automata
-133,CURRENT-STATE OPACITY MODELLING AND VERIFICATION IN PARTIALLY OBSERVED PETRI NETS,2020,Scopus-Science Direct-Web of Science,verification,passive,verification of current state opacity,petri nets
-134,DEPTH-FIRST SEARCH APPROACH FOR LANGUAGE-BASED OPACITY VERIFICATION USING PETRI NETS,2020,Scopus-Science Direct-Web of Science,verification,passive,Verification of Language Based Opacity,petri nets
-135,ENFORCING OPACITY IN MODULAR SYSTEMS,2020,Engineering Village-Scopus-Science Direct-Web of Science,verification,passive,opacity verification,Labeled Transition System (LTS)
-136,HOMOMORPHIC ENCRYPTION OF SUPERVISORY CONTROL SYSTEMS USING AUTOMATA,2020,IEEExplore-Scopus-Web of Science,enforcement,passive,Homomorphic Encryption,finite-state automata
-137,K-MEMORY-EMBEDDED INSERTION MECHANISM FOR OPACITY ENFORCEMENT,2020,Scopus-Science Direct-Web of Science,enforcement,passive,enforcement of current state opacity,finite-state automata
-138,MATRIX APPROACH FOR VERIFICATION OF OPACITY OF PARTIALLY OBSERVED DISCRETE EVENT SYSTEMS,2020,Scopus-Web of Science,verification,passive,opacity verification,finite-state automata
-139,NOTE THAT EACH INFORMATION-SUPERVISORY CONTROL OF DISCRETE-EVENT SYSTEMS FOR INFINITE-STEP OPACITY,2020,IEEExplore-Scopus,enforcement,passive,infinite step opacity enforcement,finite-state automata
-140,ON OPACITY VERIFICATION FOR DISCRETE-EVENT SYSTEMS,2020,Scopus-Web of Science,verification,passive,opacity verification,finite-state automata
-141,OPACITY ENFORCING SUPERVISORY CONTROL USING NON-DETERMINISTIC SUPERVISORS,2020,Science Direct,enforcement,passive,Non deterministic opacity enforcing supervisor,finite-state automata
-142,SUPERVISORY CONTROL OF DISCRETE-EVENT SYSTEMS FOR INFINITE-STEP OPACITY,2020,Web of Science,enforcement,passive,infinite step opacity enforcement,finite-state automata
-143,SYNTHESIS OF DYNAMIC MASKS FOR INFINITE-STEP OPACITY (2020),2020,IEEExplore-Scopus-Web of Science,enforcement,passive,infinite step opacity enforcement,finite-state automata
-144,VERIFICATION OF INFINITE-STEP OPACITY USING LABELED PETRI NETS,2020,Scopus-Science Direct-Web of Science,verification,passive,inifinite step opacity verification,petri nets
-145,ASSESSMENT OF BISIMULATION NON-INTERFERENCE IN DISCRETE EVENT SYSTEMS MODELLED WITH BOUNDED PETRI NETS,2021,IEEExplore-Scopus-Web of Science,verification,passive,strong non deterministic noninterference (SNNI),petri nets
-146,BOUNDED OPACITY FOR TIMED SYSTEMS,2021,Scopus-Science Direct-Web of Science,verification,passive,bounded timed opacity,timed finite-state automata
-147,ENFORCING CURRENT-STATE OPACITY THROUGH SHUFFLE AND DELETIONS OF EVENT OBSERVATIONS,2021,Scopus-Science Direct-Web of Science,enforcement,passive,enforcement of current state opacity,finite-state automata
-148,ENFORCING STATE-BASED OPACITY USING SYNCHRONIZING AUTOMATA,2021,Web of Science,enforcement,passive,enforcement of state based opacity,finite-state automata
-149,EXPOSURE AND REVELATION TIMES AS A MEASURE OF OPACITY IN TIMED STOCHASTIC DISCRETE EVENT SYSTEMS,2021,IEEExplore-Scopus-Web of Science,verification,passive,opacity exposure - opacity revelation,Stochastic Petri nets
-150,LOCAL OPACITY VERIFICATION FOR DISTRIBUTED DISCRETE EVENT SYSTEMS,2021,IEEExplore-Scopus-Web of Science,verification,passive,Current state opacity and initial state opacity verification,finite-state automata
-151,NONINTERFERENCE ENFORCEMENT VIA SUPERVISORY CONTROL IN BOUNDED PETRI NETS,2021,Engineering Village-IEEExplore-Scopus-Web of Science,enforcement,passive,Strong Nondeterministic Noninterference ,petri nets
-152,ON APPROXIMATE OPACITY OF CYBER-PHYSICAL SYSTEMS,2021,Web of Science,verification,passive,-,finite-state automata
-153,OPACITY ENFORCING SUPERVISORY CONTROL USING NON-DETERMINISTIC SUPERVISORS (2021),2021,IEEExplore-Scopus,enforcement,passive,Non deterministic opacity enforcing supervisor,finite-state automata
-154,OPACITY MEASURES OF FUZZY DISCRETE EVENT SYSTEMS,2021,IEEExplore-Scopus-Web of Science,verification,passive,general fuzzy opacity – final initial fuzzy opacity,finite-state automata
-155,OPACITY OF NETWORKED DISCRETE EVENT SYSTEMS (2021),2021,Scopus-Science Direct-Web of Science,verification,passive,verification of current state – initial state - initial final state and K step opacity,finite-state automata
-156,OPACITY OF NETWORKED SUPERVISORY CONTROL SYSTEMS OVER INSECURE COMMUNICATION CHANNELS,2021,Engineering Village-IEEExplore-Scopus-Web of Science,verification,passive,current-state opacity-K step opacity-infinite-step opacity,finite-state automata
-157,SECURE-BY-CONSTRUCTION CONTROLLER SYNTHESIS FOR STOCHASTIC SYSTEMS UNDER LINEAR TEMPORAL LOGIC SPECIFICATIONS,2021,Web of Science,enforcement,passive,Enforcement of infinite step opacity ,Markov Decision Process (MDP)
-158,USABILITY AWARE SECRET PROTECTION WITH MINIMUM COST,2021,Engineering Village-Scopus-Science Direct-Web of Science,verification,passive,Sct-usability aware cost levels,finite-state automata
-159,VERIFICATION AND ENFORCEMENT OF STRONG INFINITE- AND K-STEP OPACITY USING STATE RECOGNIZERS,2021,Scopus-Science Direct-Web of Science,enforcement,passive,Verification and Enforcement of strong infinite and k step opacity,finite-state automata
-160,APPLICATION OF SUPERVISORY CONTROL TO SECRET PROTECTION IN DISCRETE-EVENT SYSTEMS,2021,Complementary,verification,passive,Sct-usability aware cost levels,finite-state automata
-161,OPTIMAL SECRET PROTECTIONS IN DISCRETE-EVENT SYSTEMS,2022,Web of Science,verification,passive,security automaton,finite-state automata
-162,A FRAMEWORK FOR CURRENT-STATE OPACITY UNDER DYNAMIC INFORMATION RELEASE MECHANISM,2022,Scopus-Science Direct-Web of Science,verification,passive,verification of current state opacity,finite-state automata
-163,A GENERAL LANGUAGE-BASED FRAMEWORK FOR SPECIFYING AND VERIFYING NOTIONS OF OPACITY,2022,Scopus-Web of Science,verification,passive,language and state based opacity,finite-state automata
-164,ASSESSMENT OF MULTILEVEL INTRANSITIVE NON-INTERFERENCE FOR DISCRETE EVENT SYSTEMS,2022,IEEExplore-Scopus-Web of Science,verification,passive,Multi level intransitive non interference ,petri nets
-165,ENFORCEMENT FOR INFINITE-STEP OPACITY AND K-STEP OPACITY VIA INSERTION MECHANISM,2022,Scopus-Science Direct,enforcement,passive,Enforcement of infinite step and k step opacity ,finite-state automata
-166,FUZZY INFINITE-STEP OPACITY MEASURE OF DISCRETE EVENT SYSTEMS AND ITS APPLICATIONS,2022,IEEExplore-Scopus-Web of Science,verification,passive,fuzzy infinite-step opacity (FIO),finite-state automata
-167,HYPER SYMBOLIC OBSERVATION GRAPH TO ENFORCE OPACITY OF DISCRETE EVENT SYSTEMS USING SUPERVISORY CONTROL,2022,IEEExplore,enforcement,passive,state based opacity enforcement,Labeled Transition System (LTS)
-168,LANGUAGE-BASED OPACITY VERIFICATION AND ENFORCEMENT IN THE FRAMEWORK OF LABELED PETRI NETS,2022,Scopus-Web of Science,enforcement,passive,Verification and Enforcement of Language based Opacity,petri nets
-169,NECESSARY AND SUFFICIENT CONDITION TO ASSESS INITIAL-STATE-OPACITY IN LIVE BOUNDED AND REVERSIBLE DISCRETE EVENT SYSTEMS,2022,IEEExplore-Scopus-Web of Science,verification,passive,verification of initial state opacity,petri nets
-170,SECURITY AND PRIVACY WITH OPACITY-BASED STATE OBSERVATION FOR FINITE STATE MACHINE,2022,Web of Science,verification,passive,verification of opacity,finite-state automata
-171,SYMBOLIC VERIFICATION OF CURRENT-STATE OPACITY OF DISCRETE EVENT SYSTEMS USING PETRI NETS,2022,Engineering Village-IEEExplore-Scopus-Web of Science,verification,passive,Multi valued decision diagrams (MDDs) – Current-State Opacity verification,petri nets
-172,VERIFICATION OF K-STEP AND INFINITE-STEP OPACITY OF BOUNDED LABELED PETRI NETS,2022,Engineering Village-Scopus-Science Direct-Web of Science,verification,passive,verification of K step and infinite step opacity,petri nets
-173,ASSESSMENT OF INITIAL-STATE-OPACITY IN LIVE BOUNDED AND REVERSIBLE DISCRETE EVENT SYSTEMS VIA INTEGER LINEAR PROGRAMMING,2022,IEEExplore,verification,passive,Integer Linear Programming,petri nets
-174,SECRET PROTECTIONS IN DISCRETE-EVENT SYSTEMS WITH MINIMUM COSTS,2022, Complementary,verification,passive, -,finite-state automata
-175,HOW ATTACKS AFFECT DETECTABILITY IN DISCRETE-EVENT SYSTEMS?,2022,Engineering Village-IEEExplore-Scopus-Web of Science,verification,passive,,finite-state automata
-176,SECURE YOUR INTENTION: ON NOTIONS OF PRE-OPACITY IN DISCRETE-EVENT SYSTEMS,2022,IEEExplore-Scopus,verification,passive,,finite-state automata
-177,TRANSFORMATIONS BETWEEN OPACITY FOR DISCRETE-EVENT SYSTEMS,2022,IEEExplore-Scopus,verification,passive,,finite-state automata
-178,MODULAR VERIFICATION OF OPACITY FOR INTERCONNECTED CONTROL SYSTEMS VIA BARRIER CERTIFICATES,2022,IEEExplore-Scopus-Web of Science,verification,passive,,finite-state automata
-179,ON TRANSFORMATIONS AMONG OPACITY NOTIONS,2022,IEEExplore,verification,passive,,finite-state automata
-180,ENSURING CONFIDENTIALITY OF CYBER-PHYSICAL SYSTEMS USING EVENT-BASED CRYPTOGRAPHY,2022,Science Direct,enforcement,passive,cryptpgraphy,finite-state automata
-181,YOU DON'T KNOW WHAT I KNOW: ON NOTION OF HIGH-ORDER OPACITY IN DISCRETE-EVENT SYSTEMS,2022,Science Direct-Web of Science,verification,passive,,finite-state automata
-182,EVENT-BASED CRYPTOGRAPHY FOR AUTOMATION NETWORKS OF CYBER-PHYSICAL SYSTEMS USING THE STREAM CIPHER CHACHA20,2022,Science Direct-Web of Science,enforcement,passive,cryptpgraphy,finite-state automata
-183,ON VERIFICATION OF WEAK AND STRONG K-STEP OPACITY FOR DISCRETE-EVENT SYSTEMS,2022,Web of Science,verification,passive,,finite-state automata
+68,SENSOR AND ACTUATOR ATTACKS IN DISCRETE EVENT SYSTEMS,2022,Science Direct-Web of Science,attack model,sensor-actuator,,finite-state automata
+69,TAMPER-TOLERANT DIAGNOSABILITY UNDER BOUNDED OR UNBOUNDED ATTACKS,2022,Science Direct-Web of Science,diagnosability,sensor,,finite-state automata
+70,ATTACKABLE DETECTABILITY OF PARTIALLY-OBSERVED DISCRETE-EVENT SYSTEMS UNDER SENSOR ATTACK,2022,Science Direct-Web of Science,state estimation,sensor,,finite-state automata
+71,NOTIONS OF SECURITY AND OPACITY IN DISCRETE EVENT SYSTEMS,2007,Complementary,verification,passive,opacity verification,finite-state automata
+72,OPACITY ENFORCING CONTROL SYNTHESIS,2008,IEEExplore-Scopus-Web of Science,enforcement,passive,opacity enforcement-sct,Labeled Transition System (LTS)
+73,OPACITY-ENFORCING SUPERVISORY STRATEGIES FOR SECURE DISCRETE EVENT SYSTEMS,2008,IEEExplore-Scopus-Web of Science,enforcement,passive,initial state opacity enforcement,finite-state automata
+74,VERIFICATION OF INITIAL-STATE OPACITY IN SECURITY APPLICATIONS OF DES,2008,IEEExplore-Scopus-Web of Science,verification,passive,initial state opacity verification,finite-state automata
+75,MONITORING CONFIDENTIALITY BY DIAGNOSIS TECHNIQUES,2009,IEEExplore-Scopus,verification,passive,opacity verification-diagnosability-predictability,Labeled Transition System (LTS)
+76,VERIFICATION OF INFINITE-STEP OPACITY AND ANALYSIS OF ITS COMPLEXITY,2009,Scopus,verification,passive,Verification of Infinite Step Opacity,finite-state automata
+77,VERIFICATION OF K-STEP OPACITY AND ANALYSIS OF ITS COMPLEXITY,2009,IEEExplore-Scopus-Web of Science,verification,passive,k step opacity verification,finite-state automata
+78,OPACITY VERIFICATION IN STOCHASTIC DISCRETE EVENT SYSTEMS,2010,IEEExplore-Scopus-Web of Science,verification,passive,opacity verification-step based almost current-state opacity,probabilistic finite-state automata
+79,REDUCED-COMPLEXITY VERIFICATION FOR INITIAL-STATE OPACITY IN MODULAR DISCRETE EVENT SYSTEMS,2010,Scopus-Science Direct,verification,passive,verification of initial state opacity,finite-state automata
+80,VERIFICATION OF $K$-STEP OPACITY AND ANALYSIS OF ITS COMPLEXITY (2011),2011,IEEExplore-Scopus-Web of Science,verification,passive,k step opacity verification,finite-state automata
+81,OPACITY-ENFORCING SUPERVISORY STRATEGIES VIA STATE ESTIMATOR CONSTRUCTIONS,2012,Complementary,enforcement,passive,opacity enforcement,finite-state automata
+82,ENFORCEMENT OF OPACITY PROPERTIES USING INSERTION FUNCTIONS,2012,IEEExplore-Scopus-Web of Science,enforcement,passive,"opacity enforcement, insertion function",finite-state automata
+83,RESOLUTION OF INITIAL-STATE IN SECURITY APPLICATIONS OF DES,2012,IEEExplore-Scopus,verification,passive,initial state resolution-state estimation,finite-state automata
+84,VERIFICATION OF INFINITE-STEP OPACITY AND COMPLEXITY CONSIDERATIONS,2012,IEEExplore-Scopus-Web of Science,verification,passive,infinite step opacity verification,finite-state automata
+85,INITIAL STATE OPACITY IN STOCHASTIC DES,2013,IEEExplore-Scopus,verification,passive,opacity verification-step based almost initial state opacity,probabilistic finite-state automata
+86,VERIFICATION OF INITIAL-STATE OPACITY IN SECURITY APPLICATIONS OF DISCRETE EVENT SYSTEMS,2013,Scopus-Science Direct-Web of Science,verification,passive,verification of initial state opacity,finite-state automata
+87,AN ON-THE-FLY APPROACH FOR THE VERIFICATION OF OPACITY IN CRITICAL SYSTEMS,2014,Web of Science,verification,passive,opacity verification,Labeled Transition System (LTS)
+88,CURRENT-STATE OPACITY FORMULATIONS IN PROBABILISTIC FINITE AUTOMATA,2014,IEEExplore-Scopus-Web of Science,verification,passive,opacity verification-probabilistic current state opacity,probabilistic finite-state automata
+89,SYNTHESIS OF INSERTION FUNCTIONS FOR ENFORCEMENT OF OPACITY SECURITY PROPERTIES,2014,Scopus-Science Direct-Web of Science,enforcement,passive,opacity enforcement,finite-state automata
+90,VERIFICATION OF CURRENT-STATE OPACITY USING PETRI NETS,2015,IEEExplore-Scopus-Web of Science,verification,passive,verification of current state opacity,petri nets
+91,VERIFICATION OF INITIAL-STATE OPACITY IN PETRI NETS,2015,IEEExplore-Scopus-Web of Science,verification,passive,verification of initial state opacity,petri nets
+92,ENFORCEMENT OF OPACITY SECURITY PROPERTIES FOR SHIP INFORMATION SYSTEM,2016,Web of Science,enforcement,passive,opacity enforcement,finite-state automata
+93,ENFORCING OPACITY WITH ORWELLIAN OBSERVATION,2016,IEEExplore-Web of Science,enforcement,passive,opacity enforcement,Labeled Transition System (LTS)
+94,ON TWO-WAY OBSERVER AND ITS APPLICATION TO THE VERIFICATION OF INFINITE-STEP AND K-STEP OPACITY,2016,IEEExplore-Scopus-Web of Science,verification,passive,Verification of Infinite Step and K Step Opacity,finite-state automata
+95,PROBABILISTIC SYSTEM OPACITY IN DISCRETE EVENT SYSTEMS,2016,IEEExplore-Scopus-Web of Science,verification,passive,Probabilistic system opacity,Hidden Markov Model (HMM)
+96,QUANTIFICATION OF DISTRIBUTED SECRECY LOSS IN STOCHASTIC DISCRETE EVENT SYSTEMS UNDER BOUNDED-DELAY COMMUNICATIONS,2016,IEEExplore-Scopus-Web of Science,verification,passive,Jensen-Shannon Divergence (JSD),probabilistic finite-state automata
+97,SUPERVISORY ENFORCEMENT OF CURRENT-STATE OPACITY WITH UNCOMPARABLE OBSERVATIONS,2016,IEEExplore-Scopus-Web of Science,enforcement,passive,sct,finite-state automata
+98,VERIFICATION OF LANGUAGE-BASED OPACITY IN PETRI NETS USING VERIFIER,2016,IEEExplore-Web of Science,verification,passive,Verification of Language Based Opacity,petri nets
+99,A NEW APPROACH FOR THE VERIFICATION OF INFINITE-STEP AND K-STEP OPACITY USING TWO-WAY OBSERVERS,2017,Scopus-Science Direct-Web of Science,verification,passive,Verification of Infinite Step and K Step Opacity,finite-state automata
+100,DECIDABILITY OF OPACITY VERIFICATION PROBLEMS IN LABELED PETRI NET SYSTEMS,2017,Scopus-Science Direct-Web of Science,verification,passive,verification of initial state – current state and language based opacity,petri nets
+101,INFINITE-STEP OPACITY OF STOCHASTIC DISCRETE-EVENT SYSTEMS,2017,IEEExplore-Scopus-Web of Science,verification,passive,Verification of Infinite Step Opacity,probabilistic finite-state automata
+102,QUANTIFICATION OF SECRECY IN PARTIALLY OBSERVED STOCHASTIC DISCRETE EVENT SYSTEMS,2017,IEEExplore-Scopus-Web of Science,verification,passive,Jensen-Shannon Divergence (JSD),probabilistic finite-state automata
+103,VERIFICATION OF STATE-BASED OPACITY USING PETRI NETS,2017,IEEExplore-Scopus-Web of Science,verification,passive,Verification of state Based Opacity,petri nets
+104,AN ALGEBRAIC CHARACTERIZATION OF LANGUAGE-BASED OPACITY IN LABELED PETRI NETS,2018,Scopus-Science Direct-Web of Science,verification,passive,Verification of Language Based Opacity,petri nets
+105,CURRENT-STATE OPACITY ENFORCEMENT IN DISCRETE EVENT SYSTEMS UNDER INCOMPARABLE OBSERVATIONS,2018,Scopus-Web of Science,enforcement,passive,opacity enforcement,finite-state automata
+106,DECENTRALIZED OPACITY ENFORCEMENT IN DISCRETE EVENT SYSTEMS USING SUPERVISORY CONTROL,2018,IEEExplore-Scopus-Web of Science,enforcement,passive,enforcement of current state opacity,finite-state automata
+107,ENFORCEMENT OF OPACITY BY PUBLIC AND PRIVATE INSERTION FUNCTIONS,2018,Scopus-Science Direct-Web of Science,enforcement,passive,opacity enforcement,finite-state automata
+108,ENFORCING CURRENT-STATE OPACITY THROUGH SHUFFLE IN EVENT OBSERVATIONS⁎,2018,Scopus,enforcement,passive,enforcement of current state opacity,finite-state automata
+109,NON-INTERFERENCE ASSESSMENT IN BOUNDED PETRI NETS VIA INTEGER LINEAR PROGRAMMING,2018,IEEExplore,verification,passive,strong non-deterministic non-interference (SNNI) and bisimulation SNNI (BSNNI),petri nets
+110,ON-LINE ALGORITHM FOR CURRENT STATE OPACITY ENFORCEMENT IN A PETRI NET FRAMEWORK,2018,Web of Science,enforcement,passive,opacity enforcement,petri nets
+111,ON-LINE VERIFICATION OF CURRENT-STATE OPACITY BY PETRI NETS AND INTEGER LINEAR PROGRAMMING,2018,Scopus-Science Direct-Web of Science,verification,passive,verification of current state opacity,petri nets
+112,PARAMETER AND INSERTION FUNCTION CO-SYNTHESIS FOR OPACITY ENHANCEMENT IN PARAMETRIC STOCHASTIC DISCRETE EVENT SYSTEMS,2018,Engineering Village-IEEExplore-Scopus-Web of Science,enforcement,passive,Current state opacity-parametric Markov Decision Process (PMDP),finite-state automata
+113,PROBABILISTIC SYSTEM OPACITY IN DISCRETE EVENT SYSTEMS (2018),2018,Scopus-Web of Science,enforcement,passive,probabilistic system opacity,probabilistic finite-state automata
+114,SYNTHESIS OF DYNAMIC MASKS FOR INFINITE-STEP OPACITY,2018,Scopus-Science Direct-Web of Science,enforcement,passive,infinite step opacity enforcement,finite-state automata
+115,SYNTHESIS OF INSERTION FUNCTIONS TO ENFORCE DECENTRALIZED AND JOINT OPACITY PROPERTIES OF DISCRETE-EVENT SYSTEMS,2018,Engineering Village-IEEExplore-Scopus-Web of Science,enforcement,passive,opacity enforcement,finite-state automata
+116,VERIFICATION OF OPACITY IN NETWORKED SUPERVISORY CONTROL SYSTEMS WITH INSECURE CONTROL CHANNELS,2018,IEEExplore-Scopus-Web of Science,verification,passive,verification of decision and event based opacity,finite-state automata
+117,AN OPACITY APPROACH FOR SECURITY EXPOSURE OF IOT COMPONENTS IN CRITICAL INFRASTRUCTURES,2019,IEEExplore-Scopus-Web of Science,verification,passive,verification and enforcement of state based opacity,finite-state automata
+118,CONTROLLER ENCRYPTION FOR DISCRETE EVENT SYSTEMS,2019,IEEExplore-Scopus-Web of Science,enforcement,passive,homomorphic encryption,signal interpreted Petri nets
+119,CURRENT-STATE OPACITY VERIFICATION IN MODULAR DISCRETE EVENT SYSTEMS,2019,IEEExplore-Scopus-Web of Science,verification,passive,verification of current state opacity,finite-state automata
+120,ENFORCING OPACITY BY INSERTION FUNCTIONS UNDER MULTIPLE ENERGY CONSTRAINTS,2019,Scopus-Science Direct-Web of Science,enforcement,passive,opacity enforcement,finite-state automata
+121,EXPOSURE TIME AS A MEASURE OF OPACITY IN TIMED DISCRETE EVENT SYSTEMS,2019,IEEExplore-Scopus-Web of Science,verification,passive,verification of current state opacity,Stochastic Petri nets
+122,INFINITE-STEP OPACITY AND K-STEP OPACITY OF STOCHASTIC DISCRETE-EVENT SYSTEMS,2019,Scopus-Science Direct-Web of Science,verification,passive,Verification of Infinite Step and K Step Opacity,probabilistic finite-state automata
+123,ON-LINE VERIFICATION OF INITIAL-STATE OPACITY BY PETRI NETS AND INTEGER LINEAR PROGRAMMING,2019,Scopus-Science Direct-Web of Science,verification,passive,verification of initial state opacity,petri nets
+124,OPACITY ENFORCEMENT USING NONDETERMINISTIC PUBLICLY KNOWN EDIT FUNCTIONS,2019,IEEExplore-Scopus-Web of Science,enforcement,passive,state based opacity enforcement,finite-state automata
+125,OPACITY OF FUZZY DISCRETE EVENT SYSTEMS,2019,IEEExplore-Scopus-Web of Science,verification,passive,Verification of Fuzzy Language and state based Opacity,finite-state automata
+126,OPACITY OF NETWORKED DISCRETE EVENT SYSTEMS,2019,IEEExplore-Scopus-Web of Science,verification,passive,verification of current state – initial state - initial final state and K step opacity,finite-state automata
+127,OPACITY OF NETWORKED SUPERVISORY CONTROL SYSTEMS OVER INSECURE MULTIPLE CHANNEL NETWORKS,2019,Engineering Village-IEEExplore-Scopus-Web of Science,verification,passive,opacity verification,finite-state automata
+128,REVELATION TIME FOR INITIAL-STATE OPACITY MEASUREMENT IN TIMED DISCRETE EVENT SYSTEMS,2019,IEEExplore-Scopus-Web of Science,verification,passive,initial state opacity ,Stochastic Petri nets
+129,SECRET SECURING WITH MULTIPLE PROTECTIONS AND MINIMUM COSTS,2019,Complementary,verification,passive,Sct-usability aware cost levels,finite-state automata
+130,COMPOSITIONAL AND ABSTRACTION-BASED APPROACH FOR SYNTHESIS OF EDIT FUNCTIONS FOR OPACITY ENFORCEMENT,2020,IEEExplore-Scopus-Web of Science,enforcement,passive,enforcement of state based opacity,finite-state automata
+131,CONFIDENTIALITY OF CYBER-PHYSICAL SYSTEMS USING EVENT-BASED CRYPTOGRAPHY,2020,Engineering Village-Scopus-Science Direct-Web of Science,enforcement,passive,Event based cryptography,finite-state automata
+132,CURRENT-STATE OPACITY MODELLING AND VERIFICATION IN PARTIALLY OBSERVED PETRI NETS,2020,Scopus-Science Direct-Web of Science,verification,passive,verification of current state opacity,petri nets
+133,DEPTH-FIRST SEARCH APPROACH FOR LANGUAGE-BASED OPACITY VERIFICATION USING PETRI NETS,2020,Scopus-Science Direct-Web of Science,verification,passive,Verification of Language Based Opacity,petri nets
+134,ENFORCING OPACITY IN MODULAR SYSTEMS,2020,Engineering Village-Scopus-Science Direct-Web of Science,verification,passive,opacity verification,Labeled Transition System (LTS)
+135,HOMOMORPHIC ENCRYPTION OF SUPERVISORY CONTROL SYSTEMS USING AUTOMATA,2020,IEEExplore-Scopus-Web of Science,enforcement,passive,Homomorphic Encryption,finite-state automata
+136,K-MEMORY-EMBEDDED INSERTION MECHANISM FOR OPACITY ENFORCEMENT,2020,Scopus-Science Direct-Web of Science,enforcement,passive,enforcement of current state opacity,finite-state automata
+137,MATRIX APPROACH FOR VERIFICATION OF OPACITY OF PARTIALLY OBSERVED DISCRETE EVENT SYSTEMS,2020,Scopus-Web of Science,verification,passive,opacity verification,finite-state automata
+138,NOTE THAT EACH INFORMATION-SUPERVISORY CONTROL OF DISCRETE-EVENT SYSTEMS FOR INFINITE-STEP OPACITY,2020,IEEExplore-Scopus,enforcement,passive,infinite step opacity enforcement,finite-state automata
+139,ON OPACITY VERIFICATION FOR DISCRETE-EVENT SYSTEMS,2020,Scopus-Web of Science,verification,passive,opacity verification,finite-state automata
+140,OPACITY ENFORCING SUPERVISORY CONTROL USING NON-DETERMINISTIC SUPERVISORS,2020,Science Direct,enforcement,passive,Non deterministic opacity enforcing supervisor,finite-state automata
+141,SUPERVISORY CONTROL OF DISCRETE-EVENT SYSTEMS FOR INFINITE-STEP OPACITY,2020,Web of Science,enforcement,passive,infinite step opacity enforcement,finite-state automata
+142,SYNTHESIS OF DYNAMIC MASKS FOR INFINITE-STEP OPACITY (2020),2020,IEEExplore-Scopus-Web of Science,enforcement,passive,infinite step opacity enforcement,finite-state automata
+143,VERIFICATION OF INFINITE-STEP OPACITY USING LABELED PETRI NETS,2020,Scopus-Science Direct-Web of Science,verification,passive,inifinite step opacity verification,petri nets
+144,ASSESSMENT OF BISIMULATION NON-INTERFERENCE IN DISCRETE EVENT SYSTEMS MODELLED WITH BOUNDED PETRI NETS,2021,IEEExplore-Scopus-Web of Science,verification,passive,strong non deterministic noninterference (SNNI),petri nets
+145,BOUNDED OPACITY FOR TIMED SYSTEMS,2021,Scopus-Science Direct-Web of Science,verification,passive,bounded timed opacity,timed finite-state automata
+146,ENFORCING CURRENT-STATE OPACITY THROUGH SHUFFLE AND DELETIONS OF EVENT OBSERVATIONS,2021,Scopus-Science Direct-Web of Science,enforcement,passive,enforcement of current state opacity,finite-state automata
+147,ENFORCING STATE-BASED OPACITY USING SYNCHRONIZING AUTOMATA,2021,Web of Science,enforcement,passive,enforcement of state based opacity,finite-state automata
+148,EXPOSURE AND REVELATION TIMES AS A MEASURE OF OPACITY IN TIMED STOCHASTIC DISCRETE EVENT SYSTEMS,2021,IEEExplore-Scopus-Web of Science,verification,passive,opacity exposure - opacity revelation,Stochastic Petri nets
+149,LOCAL OPACITY VERIFICATION FOR DISTRIBUTED DISCRETE EVENT SYSTEMS,2021,IEEExplore-Scopus-Web of Science,verification,passive,Current state opacity and initial state opacity verification,finite-state automata
+150,NONINTERFERENCE ENFORCEMENT VIA SUPERVISORY CONTROL IN BOUNDED PETRI NETS,2021,Engineering Village-IEEExplore-Scopus-Web of Science,enforcement,passive,Strong Nondeterministic Noninterference ,petri nets
+151,ON APPROXIMATE OPACITY OF CYBER-PHYSICAL SYSTEMS,2021,Web of Science,verification,passive,-,finite-state automata
+152,OPACITY ENFORCING SUPERVISORY CONTROL USING NON-DETERMINISTIC SUPERVISORS (2021),2021,IEEExplore-Scopus,enforcement,passive,Non deterministic opacity enforcing supervisor,finite-state automata
+153,OPACITY MEASURES OF FUZZY DISCRETE EVENT SYSTEMS,2021,IEEExplore-Scopus-Web of Science,verification,passive,general fuzzy opacity – final initial fuzzy opacity,finite-state automata
+154,OPACITY OF NETWORKED DISCRETE EVENT SYSTEMS (2021),2021,Scopus-Science Direct-Web of Science,verification,passive,verification of current state – initial state - initial final state and K step opacity,finite-state automata
+155,OPACITY OF NETWORKED SUPERVISORY CONTROL SYSTEMS OVER INSECURE COMMUNICATION CHANNELS,2021,Engineering Village-IEEExplore-Scopus-Web of Science,verification,passive,current-state opacity-K step opacity-infinite-step opacity,finite-state automata
+156,SECURE-BY-CONSTRUCTION CONTROLLER SYNTHESIS FOR STOCHASTIC SYSTEMS UNDER LINEAR TEMPORAL LOGIC SPECIFICATIONS,2021,Web of Science,enforcement,passive,Enforcement of infinite step opacity ,Markov Decision Process (MDP)
+157,USABILITY AWARE SECRET PROTECTION WITH MINIMUM COST,2021,Engineering Village-Scopus-Science Direct-Web of Science,verification,passive,Sct-usability aware cost levels,finite-state automata
+158,VERIFICATION AND ENFORCEMENT OF STRONG INFINITE- AND K-STEP OPACITY USING STATE RECOGNIZERS,2021,Scopus-Science Direct-Web of Science,enforcement,passive,Verification and Enforcement of strong infinite and k step opacity,finite-state automata
+159,APPLICATION OF SUPERVISORY CONTROL TO SECRET PROTECTION IN DISCRETE-EVENT SYSTEMS,2021,Complementary,verification,passive,Sct-usability aware cost levels,finite-state automata
+160,OPTIMAL SECRET PROTECTIONS IN DISCRETE-EVENT SYSTEMS,2022,Web of Science,verification,passive,security automaton,finite-state automata
+161,A FRAMEWORK FOR CURRENT-STATE OPACITY UNDER DYNAMIC INFORMATION RELEASE MECHANISM,2022,Scopus-Science Direct-Web of Science,verification,passive,verification of current state opacity,finite-state automata
+162,A GENERAL LANGUAGE-BASED FRAMEWORK FOR SPECIFYING AND VERIFYING NOTIONS OF OPACITY,2022,Scopus-Web of Science,verification,passive,language and state based opacity,finite-state automata
+163,ASSESSMENT OF MULTILEVEL INTRANSITIVE NON-INTERFERENCE FOR DISCRETE EVENT SYSTEMS,2022,IEEExplore-Scopus-Web of Science,verification,passive,Multi level intransitive non interference ,petri nets
+164,ENFORCEMENT FOR INFINITE-STEP OPACITY AND K-STEP OPACITY VIA INSERTION MECHANISM,2022,Scopus-Science Direct,enforcement,passive,Enforcement of infinite step and k step opacity ,finite-state automata
+165,FUZZY INFINITE-STEP OPACITY MEASURE OF DISCRETE EVENT SYSTEMS AND ITS APPLICATIONS,2022,IEEExplore-Scopus-Web of Science,verification,passive,fuzzy infinite-step opacity (FIO),finite-state automata
+166,HYPER SYMBOLIC OBSERVATION GRAPH TO ENFORCE OPACITY OF DISCRETE EVENT SYSTEMS USING SUPERVISORY CONTROL,2022,IEEExplore,enforcement,passive,state based opacity enforcement,Labeled Transition System (LTS)
+167,LANGUAGE-BASED OPACITY VERIFICATION AND ENFORCEMENT IN THE FRAMEWORK OF LABELED PETRI NETS,2022,Scopus-Web of Science,enforcement,passive,Verification and Enforcement of Language based Opacity,petri nets
+168,NECESSARY AND SUFFICIENT CONDITION TO ASSESS INITIAL-STATE-OPACITY IN LIVE BOUNDED AND REVERSIBLE DISCRETE EVENT SYSTEMS,2022,IEEExplore-Scopus-Web of Science,verification,passive,verification of initial state opacity,petri nets
+169,SECURITY AND PRIVACY WITH OPACITY-BASED STATE OBSERVATION FOR FINITE STATE MACHINE,2022,Web of Science,verification,passive,verification of opacity,finite-state automata
+170,SYMBOLIC VERIFICATION OF CURRENT-STATE OPACITY OF DISCRETE EVENT SYSTEMS USING PETRI NETS,2022,Engineering Village-IEEExplore-Scopus-Web of Science,verification,passive,Multi valued decision diagrams (MDDs) – Current-State Opacity verification,petri nets
+171,VERIFICATION OF K-STEP AND INFINITE-STEP OPACITY OF BOUNDED LABELED PETRI NETS,2022,Engineering Village-Scopus-Science Direct-Web of Science,verification,passive,verification of K step and infinite step opacity,petri nets
+172,ASSESSMENT OF INITIAL-STATE-OPACITY IN LIVE BOUNDED AND REVERSIBLE DISCRETE EVENT SYSTEMS VIA INTEGER LINEAR PROGRAMMING,2022,IEEExplore,verification,passive,Integer Linear Programming,petri nets
+173,SECRET PROTECTIONS IN DISCRETE-EVENT SYSTEMS WITH MINIMUM COSTS,2022, Complementary,verification,passive, -,finite-state automata
+174,HOW ATTACKS AFFECT DETECTABILITY IN DISCRETE-EVENT SYSTEMS?,2022,Engineering Village-IEEExplore-Scopus-Web of Science,verification,passive,,finite-state automata
+175,SECURE YOUR INTENTION: ON NOTIONS OF PRE-OPACITY IN DISCRETE-EVENT SYSTEMS,2022,IEEExplore-Scopus,verification,passive,,finite-state automata
+176,TRANSFORMATIONS BETWEEN OPACITY FOR DISCRETE-EVENT SYSTEMS,2022,IEEExplore-Scopus,verification,passive,,finite-state automata
+177,MODULAR VERIFICATION OF OPACITY FOR INTERCONNECTED CONTROL SYSTEMS VIA BARRIER CERTIFICATES,2022,IEEExplore-Scopus-Web of Science,verification,passive,,finite-state automata
+178,ON TRANSFORMATIONS AMONG OPACITY NOTIONS,2022,IEEExplore,verification,passive,,finite-state automata
+179,ENSURING CONFIDENTIALITY OF CYBER-PHYSICAL SYSTEMS USING EVENT-BASED CRYPTOGRAPHY,2022,Science Direct,enforcement,passive,cryptpgraphy,finite-state automata
+180,YOU DON'T KNOW WHAT I KNOW: ON NOTION OF HIGH-ORDER OPACITY IN DISCRETE-EVENT SYSTEMS,2022,Science Direct-Web of Science,verification,passive,,finite-state automata
+181,EVENT-BASED CRYPTOGRAPHY FOR AUTOMATION NETWORKS OF CYBER-PHYSICAL SYSTEMS USING THE STREAM CIPHER CHACHA20,2022,Science Direct-Web of Science,enforcement,passive,cryptpgraphy,finite-state automata
+182,ON VERIFICATION OF WEAK AND STRONG K-STEP OPACITY FOR DISCRETE-EVENT SYSTEMS,2022,Web of Science,verification,passive,,finite-state automata

@@ -21,7 +21,7 @@ def new_csv(dict):
     fields = ['id']
     for item in list(dict[0].keys()): fields.append(item)
 
-    with open('papers-categorized-2022.csv', 'w', newline='') as csvfile:
+    with open('papers-categorized-total.csv', 'w', newline='') as csvfile:
         w = csv.DictWriter(csvfile, fieldnames=fields)
         w.writeheader()
         for key, val in sorted(dict.items()):
@@ -52,6 +52,12 @@ def GetFullList(bases):
     counter = 0
     for each_base in bases:
         for each_ref in each_base:
+            title = each_ref.get('title')
+            if title:
+                print('YESSSS')
+            else:
+                print('NOOOOOOO')
+                print(each_ref)
             if normalize_titles(each_ref['title']) not in FullList.values():
                 FullList.update(
                     {counter: normalize_titles(each_ref['title']) })
@@ -148,15 +154,15 @@ def join_bases(dict):
 
 def main():
 
-    with open('new_citations_2022/EV.bib') as ev:
+    with open('citations_up_to_2022/EV.bib') as ev:
         ev_database = bibtexparser.load(ev)
-    with open('new_citations_2022/ieeexplore.bib') as ieeexplore:
+    with open('citations_up_to_2022/ieeexplore.bib') as ieeexplore:
         ieeexplore_database = bibtexparser.load(ieeexplore)
-    with open('new_citations_2022/scopus.bib') as scopus:
+    with open('citations_up_to_2022/scopus.bib') as scopus:
         scopus_database = bibtexparser.load(scopus)
-    with open('new_citations_2022/SD.bib') as sd:
+    with open('citations_up_to_2022/SD.bib') as sd:
         sd_database = bibtexparser.load(sd)
-    with open('new_citations_2022/WOS.bib') as wos:
+    with open('citations_up_to_2022/WOS.bib') as wos:
         wos_database = bibtexparser.load(wos)
 
     ev_citations_list = ev_database.entries
@@ -169,7 +175,7 @@ def main():
     FullList = GetFullList(BasesList)
 
     # print(FullList)
-    # print("EV: ", len(ev_citations_list), "\nIEEE: ", len(ieeexplore_citations_list), "\nSCOPUS", len(scopus_citations_list), "\nSD: ", len(sd_citations_list), "\nWOS: ", len(wos_citations_list), "\nTOTAL: ", len(ev_citations_list)+len(ieeexplore_citations_list)+len(scopus_citations_list)+len(sd_citations_list)+len(wos_citations_list))
+    print("EV: ", len(ev_citations_list), "\nIEEE: ", len(ieeexplore_citations_list), "\nSCOPUS", len(scopus_citations_list), "\nSD: ", len(sd_citations_list), "\nWOS: ", len(wos_citations_list), "\nTOTAL: ", len(ev_citations_list)+len(ieeexplore_citations_list)+len(scopus_citations_list)+len(sd_citations_list)+len(wos_citations_list))
 
     # LIST OF ALL PAPERS (DUPLICATIONS REMOVED)
     after_ce1 = ce1(FullList, ev_citations_list, ieeexplore_citations_list, scopus_citations_list, sd_citations_list, wos_citations_list)
@@ -178,42 +184,10 @@ def main():
     # new_json(after_ce1)
 
     # JOIN BASES. e.g. 'WOS-IEEE-SD'
-    bases_joint = join_bases(after_ce1)
+    # bases_joint = join_bases(after_ce1)
     # WRITE CSV
-    new_csv(bases_joint)
+    # new_csv(bases_joint)
 
-
-
-
-    # years = ['2016','2017','2018','2019','2020','2021','2022']
-    # amount_per_year = [4,5,6,17,22,19,14]
-    # # for each_year in years:
-    # #     total = 0
-    # #     for i in range(len(NewFullList)):
-    # #         if NewFullList[i]['year'] == each_year:
-    # #             total+=1
-    # #     amount_per_year.append(total)
-    #
-    #
-    # # PLOT
-    #
-    # plt.grid(axis='y', zorder=0, linestyle='--')
-    #
-    # counter = 0
-    # for spine in plt.gca().spines.values():
-    #     if counter == 2:
-    #         spine.set_visible(True)
-    #     else:
-    #         spine.set_visible(False)
-    #     counter += 1
-    #
-    # plt.xticks(range(len(amount_per_year)), years)
-    # plt.yticks([])
-    #
-    # bars = plt.bar(range(len(amount_per_year)), amount_per_year, zorder=3, color='#365841')
-    # plt.bar_label(bars)
-    #
-    # plt.show()
 
     # PAPERS PER BASE ---------------------
     #
