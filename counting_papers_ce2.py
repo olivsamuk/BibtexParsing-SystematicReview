@@ -27,7 +27,7 @@ wos_citations_list = wos_database.entries
 def substring_after(s, delim):
     return s.partition(delim)[0]
 
-papers = pd.read_csv("papers-categorized-total.csv")
+papers = pd.read_csv("papers-categorized_active.csv")
 data = {}
 
 ev_counter = 0
@@ -50,7 +50,7 @@ for index, each_paper in papers.iterrows():
                 final_bib.append(each_ref)
                 flag = ''
         if flag != '':
-            final_bib.append({'nao': 'achei'})
+            final_bib.append({'nao': 'acheiEV'+each_paper['title']})
     elif base == 'IEEExplore':
         ieee_counter+=1
         for each_ref in ieeexplore_citations_list:
@@ -58,7 +58,7 @@ for index, each_paper in papers.iterrows():
                 final_bib.append(each_ref)
                 flag = ''
         if flag != '':
-            final_bib.append({'nao': 'achei'})
+            final_bib.append({'nao': 'acheiIEEE'+each_paper['title']})
     elif base == 'Scopus':
         scopus_counter+=1
         for each_ref in scopus_citations_list:
@@ -71,7 +71,7 @@ for index, each_paper in papers.iterrows():
                 final_bib.append(each_ref)
                 flag = ''
         if flag != '':
-            final_bib.append({'nao': 'acheiSD'})
+            final_bib.append({'nao': 'acheiSD'+each_paper['title']})
     elif base == 'Web of Science':
         wos_counter+=1
         for each_ref in wos_citations_list:
@@ -85,11 +85,17 @@ new_db.entries = final_bib
 # bibtex_str = bibtexparser.dumps(new_db)
 #
 # print(bibtex_str)
+# print(final_bib)
+
+
 for each_ref in new_db.entries:
     # print(each_ref.keys())
     if 'journal' in each_ref.keys():
-        print(each_ref['journal'])
+        print(each_ref['title'], ' - ', each_ref['journal'])
     elif 'booktitle' in each_ref.keys():
-        print(each_ref['booktitle'])
+        print(each_ref['title'], ' - ', each_ref['booktitle'])
     else:
-        print('manoooo: ', each_ref['title'])
+        try:
+            each_ref['title']
+        except KeyError as e:
+            print('Erro: ', each_ref)

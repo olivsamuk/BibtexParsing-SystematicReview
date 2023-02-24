@@ -14,7 +14,7 @@ plt.rc('ytick', labelsize=18)    # fontsize of the tick labels
 plt.rc('legend', fontsize=18)    # legend fontsize
 plt.rc('figure', titlesize=18)  # fontsize of the figure title
 
-papers = pd.read_csv("papers-categorized-new.csv")
+papers = pd.read_csv("papers-categorized-new-2022.csv")
 data = {'verification':{}, 'enforcement':{}, 'attack model':{}, 'attack detection and mitigation':{}, 'supervisor synthesis':{}, 'diagnosability':{}, 'state estimation':{}, 'system recovery':{}, 'testbed':{}}
 
 def getypos(s):
