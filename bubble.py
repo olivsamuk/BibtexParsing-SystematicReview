@@ -3,16 +3,6 @@ import matplotlib.pyplot as plt
 import numpy as np
 import matplotlib.patheffects as path_effects
 
-font = {'family' : 'Latin Modern Roman'}
-plt.rc('font', **font)
-
-plt.rc('font', size=18)          # controls default text sizes
-plt.rc('axes', titlesize=18)     # fontsize of the axes title
-plt.rc('axes', labelsize=18)    # fontsize of the x and y labels
-plt.rc('xtick', labelsize=18)    # fontsize of the tick labels
-plt.rc('ytick', labelsize=18)    # fontsize of the tick labels
-plt.rc('legend', fontsize=18)    # legend fontsize
-plt.rc('figure', titlesize=18)  # fontsize of the figure title
 
 papers = pd.read_csv("papers-categorized-new.csv")
 data = {'verification':{}, 'enforcement':{}, 'attack model':{}, 'attack detection and mitigation':{}, 'supervisor synthesis':{}, 'diagnosability':{}, 'state estimation':{}, 'system recovery':{}, 'testbed':{}}
@@ -53,7 +43,7 @@ dfu.columns = list("XYS")
 dfu_orig = dfu.copy()
 
 
-dfu["S"] *= 300
+dfu["S"] *= 50
 
 plt.scatter(x="X", y="Y", s="S", data=dfu, c=colors, zorder=3, alpha=.8)
 papers_count = 0
@@ -62,13 +52,17 @@ for each_line in range(len(dfu_orig)):
     if a["S"] > 0:
         papers_count+=a["S"]
         plt.annotate(str(a["S"]), (a["X"], a["Y"]), ha='center', va="center", color='white')
-
+print(papers_count)
 for each_line in range(len(dfu_orig)):
     a = dfu_orig.iloc[each_line]
     b = dfu.iloc[each_line]
     if a["S"] > 0:
-        # plt.annotate(str((a["S"]*papers_count)/100)+'%', (list(data).index(a["X"]), y_cols.index(a["Y"])-(b["S"]/100000)), ha='left', va='baseline', size=10)
-        plt.annotate(str((a["S"] * papers_count) / 100) + '%',
+        # num = float(a["S"] / papers_count)
+
+
+        num = float((a["S"]/papers_count)*100)
+        # print(round(num,2))
+        plt.annotate(str(round(num,1)) + '%',
                      (list(data).index(a["X"]), getypos(y_cols.index(a["Y"]))), ha='left', va='baseline',
                      size=10)
 
