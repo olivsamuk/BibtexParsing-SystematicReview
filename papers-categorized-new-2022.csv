@@ -24,7 +24,7 @@ id,title,year,bases,problem,attack,methods,modeling
 23,TOWARDS BOUNDED SYNTHESIS OF RESILIENT SUPERVISORS,2019,IEEExplore-Scopus-Web of Science,supervisor synthesis,sensor-actuator,reduction of Quantified Boolean Formula Problem,finite-state automata
 24,TOWARDS RESILIENT SUPERVISORS AGAINST SENSOR DECEPTION ATTACKS,2019,IEEExplore-Scopus-Web of Science,supervisor synthesis,sensor,sct,finite-state automata
 25,DETECTION AND PREVENTION OF CYBER-ATTACKS IN NETWORKED CONTROL SYSTEMS,2020,Scopus-Web of Science,attack detection and mitigation,actuator,AE-safe controllability,finite-state automata
-26,DISCRETE CONTROL OF RESPONSE FOR CYBERSECURITY IN INDUSTRIAL CONTROL,2020,Scopus-Science Direct-Web of Science,attack detection and mitigation,denail of service,reconfiguration,Labeled Transition System (LTS)
+26,DISCRETE CONTROL OF RESPONSE FOR CYBERSECURITY IN INDUSTRIAL CONTROL,2020,Scopus-Science Direct-Web of Science,attack detection and mitigation,denial of service,reconfiguration,Labeled Transition System (LTS)
 27,MITIGATION OF CLASSES OF ATTACKS USING A PROBABILISTIC DISCRETE EVENT SYSTEM FRAMEWORK,2020,Engineering Village-Scopus-Web of Science,attack detection and mitigation,sensor,Markov decision processes (MDPs),probabilistic finite-state automata
 28,MOVING TARGET DEFENSE BASED ON SWITCHED SUPERVISORY CONTROL: A NEW TECHNIQUE FOR MITIGATING SENSOR DECEPTION ATTACKS,2020,Scopus-Web of Science,attack detection and mitigation,sensor,moving target defense,finite-state automata
 29,ON ATTACK MITIGATION IN SUPERVISORY CONTROL SYSTEMS: A TOLERANT CONTROL APPROACH,2020,IEEExplore-Scopus-Web of Science,attack detection and mitigation,actuator,sct,finite-state automata
@@ -38,11 +38,11 @@ id,title,year,bases,problem,attack,methods,modeling
 37,HEURISTIC SYNTHESIS OF COVERT ATTACKERS AGAINST UNKNOWN SUPERVISORS,2021,IEEExplore-Scopus-Web of Science,attack model,sensor-actuator,heuristic synthesis algorithm,finite-state automata
 38,JOINT STATE ESTIMATION UNDER ATTACK OF DISCRETE EVENT SYSTEMS,2021,IEEExplore-Scopus-Web of Science,state estimation,sensor,joint estimator,finite-state automata
 39,MODELING AND CONTROL OF DISCRETE EVENT SYSTEMS UNDER JOINT SENSOR-ACTUATOR CYBER ATTACKS,2021,IEEExplore-Scopus,supervisor synthesis,sensor-actuator,state estimate based supervisors,finite-state automata
-40,PERFORMANCE SAFETY ENFORCEMENT IN STRONGLY CONNECTED TIMED EVENT GRAPHS,2021,Scopus-Science Direct-Web of Science,attack detection and mitigation,denail of service,mixed integer linear programming,petri nets
+40,PERFORMANCE SAFETY ENFORCEMENT IN STRONGLY CONNECTED TIMED EVENT GRAPHS,2021,Scopus-Science Direct-Web of Science,attack detection and mitigation,denial of service,mixed integer linear programming,petri nets
 41,SUPERVISORY CONTROL OF DISCRETE-EVENT SYSTEMS UNDER EXTERNAL ATTACKS,2021,Scopus-Science Direct-Web of Science,supervisor synthesis,sensor-actuator,product observation reachability graph,petri nets
 42,SYNTHESIS OF COVERT ACTUATOR AND SENSOR ATTACKERS,2021,Scopus-Science Direct-Web of Science,attack model,sensor-actuator,sct,finite-state automata
 43,SYNTHESIS OF COVERT SENSOR ATTACKS IN NETWORKED DISCRETE-EVENT SYSTEMS WITH NON-FIFO CHANNELS,2021,Engineering Village,attack model,sensor,sct,finite-state automata
-44,SYNTHESIS OF RESILIENT THIRD-PARTY MONITORING SYSTEM AGAINST CYBERATTACKS VIA SUPERVISORY CONTROL,2021,Engineering Village-IEEExplore-Scopus-Web of Science,attack detection and mitigation,denail of service,timed des,finite-state automata
+44,SYNTHESIS OF RESILIENT THIRD-PARTY MONITORING SYSTEM AGAINST CYBERATTACKS VIA SUPERVISORY CONTROL,2021,Engineering Village-IEEExplore-Scopus-Web of Science,attack detection and mitigation,denial of service,timed des,finite-state automata
 45,SYNTHESIS OF SUPERVISORS ROBUST AGAINST SENSOR DECEPTION ATTACKS,2021,IEEExplore-Scopus-Web of Science,supervisor synthesis,sensor,game theory-sct,finite-state automata
 46,A LIVENESS-ENFORCING SUPERVISOR TOLERANT TO SENSOR-READING MODIFICATION ATTACKS,2022,IEEExplore-Scopus-Web of Science,supervisor synthesis,sensor,liveness enforcement,petri nets
 47,A POLYNOMIAL APPROACH TO VERIFYING THE EXISTENCE OF A THREATENING SENSOR ATTACKER,2022,IEEExplore-Web of Science,attack detection and mitigation,sensor,sct,finite-state automata
@@ -50,7 +50,7 @@ id,title,year,bases,problem,attack,methods,modeling
 49,IDENTIFICATION OF SYSTEM VULNERABILITY UNDER A SMART SENSOR ATTACK VIA ATTACK MODEL REDUCTION,2022,IEEExplore,attack detection and mitigation,sensor,supervisor reduction,finite-state automata
 50,OBSERVATION-ASSISTED HEURISTIC SYNTHESIS OF COVERT ATTACKERS AGAINST UNKNOWN SUPERVISORS,2022,Scopus-Web of Science,attack model,sensor-actuator,heuristic synthesis algorithm,finite-state automata
 51,ON RESILIENT SUPERVISORY CONTROL AGAINST INDEFINITE ACTUATOR ATTACKS IN DISCRETE-EVENT SYSTEMS,2022,IEEExplore-Scopus-Web of Science,supervisor synthesis,actuator,resiliency automaton-sct,finite-state automata
-52,ROBUST DECENTRALIZED DIAGNOSABILITY OF NETWORKED DISCRETE EVENT SYSTEMS AGAINST DOS AND DECEPTION ATTACKS,2022,Scopus-Science Direct-Web of Science,diagnosability,denail of service,diagnosability theory,finite-state automata
+52,ROBUST DECENTRALIZED DIAGNOSABILITY OF NETWORKED DISCRETE EVENT SYSTEMS AGAINST DOS AND DECEPTION ATTACKS,2022,Scopus-Science Direct-Web of Science,diagnosability,denial of service,diagnosability theory,finite-state automata
 53,SECURE RECOVERY PROCEDURE FOR MANUFACTURING SYSTEMS USING SYNCHRONIZING AUTOMATA AND SUPERVISORY CONTROL THEORY,2022,Engineering Village-IEEExplore-Scopus-Web of Science,system recovery,sensor-actuator,Synchronizing Automata-sct,finite-state automata
 54,SECURITY OF CYBER-PHYSICAL SYSTEMS: DESIGN OF A SECURITY SUPERVISOR TO THWART ATTACKS,2022,IEEExplore-Scopus-Web of Science,supervisor synthesis,sensor-actuator,sct,finite-state automata
 55,SUPERVISORY CONTROL OF PETRI NETS IN THE PRESENCE OF REPLACEMENT ATTACKS,2022,IEEExplore-Scopus-Web of Science,supervisor synthesis,sensor,Generalized Mutual Exclusion Constraints,petri nets
@@ -58,16 +58,16 @@ id,title,year,bases,problem,attack,methods,modeling
 57,SYNTHESIZING ATTACK-AWARE CONTROL AND ACTIVE SENSING STRATEGIES UNDER REACTIVE SENSOR ATTACKS,2022,IEEExplore,supervisor synthesis,sensor,Markov decision process (MDP),finite-state automata
 58,SECRET INFERENCE AND ATTACKTABILITY ANALYSIS OF DISCRETE EVENT SYSTEMS,2022,Science Direct,attack model,sensor,-,petri nets
 59,SYNTHESIS OF THE SUPREMAL COVERT ATTACKER AGAINST UNKNOWN SUPERVISORS BY USING OBSERVATIONS,2022,IEEExplore,attack model,sensor-actuator,sct,finite-state automata
-60,SENSOR AND ACTUATOR ATTACK IDENTIFICATION IN DISCRETE EVENT SYSTEMS,2022,IEEExplore-Scopus,attack detection and mitigation,sensor-actuator,,finite-state automata
-61,SECURITY ANALYSIS FOR DISTRIBUTED IOT-BASED INDUSTRIAL AUTOMATION,2022,IEEExplore,attack detection and mitigation,sensor-actuator,,petri nets
-62,SYNTHESIS OF WINNING ATTACKS ON COMMUNICATION PROTOCOLS USING SUPERVISORY CONTROL THEORY: TWO CASE STUDIES,2022,Scopus-Web of Science,attack model,sensor-actuator,,finite-state automata
-63,SELECTION OF A STEALTHY AND HARMFUL ATTACK FUNCTION IN DISCRETE EVENT SYSTEMS,2022,Scopus-Web of Science,state estimation,sensor,,finite-state automata
-64,OBSERVER DESIGN FOR LABELED FINITE AUTOMATA WITH INPUTS UNDER STEALTHY ACTUATORS ATTACKS,2022,Science Direct-Web of Science,attack detection and mitigation,actuator,,finite-state automata
-65,MALICIOUS ORIGIN OF DEADLOCKS IN FLEXIBLE MANUFACTURING SYSTEMS,2022,Science Direct-Web of Science,attack detection and mitigation,sensor,,petri nets
-66,SENSOR AND ACTUATOR ATTACKS IN DISCRETE EVENT SYSTEMS,2022,Science Direct-Web of Science,attack model,sensor-actuator,,finite-state automata
-67,TAMPER-TOLERANT DIAGNOSABILITY UNDER BOUNDED OR UNBOUNDED ATTACKS,2022,Science Direct-Web of Science,diagnosability,sensor,,finite-state automata
-68,ATTACKABLE DETECTABILITY OF PARTIALLY-OBSERVED DISCRETE-EVENT SYSTEMS UNDER SENSOR ATTACK,2022,Science Direct-Web of Science,state estimation,sensor,,finite-state automata
-69,SENSOR DECEPTION ATTACKS AGAINST INITIAL-STATE PRIVACY IN SUPERVISORY CONTROL SYSTEMS,2022,IEEExplore,attack model,sensor,,finite-state automata
+60,SENSOR AND ACTUATOR ATTACK IDENTIFICATION IN DISCRETE EVENT SYSTEMS,2022,IEEExplore-Scopus,attack detection and mitigation,sensor-actuator,-,finite-state automata
+61,SECURITY ANALYSIS FOR DISTRIBUTED IOT-BASED INDUSTRIAL AUTOMATION,2022,IEEExplore,attack detection and mitigation,sensor-actuator,-,petri nets
+62,SYNTHESIS OF WINNING ATTACKS ON COMMUNICATION PROTOCOLS USING SUPERVISORY CONTROL THEORY: TWO CASE STUDIES,2022,Scopus-Web of Science,attack model,sensor-actuator,-,finite-state automata
+63,SELECTION OF A STEALTHY AND HARMFUL ATTACK FUNCTION IN DISCRETE EVENT SYSTEMS,2022,Scopus-Web of Science,state estimation,sensor,-,finite-state automata
+64,OBSERVER DESIGN FOR LABELED FINITE AUTOMATA WITH INPUTS UNDER STEALTHY ACTUATORS ATTACKS,2022,Science Direct-Web of Science,attack detection and mitigation,actuator,-,finite-state automata
+65,MALICIOUS ORIGIN OF DEADLOCKS IN FLEXIBLE MANUFACTURING SYSTEMS,2022,Science Direct-Web of Science,attack detection and mitigation,sensor,-,petri nets
+66,SENSOR AND ACTUATOR ATTACKS IN DISCRETE EVENT SYSTEMS,2022,Science Direct-Web of Science,attack model,sensor-actuator,-,finite-state automata
+67,TAMPER-TOLERANT DIAGNOSABILITY UNDER BOUNDED OR UNBOUNDED ATTACKS,2022,Science Direct-Web of Science,diagnosability,sensor,-,finite-state automata
+68,ATTACKABLE DETECTABILITY OF PARTIALLY-OBSERVED DISCRETE-EVENT SYSTEMS UNDER SENSOR ATTACK,2022,Science Direct-Web of Science,state estimation,sensor,-,finite-state automata
+69,SENSOR DECEPTION ATTACKS AGAINST INITIAL-STATE PRIVACY IN SUPERVISORY CONTROL SYSTEMS,2022,IEEExplore,attack model,sensor,-,finite-state automata
 70,NOTIONS OF SECURITY AND OPACITY IN DISCRETE EVENT SYSTEMS,2007,Complementary,verification,passive,opacity verification,finite-state automata
 71,OPACITY ENFORCING CONTROL SYNTHESIS,2008,IEEExplore-Scopus-Web of Science,enforcement,passive,opacity enforcement-sct,Labeled Transition System (LTS)
 72,OPACITY-ENFORCING SUPERVISORY STRATEGIES FOR SECURE DISCRETE EVENT SYSTEMS,2008,IEEExplore-Scopus-Web of Science,enforcement,passive,initial state opacity enforcement,finite-state automata
@@ -171,11 +171,11 @@ id,title,year,bases,problem,attack,methods,modeling
 170,VERIFICATION OF K-STEP AND INFINITE-STEP OPACITY OF BOUNDED LABELED PETRI NETS,2022,Engineering Village-Scopus-Science Direct-Web of Science,verification,passive,verification of K step and infinite step opacity,petri nets
 171,ASSESSMENT OF INITIAL-STATE-OPACITY IN LIVE BOUNDED AND REVERSIBLE DISCRETE EVENT SYSTEMS VIA INTEGER LINEAR PROGRAMMING,2022,IEEExplore,verification,passive,Integer Linear Programming,petri nets
 172,SECRET PROTECTIONS IN DISCRETE-EVENT SYSTEMS WITH MINIMUM COSTS,2022, Complementary,verification,passive, -,finite-state automata
-173,HOW ATTACKS AFFECT DETECTABILITY IN DISCRETE-EVENT SYSTEMS?,2022,Engineering Village-IEEExplore-Scopus-Web of Science,verification,passive,,finite-state automata
-174,SECURE YOUR INTENTION: ON NOTIONS OF PRE-OPACITY IN DISCRETE-EVENT SYSTEMS,2022,IEEExplore-Scopus,verification,passive,,finite-state automata
-175,TRANSFORMATIONS BETWEEN OPACITY FOR DISCRETE-EVENT SYSTEMS,2022,IEEExplore-Scopus,verification,passive,,finite-state automata
-176,MODULAR VERIFICATION OF OPACITY FOR INTERCONNECTED CONTROL SYSTEMS VIA BARRIER CERTIFICATES,2022,IEEExplore-Scopus-Web of Science,verification,passive,,finite-state automata
-177,ON TRANSFORMATIONS AMONG OPACITY NOTIONS,2022,IEEExplore,verification,passive,,finite-state automata
-178,YOU DON'T KNOW WHAT I KNOW: ON NOTION OF HIGH-ORDER OPACITY IN DISCRETE-EVENT SYSTEMS,2022,Science Direct-Web of Science,verification,passive,,finite-state automata
-179,EVENT-BASED CRYPTOGRAPHY FOR AUTOMATION NETWORKS OF CYBER-PHYSICAL SYSTEMS USING THE STREAM CIPHER CHACHA20,2022,Science Direct-Web of Science,enforcement,passive,cryptpgraphy,finite-state automata
-180,ON VERIFICATION OF WEAK AND STRONG K-STEP OPACITY FOR DISCRETE-EVENT SYSTEMS,2022,Web of Science,verification,passive,,finite-state automata
+173,HOW ATTACKS AFFECT DETECTABILITY IN DISCRETE-EVENT SYSTEMS?,2022,Engineering Village-IEEExplore-Scopus-Web of Science,verification,passive, -,finite-state automata
+174,SECURE YOUR INTENTION: ON NOTIONS OF PRE-OPACITY IN DISCRETE-EVENT SYSTEMS,2022,IEEExplore-Scopus,verification,passive, -,finite-state automata
+175,TRANSFORMATIONS BETWEEN OPACITY FOR DISCRETE-EVENT SYSTEMS,2022,IEEExplore-Scopus,verification,passive, -,finite-state automata
+176,MODULAR VERIFICATION OF OPACITY FOR INTERCONNECTED CONTROL SYSTEMS VIA BARRIER CERTIFICATES,2022,IEEExplore-Scopus-Web of Science,verification,passive, -,finite-state automata
+177,ON TRANSFORMATIONS AMONG OPACITY NOTIONS,2022,IEEExplore,verification,passive, -,finite-state automata
+178,YOU DON'T KNOW WHAT I KNOW: ON NOTION OF HIGH-ORDER OPACITY IN DISCRETE-EVENT SYSTEMS,2022,Science Direct-Web of Science,verification,passive, -,finite-state automata
+179,EVENT-BASED CRYPTOGRAPHY FOR AUTOMATION NETWORKS OF CYBER-PHYSICAL SYSTEMS USING THE STREAM CIPHER CHACHA20,2022,Science Direct-Web of Science,enforcement,passive,cryptography,finite-state automata
+180,ON VERIFICATION OF WEAK AND STRONG K-STEP OPACITY FOR DISCRETE-EVENT SYSTEMS,2022,Web of Science,verification,passive,-,finite-state automata
