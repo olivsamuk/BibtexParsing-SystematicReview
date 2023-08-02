@@ -125,6 +125,8 @@ def update_mf(data):
             modeling_formalisms['finite-state transducer'] +=data[each_mf]
         elif each_mf == 'probabilistic finite-state automata':
             modeling_formalisms['finite-state automata'] +=data[each_mf]
+        elif each_mf == 'fuzzy automata':
+            modeling_formalisms['finite-state automata'] +=data[each_mf]
         elif each_mf == 'Labeled Transition System (LTS)':
             modeling_formalisms['Labeled Transition System (LTS)'] +=data[each_mf]
         elif each_mf == 'Hidden Markov Model (HMM)':
@@ -165,7 +167,7 @@ def make_autopct(values):
     return my_autopct
 
 
-ax.pie([final['finite-state automata'], final['probabilistic finite-state automata'], final['timed finite-state automata'], final['Hidden Markov Model (HMM)'], final['Markov Decision Process (MDP)'], final['petri nets'], final['signal interpreted Petri nets'], final['Stochastic Petri nets'], final['finite-state transducer'], final['Labeled Transition System (LTS)']],
+ax.pie([final['finite-state automata'], final['probabilistic finite-state automata'], final['fuzzy automata'], final['timed finite-state automata'], final['Hidden Markov Model (HMM)'], final['Markov Decision Process (MDP)'], final['petri nets'], final['signal interpreted Petri nets'], final['Stochastic Petri nets'], final['finite-state transducer'], final['Labeled Transition System (LTS)']],
 #        labels=['finite-state automata',
 # 'probabilistic finite-state automata',
 # 'timed finite-state automata',
@@ -176,12 +178,12 @@ ax.pie([final['finite-state automata'], final['probabilistic finite-state automa
 # 'Stochastic Petri nets',
 # 'finite-state transducer',
 # 'Labeled Transition System (LTS)'],
-        colors=['#85C1E9', '#2E86C1', '#21618C', '#FFFFFF','#FFFFFF', '#D68910', '#F4D03F', '#F9E79F', '#FFFFFF','#FFFFFF' ],
+        colors=['#85C1E9', '#2E86C1', '#21618C', '#143d58', '#FFFFFF','#FFFFFF', '#D68910', '#F4D03F', '#F9E79F', '#FFFFFF','#FFFFFF' ],
         # autopct=make_autopct([papers['actuator'], papers['sensor'], papers['sensor-actuator'], papers['denail of service'],papers['passive']]),
         pctdistance=0.8,
         radius=1, wedgeprops=dict(width=size, edgecolor='w', linewidth=2))
 
-ax.pie([final['finite-state automata']+final['probabilistic finite-state automata']+final['timed finite-state automata'], final['Hidden Markov Model (HMM)']+final['Markov Decision Process (MDP)'], final['petri nets']+final['signal interpreted Petri nets']+final['Stochastic Petri nets'], final['finite-state transducer'], final['Labeled Transition System (LTS)']],
+ax.pie([final['finite-state automata']+final['probabilistic finite-state automata']+final['timed finite-state automata']+final['fuzzy automata'], final['Hidden Markov Model (HMM)']+final['Markov Decision Process (MDP)'], final['petri nets']+final['signal interpreted Petri nets']+final['Stochastic Petri nets'], final['finite-state transducer'], final['Labeled Transition System (LTS)']],
        # labels=['finite-state automata',
        #  'Markov Models',
        # 'petri nets',

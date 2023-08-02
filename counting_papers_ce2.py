@@ -17,12 +17,15 @@ with open('citations_up_to_2022/SD.bib') as sd:
     sd_database = bibtexparser.load(sd)
 with open('citations_up_to_2022/WOS.bib') as wos:
     wos_database = bibtexparser.load(wos)
+with open('citations_up_to_2022/complementary.bib') as comp:
+    comp_database = bibtexparser.load(comp)
 
 ev_citations_list = ev_database.entries
 ieeexplore_citations_list = ieeexplore_database.entries
 scopus_citations_list = scopus_database.entries
 sd_citations_list = sd_database.entries
 wos_citations_list = wos_database.entries
+comp_citations_list = comp_database.entries
 
 def substring_after(s, delim):
     return s.partition(delim)[0]
@@ -35,6 +38,7 @@ ieee_counter = 0
 scopus_counter = 0
 sd_counter = 0
 wos_counter = 0
+comp_counter = 0
 
 final_bib = []
 
@@ -64,6 +68,9 @@ for index, each_paper in papers.iterrows():
         for each_ref in scopus_citations_list:
             if normalize_titles(each_ref['title']) == each_paper['title']:
                 final_bib.append(each_ref)
+                flag = ''
+        if flag != '':
+            final_bib.append({'nao': 'acheiSCOPUS' + each_paper['title']})
     elif base == 'Science Direct':
         sd_counter+=1
         for each_ref in sd_citations_list:
@@ -77,11 +84,24 @@ for index, each_paper in papers.iterrows():
         for each_ref in wos_citations_list:
             if normalize_titles(each_ref['title']) == each_paper['title']:
                 final_bib.append(each_ref)
+                flag = ''
+        if flag != '':
+            final_bib.append({'nao': 'acheiWOS' + each_paper['title']})
+    elif base == 'Complementary':
+        comp_counter+=1
+        for each_ref in comp_citations_list:
+            if normalize_titles(each_ref['title']) == each_paper['title']:
+                final_bib.append(each_ref)
+                flag = ''
+        if flag != '':
+            final_bib.append({'nao': 'acheiCOMP' + each_paper['title']})
 
-print(data, '\nEV: ', ev_counter, '\nIEEE: ', ieee_counter, '\nSCOPUS: ', scopus_counter, '\nSD: ', sd_counter, '\nWOS: ', wos_counter, '\nTotal: ', ev_counter+ieee_counter+scopus_counter+sd_counter+wos_counter)
+print(data, '\nEV: ', ev_counter, '\nIEEE: ', ieee_counter, '\nSCOPUS: ', scopus_counter, '\nSD: ', sd_counter, '\nWOS: ', wos_counter, '\nCOMP: ', comp_counter, '\nTotal: ', ev_counter+ieee_counter+scopus_counter+sd_counter+wos_counter+comp_counter)
 
 new_db = BibDatabase()
 new_db.entries = final_bib
+
+print('Tamanho do bib:', len(final_bib))
 # bibtex_str = bibtexparser.dumps(new_db)
 #
 # print(bibtex_str)
@@ -90,12 +110,15 @@ new_db.entries = final_bib
 
 for each_ref in new_db.entries:
     # print(each_ref.keys())
-    if 'journal' in each_ref.keys():
-        print(each_ref['title'], ' - ', each_ref['journal'])
-    elif 'booktitle' in each_ref.keys():
-        print(each_ref['title'], ' - ', each_ref['booktitle'])
+
+    if 'title' in each_ref.keys():
+        if 'journal' in each_ref.keys():
+            print(each_ref['title'], ' - ', each_ref['journal'])
+
+        elif 'booktitle' in each_ref.keys():
+            print(each_ref['title'], ' - ', each_ref['booktitle'])
+
+        else:
+            print(each_ref['title'], ' - ', 'Erro1: Unknown venue')
     else:
-        try:
-            each_ref['title']
-        except KeyError as e:
-            print('Erro: ', each_ref)
+        print('Erro:2 ', each_ref)

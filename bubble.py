@@ -32,12 +32,12 @@ for index, each_paper in papers.iterrows():
         if data.get(each_paper['problem']):
             data[each_paper['problem']][each_paper['attack']] += 1
         else:
-            data[each_paper['problem']] = {'passive':0, 'sensor': 0, 'actuator':0, 'sensor-actuator':0, 'denail of service':0}
+            data[each_paper['problem']] = {'passive':0, 'sensor': 0, 'actuator':0, 'sensor-actuator':0, 'denial of service':0}
             data[each_paper['problem']][each_paper['attack']] += 1
 
 y_labels = ['Passive attacks', 'Sensor attacks', 'Actuator attacks', 'Sensor-actuator attacks', 'DoS attacks']
 x_labels = ['Verification of properties', 'Enforcement of properties', 'Attack synthesis', 'Attack detection', 'Supervisor synthesis', 'Fault diagnosis', 'State estimation', 'System recovery', 'Testbed']
-y_cols = ['passive', 'sensor', 'actuator', 'sensor-actuator', 'denail of service']
+y_cols = ['passive', 'sensor', 'actuator', 'sensor-actuator', 'denial of service']
 
 colors = ['#4ddbb6', '#4ddbb6', '#4ddbb6', '#4ddbb6','#4ddbb6', '#4ddbb6','#4ddbb6', '#4ddbb6','#4ddbb6', '#636efa', '#636efa', '#636efa', '#636efa', '#636efa', '#636efa', '#636efa', '#636efa', '#636efa', '#636efa', '#636efa', '#636efa', '#636efa', '#636efa', '#636efa', '#636efa', '#636efa', '#636efa', '#636efa', '#636efa', '#636efa', '#636efa', '#636efa', '#636efa', '#636efa', '#636efa', '#636efa', '#636efa', '#636efa', '#636efa', '#636efa', '#636efa', '#636efa', '#636efa', '#636efa', '#636efa']
 
