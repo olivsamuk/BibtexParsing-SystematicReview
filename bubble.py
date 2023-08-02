@@ -4,7 +4,7 @@ import numpy as np
 import matplotlib.patheffects as path_effects
 
 
-papers = pd.read_csv("papers-categorized-new.csv")
+papers = pd.read_csv("papers-categorized-new-2022.csv")
 data = {'verification':{}, 'enforcement':{}, 'attack model':{}, 'attack detection and mitigation':{}, 'supervisor synthesis':{}, 'diagnosability':{}, 'state estimation':{}, 'system recovery':{}, 'testbed':{}}
 
 def getypos(s):
@@ -57,12 +57,18 @@ for each_line in range(len(dfu_orig)):
     a = dfu_orig.iloc[each_line]
     b = dfu.iloc[each_line]
     if a["S"] > 0:
+<<<<<<< HEAD
         # num = float(a["S"] / papers_count)
 
 
         num = float((a["S"]/papers_count)*100)
         # print(round(num,2))
         plt.annotate(str(round(num,1)) + '%',
+=======
+        temp = (a["S"] / papers_count) * 100
+        # plt.annotate(str((a["S"]*papers_count)/100)+'%', (list(data).index(a["X"]), y_cols.index(a["Y"])-(b["S"]/100000)), ha='left', va='baseline', size=10)
+        plt.annotate(str(round(temp,1)) + '%',
+>>>>>>> 16172451eabb5e3f07247d5a61ca997249bf94eb
                      (list(data).index(a["X"]), getypos(y_cols.index(a["Y"]))), ha='left', va='baseline',
                      size=10)
 

@@ -31,7 +31,7 @@ def change_names(values):
         elif i == 'supervisor synthesis':
             if 'Supervisor synthesis' not in new_values:
                 new_values.append('Supervisor synthesis')
-        elif i == 'diagnosabilty':
+        elif i == 'diagnosability':
             if 'Diagnosability' not in new_values:
                 new_values.append('Diagnosability')
         elif i == 'state estimation':
@@ -52,50 +52,15 @@ def get_data(csv_file):
             data[each_paper['problem']] = 1
     return data
 
-papers = get_data('papers-categorized-new.csv')
-
-# ------------------ BAR CHART ---------------------------------------------------------------
-# width = .8       # the width of the bars: can also be len(x) sequence
-#
-#
-#
-# fig, ax = plt.subplots()
-#
-# bars = ax.bar(papers.keys(), papers.values(), width, label='Artigos', zorder=2,color='#27AE60', edgecolor='#145A32')
-# ax.bar_label(bars)
-#
-#
-# plt.xticks(list(papers.keys()), rotation=45, ha='right')
-#
-# plt.tick_params(
-#     axis='y',  # changes apply to the x-axis
-#     which='both',  # both major and minor ticks are affected
-#     bottom=False,  # ticks along the bottom edge are off
-#     top=False,  # ticks along the top edge are off
-#     labelbottom=False)  # labels along the bottom edge are off
-#
-# plt.grid(zorder=1, linestyle='-', color='#EAEDED')
-#
-# counter = 0
-# for spine in plt.gca().spines.values():
-#     if counter == 2 or counter == 0:
-#         spine.set_visible(True)
-#     else:
-#         spine.set_visible(False)
-#     counter += 1
-#
-#
-# plt.show()
-# ------------------ DONUT CHART ---------------------------------------------------------------
-
+papers = get_data('papers-categorized-new-2022.csv')
 
 names = change_names(list(papers.keys()))
 print(papers)
 amount = list(papers.values())
 
-strategies_grouped          = [papers['verification']+papers['enforcement'], papers['attack model'], papers['attack detection and mitigation']+papers['supervisor synthesis']+papers['system recovery'], papers['diagnosabilty'], papers['state estimation']]
+strategies_grouped          = [papers['verification']+papers['enforcement'], papers['attack model'], papers['attack detection and mitigation']+papers['supervisor synthesis']+papers['system recovery'], papers['diagnosability'], papers['state estimation']]
 strategies_grouped_label    = ['Protection of secrets', 'Attack synthesis', 'Attack-tolerant control', 'Fault diagnosis', 'State estimation']
-strategies_ungrouped        = [papers['verification'],papers['enforcement'], papers['attack model'], papers['attack detection and mitigation'],papers['supervisor synthesis'],papers['system recovery'], papers['diagnosabilty'], papers['state estimation']]
+strategies_ungrouped        = [papers['verification'],papers['enforcement'], papers['attack model'], papers['attack detection and mitigation'],papers['supervisor synthesis'],papers['system recovery'], papers['diagnosability'], papers['state estimation']]
 strategies_ungrouped_label  = ['Verification', 'Enforcement', 'Attack synthesis', 'Attack detection', 'Supervisor synthesis', 'System recovery', 'Fault diagnosis', 'State estimation']
 
 fig, ax = plt.subplots()
@@ -110,17 +75,17 @@ def make_autopct(values):
 
 
 ax.pie(strategies_ungrouped,
-       labels=strategies_ungrouped_label,
-        colors=['#929afc', '#929afc', '#FFFFFF', '#f48876', '#f48876', '#f48876','#FFFFFF', '#FFFFFF'],
+       # labels=strategies_ungrouped_label,
+        colors=['#4ddbb6', '#4ddbb6', '#FFFFFF', '#929afc', '#929afc', '#929afc','#FFFFFF', '#FFFFFF'],
         # autopct=make_autopct(strategies_ungrouped),
         pctdistance=0.8,
         radius=1, wedgeprops=dict(width=size, edgecolor='w', linewidth=2))
 
 
 ax.pie(strategies_grouped,
-       labels=strategies_grouped_label,
-       colors=['#636efa', '#4ddbb6', '#ef553b', '#c492fc', '#ffbd8c'],
-       autopct=make_autopct(strategies_grouped),
+       # labels=strategies_grouped_label,
+       colors=['#4dbbb6', '#4047a3', '#636efa', '#9763fa', '#fa63ee'],
+       # autopct=make_autopct(strategies_grouped),
        pctdistance=.7,
        radius=1-size, wedgeprops=dict(width=size, edgecolor='w', linewidth=2))
 # plt.title('Population')
