@@ -68,3 +68,13 @@ id,title,year,bases,problem,attack,methods,modeling
 67,TAMPER-TOLERANT DIAGNOSABILITY UNDER BOUNDED OR UNBOUNDED ATTACKS,2022,Science Direct-Web of Science,diagnosability,sensor,,finite-state automata
 68,ATTACKABLE DETECTABILITY OF PARTIALLY-OBSERVED DISCRETE-EVENT SYSTEMS UNDER SENSOR ATTACK,2022,Science Direct-Web of Science,state estimation,sensor,,finite-state automata
 69,SENSOR DECEPTION ATTACKS AGAINST INITIAL-STATE PRIVACY IN SUPERVISORY CONTROL SYSTEMS,2022,IEEExplore,attack model,sensor,,finite-state automata
+70,ROBUST STEALTHY ATTACKS BASED ON UNCERTAIN COSTS AND LABELED FINITE AUTOMATA WITH INPUTS,2023,Engineering Village-IEEExplore-Scopus-Web of Science,attack detection and mitigation,sensor-actuator,assessment,finite-state automata
+71,DETECTION AND LOCALIZATION OF STEALTHY CYBER ATTACKS IN CYBER-PHYSICAL DISCRETE EVENT SYSTEMS,2023,IEEExplore-Scopus,attack detection and mitigation,sensor-actuator,,finite-state automata
+72,ERROR- AND TAMPER-TOLERANT STATE ESTIMATION FOR DISCRETE EVENT SYSTEMS UNDER COST CONSTRAINTS,2023,IEEExplore-Scopus,state estimation,sensor,-,finite-state automata
+73,ATTACK-RESILIENT SUPERVISORY CONTROL OF DISCRETE-EVENT SYSTEMS: A FINITE-STATE TRANSDUCER APPROACH,2023,IEEExplore,supervisor synthesis,sensor-actuator,-,finite-state transducer
+74,DETECTION OF ACTUATOR ENABLEMENT ATTACKS BY PETRI NETS IN SUPERVISORY CONTROL SYSTEMS,2023,Scopus-Web of Science,attack detection and mitigation,actuator,AE-safe controllabiility,petri nets
+75,ROBUST PREDICTABILITY IN DISCRETE EVENT SYSTEMS UNDER SENSOR ATTACKS,2023,Scopus-Web of Science,fault prognosis,sensor,-,finite-state automata
+76,ON DECIDABILITY OF EXISTENCE OF NONBLOCKING SUPERVISORS RESILIENT TO SMART SENSOR ATTACKS,2023,Scopus-Science Direct,supervisor synthesis,sensor,-,finite-state automata
+77,LANGUAGE RECOVERY IN DISCRETE-EVENT SYSTEMS AGAINST SENSOR DECEPTION ATTACKS,2023,Scopus-Web of Science,attack detection and mitigation,sensor,-,finite-state transducer
+78,SYNTHESIS OF OPTIMAL COVERT SENSOR�ACTUATOR ATTACKERS FOR DISCRETE-EVENT SYSTEMS,2023,Scopus-Science Direct,attack model,sensor-actuator,-,finite-state automata
+79,DEALING WITH SENSOR AND ACTUATOR DECEPTION ATTACKS IN SUPERVISORY CONTROL,2023,Scopus-Science Direct,supervisor synthesis,sensor-actuator,-,finite-state automata

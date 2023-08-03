@@ -30,7 +30,7 @@ comp_citations_list = comp_database.entries
 def substring_after(s, delim):
     return s.partition(delim)[0]
 
-papers = pd.read_csv("papers-categorized-new-2022.csv")
+papers = pd.read_csv("papers-categorized-final.csv")
 data = {}
 
 ev_counter = 0

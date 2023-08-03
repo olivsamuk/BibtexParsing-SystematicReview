@@ -43,7 +43,7 @@ def get_data(csv_file):
             data[each_paper['attack']] = 1
     return data
 
-papers = get_data('papers-categorized-new-2022.csv')
+papers = get_data('papers-categorized-final.csv')
 print(papers)
 
 names = change_names(list(papers.keys()))

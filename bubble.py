@@ -4,7 +4,7 @@ import numpy as np
 import matplotlib.patheffects as path_effects
 
 
-papers = pd.read_csv("papers-categorized-new-2022.csv")
+papers = pd.read_csv("papers-categorized-final.csv")
 data = {'verification':{}, 'enforcement':{}, 'attack model':{}, 'attack detection and mitigation':{}, 'supervisor synthesis':{}, 'diagnosability':{}, 'state estimation':{}, 'system recovery':{}, 'testbed':{}}
 
 def getypos(s):
@@ -26,10 +26,10 @@ for index, each_paper in papers.iterrows():
             data[each_paper['problem']][each_paper['attack']] += 1
 
 y_labels = ['Passive attacks', 'Sensor attacks', 'Actuator attacks', 'Sensor-actuator attacks', 'DoS attacks']
-x_labels = ['Verification of properties', 'Enforcement of properties', 'Attack synthesis', 'Attack detection', 'Supervisor synthesis', 'Fault diagnosis', 'State estimation', 'System recovery', 'Testbed']
+x_labels = ['Verification of properties', 'Enforcement of properties', 'Attack synthesis', 'Attack detection', 'Supervisor synthesis', 'Fault diagnosis', 'Fault Prognosis', 'State estimation', 'System recovery']
 y_cols = ['passive', 'sensor', 'actuator', 'sensor-actuator', 'denial of service']
 
-colors = ['#4ddbb6', '#4ddbb6', '#4ddbb6', '#4ddbb6','#4ddbb6', '#4ddbb6','#4ddbb6', '#4ddbb6','#4ddbb6', '#636efa', '#636efa', '#636efa', '#636efa', '#636efa', '#636efa', '#636efa', '#636efa', '#636efa', '#636efa', '#636efa', '#636efa', '#636efa', '#636efa', '#636efa', '#636efa', '#636efa', '#636efa', '#636efa', '#636efa', '#636efa', '#636efa', '#636efa', '#636efa', '#636efa', '#636efa', '#636efa', '#636efa', '#636efa', '#636efa', '#636efa', '#636efa', '#636efa', '#636efa', '#636efa', '#636efa']
+colors = ['#4ddbb6', '#4ddbb6', '#4ddbb6', '#4ddbb6','#4ddbb6', '#4ddbb6','#4ddbb6', '#4ddbb6','#4ddbb6', '#636efa', '#636efa', '#636efa', '#636efa', '#636efa', '#636efa', '#636efa', '#636efa', '#636efa', '#636efa', '#636efa', '#636efa', '#636efa', '#636efa', '#636efa', '#636efa', '#636efa', '#636efa', '#636efa', '#636efa', '#636efa', '#636efa', '#636efa', '#636efa', '#636efa', '#636efa', '#636efa', '#636efa', '#636efa', '#636efa', '#636efa', '#636efa', '#636efa', '#636efa', '#636efa', '#636efa', '#636efa', '#636efa', '#636efa', '#636efa', '#636efa']
 
 final_list = []
 for each_problem in data.keys():
@@ -57,18 +57,18 @@ for each_line in range(len(dfu_orig)):
     a = dfu_orig.iloc[each_line]
     b = dfu.iloc[each_line]
     if a["S"] > 0:
-<<<<<<< HEAD
+# <<<<<<< HEAD
         # num = float(a["S"] / papers_count)
 
 
         num = float((a["S"]/papers_count)*100)
         # print(round(num,2))
         plt.annotate(str(round(num,1)) + '%',
-=======
-        temp = (a["S"] / papers_count) * 100
-        # plt.annotate(str((a["S"]*papers_count)/100)+'%', (list(data).index(a["X"]), y_cols.index(a["Y"])-(b["S"]/100000)), ha='left', va='baseline', size=10)
-        plt.annotate(str(round(temp,1)) + '%',
->>>>>>> 16172451eabb5e3f07247d5a61ca997249bf94eb
+# =======
+#         temp = (a["S"] / papers_count) * 100
+#         # plt.annotate(str((a["S"]*papers_count)/100)+'%', (list(data).index(a["X"]), y_cols.index(a["Y"])-(b["S"]/100000)), ha='left', va='baseline', size=10)
+#         plt.annotate(str(round(temp,1)) + '%',
+# >>>>>>> 16172451eabb5e3f07247d5a61ca997249bf94eb
                      (list(data).index(a["X"]), getypos(y_cols.index(a["Y"]))), ha='left', va='baseline',
                      size=10)
 
