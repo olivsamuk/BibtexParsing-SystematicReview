@@ -54,9 +54,10 @@ def GetFullList(bases):
         for each_ref in each_base:
             title = each_ref.get('title')
             if title:
-                print('YESSSS')
+                pass
+                # print('YESSSS')
             else:
-                print('NOOOOOOO')
+                # print('NOOOOOOO')
                 print(each_ref)
             if normalize_titles(each_ref['title']) not in FullList.values():
                 FullList.update(
@@ -175,18 +176,18 @@ def main():
     FullList = GetFullList(BasesList)
 
     # print(FullList)
-    print("EV: ", len(ev_citations_list), "\nIEEE: ", len(ieeexplore_citations_list), "\nSCOPUS", len(scopus_citations_list), "\nSD: ", len(sd_citations_list), "\nWOS: ", len(wos_citations_list), "\nTOTAL: ", len(ev_citations_list)+len(ieeexplore_citations_list)+len(scopus_citations_list)+len(sd_citations_list)+len(wos_citations_list))
+    # print("EV: ", len(ev_citations_list), "\nIEEE: ", len(ieeexplore_citations_list), "\nSCOPUS", len(scopus_citations_list), "\nSD: ", len(sd_citations_list), "\nWOS: ", len(wos_citations_list), "\nTOTAL: ", len(ev_citations_list)+len(ieeexplore_citations_list)+len(scopus_citations_list)+len(sd_citations_list)+len(wos_citations_list))
 
-    # LIST OF ALL PAPERS (DUPLICATIONS REMOVED)
-    after_ce1 = ce1(FullList, ev_citations_list, ieeexplore_citations_list, scopus_citations_list, sd_citations_list, wos_citations_list)
-    print(after_ce1)
+    # # LIST OF ALL PAPERS (DUPLICATIONS REMOVED)
+    # after_ce1 = ce1(FullList, ev_citations_list, ieeexplore_citations_list, scopus_citations_list, sd_citations_list, wos_citations_list)
+    # print(after_ce1)
     # WRITE JSON
     # new_json(after_ce1)
 
-    # JOIN BASES. e.g. 'WOS-IEEE-SD'
-    bases_joint = join_bases(after_ce1)
-    # WRITE CSV
-    new_csv(bases_joint)
+    # # JOIN BASES. e.g. 'WOS-IEEE-SD'
+    # bases_joint = join_bases(after_ce1)
+    # # WRITE CSV
+    # new_csv(bases_joint)
 
 
     # PAPERS PER BASE ---------------------

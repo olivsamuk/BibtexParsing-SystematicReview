@@ -73,7 +73,7 @@ id,title,year,bases,problem,attack,methods,modeling
 72,ERROR- AND TAMPER-TOLERANT STATE ESTIMATION FOR DISCRETE EVENT SYSTEMS UNDER COST CONSTRAINTS,2023,IEEExplore-Scopus,state estimation,sensor,-,finite-state automata
 73,ATTACK-RESILIENT SUPERVISORY CONTROL OF DISCRETE-EVENT SYSTEMS: A FINITE-STATE TRANSDUCER APPROACH,2023,IEEExplore,supervisor synthesis,sensor-actuator,-,finite-state transducer
 74,DETECTION OF ACTUATOR ENABLEMENT ATTACKS BY PETRI NETS IN SUPERVISORY CONTROL SYSTEMS,2023,Scopus-Web of Science,attack detection and mitigation,actuator,AE-safe controllabiility,petri nets
-75,ROBUST PREDICTABILITY IN DISCRETE EVENT SYSTEMS UNDER SENSOR ATTACKS,2023,Scopus-Web of Science,fault prognosis,sensor,-,finite-state automata
+75,ROBUST PREDICTABILITY IN DISCRETE EVENT SYSTEMS UNDER SENSOR ATTACKS,2023,Scopus-Web of Science,prognosability,sensor,-,finite-state automata
 76,ON DECIDABILITY OF EXISTENCE OF NONBLOCKING SUPERVISORS RESILIENT TO SMART SENSOR ATTACKS,2023,Scopus-Science Direct,supervisor synthesis,sensor,-,finite-state automata
 77,LANGUAGE RECOVERY IN DISCRETE-EVENT SYSTEMS AGAINST SENSOR DECEPTION ATTACKS,2023,Scopus-Web of Science,attack detection and mitigation,sensor,-,finite-state transducer
 78,SYNTHESIS OF OPTIMAL COVERT SENSOR�ACTUATOR ATTACKERS FOR DISCRETE-EVENT SYSTEMS,2023,Scopus-Science Direct,attack model,sensor-actuator,-,finite-state automata
