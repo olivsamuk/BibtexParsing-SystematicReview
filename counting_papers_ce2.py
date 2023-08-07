@@ -7,17 +7,17 @@ import re
 def normalize_titles(title):
     return re.sub(re.compile('<.*?>'), '', title.upper().replace("\n", " "))
 
-with open('citations_up_to_2022/EV.bib') as ev:
+with open('citations_FULL/EV.bib') as ev:
     ev_database = bibtexparser.load(ev)
-with open('citations_up_to_2022/ieeexplore.bib') as ieeexplore:
+with open('citations_FULL/ieeexplore.bib') as ieeexplore:
     ieeexplore_database = bibtexparser.load(ieeexplore)
-with open('citations_up_to_2022/scopus.bib') as scopus:
+with open('citations_FULL/scopus.bib') as scopus:
     scopus_database = bibtexparser.load(scopus)
-with open('citations_up_to_2022/SD.bib') as sd:
+with open('citations_FULL/SD.bib') as sd:
     sd_database = bibtexparser.load(sd)
-with open('citations_up_to_2022/WOS.bib') as wos:
+with open('citations_FULL/WOS.bib') as wos:
     wos_database = bibtexparser.load(wos)
-with open('citations_up_to_2022/complementary.bib') as comp:
+with open('citations_FULL/complementary.bib') as comp:
     comp_database = bibtexparser.load(comp)
 
 ev_citations_list = ev_database.entries
@@ -107,18 +107,19 @@ print('Tamanho do bib:', len(final_bib))
 # print(bibtex_str)
 # print(final_bib)
 
-
+new_counter=0
 for each_ref in new_db.entries:
+    new_counter+=1
     # print(each_ref.keys())
 
     if 'title' in each_ref.keys():
         if 'journal' in each_ref.keys():
-            print(each_ref['title'], ' - ', each_ref['journal'])
+            print(new_counter, ': ', each_ref['title'], ' - ', each_ref['journal'])
 
         elif 'booktitle' in each_ref.keys():
-            print(each_ref['title'], ' - ', each_ref['booktitle'])
+            print(new_counter, ': ', each_ref['title'], ' - ', each_ref['booktitle'])
 
         else:
-            print(each_ref['title'], ' - ', 'Erro1: Unknown venue')
+            print(new_counter, ': ', each_ref['title'], ' - ', 'Erro1: Unknown venue')
     else:
-        print('Erro:2 ', each_ref)
+        print(new_counter, ': ', '(Erro 2) ', each_ref)

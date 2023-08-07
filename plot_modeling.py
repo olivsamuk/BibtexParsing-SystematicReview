@@ -140,7 +140,7 @@ def update_mf(data):
 
     return modeling_formalisms
 
-papers = pd.read_csv("papers-categorized-final.csv")
+papers = pd.read_csv("papers-categorized-final_WAIT.csv")
 data = {}
 # COUNT PAPERS PER YEAR
 counter = 0

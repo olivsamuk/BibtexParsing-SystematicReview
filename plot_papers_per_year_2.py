@@ -32,7 +32,7 @@ def get_data(csv_file):
     papers = pd.read_csv(csv_file)
     data = {}
 
-    for i in range(2006, 2024):
+    for i in range(2005, 2024):
         data[i] = 0
         for index, each_paper in papers.iterrows():
             if each_paper['year'] == i:
@@ -46,7 +46,7 @@ print('\npassive: ', papers_passive)
 
 fig, ax = plt.subplots()
 
-x_axis = np.arange(18)
+x_axis = np.arange(19)
 
 # Multi bar Chart
 bar1 = ax.bar(x_axis -0.25, papers_passive, width=0.20, label = 'Passive attacks',color='#4ddbb6', edgecolor='#2e836d',zorder=2)
@@ -57,7 +57,7 @@ print(len(get_sum(list(papers_active), list(papers_passive))))
 # plt.bar_label(bar2)
 # plt.bar_label(bar3)
 # Xticks
-x = [2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023]
+x = [2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023]
 plt.xticks(x_axis, x)
 plt.yticks(np.arange(0, 50, 2.0))
 
@@ -70,7 +70,7 @@ y = np.array(total_sum)
 
 
 #calculate equation for quadratic trendline
-z = np.polyfit(x_axis, y, 3)
+z = np.polyfit(x_axis, y, 2)
 p = np.poly1d(z)
 # plt.plot(x_axis, p(x_axis))
 

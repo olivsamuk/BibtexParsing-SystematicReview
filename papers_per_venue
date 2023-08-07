@@ -1,221 +1,216 @@
-*Workshop on Discrete Event Systems (WODES) - 28
-Detection and prevention of actuator enablement attacks in supervisory control systems  -  2016 13th International Workshop on Discrete Event Systems (WODES)
-Opacity enforcing control synthesis  -  2008 9th International Workshop on Discrete Event Systems
-Verification of initial-state opacity in security applications of DES  -  2008 9th International Workshop on Discrete Event Systems
-Enforcing opacity with Orwellian observation  -  2016 13th International Workshop on Discrete Event Systems (WODES)
-On two-way observer and its application to the verification of infinite-step and K-step opacity  -  2016 13th International Workshop on Discrete Event Systems (WODES)
-Probabilistic system opacity in discrete event systems  -  2016 13th International Workshop on Discrete Event Systems (WODES)
-Quantification of distributed secrecy loss in stochastic discrete event systems under bounded-delay communications  -  2016 13th International Workshop on Discrete Event Systems (WODES)
-Supervisory enforcement of current-state opacity with uncomparable observations  -  2016 13th International Workshop on Discrete Event Systems (WODES)
-Detection and Prevention of Cyber-Attacks in Networked Control Systems  -  IFAC-PapersOnLine
-Mitigation of Classes of Attacks using a Probabilistic Discrete Event System Framework  -  IFAC-PapersOnLine
-Moving Target Defense based on Switched Supervisory Control: A New Technique for Mitigating Sensor Deception Attacks  -  IFAC-PapersOnLine
-Stealthy Sensor Attacks for Plants Modeled by Labeled Petri Nets  -  IFAC-PapersOnLine
-Synthesis of Covert Actuator and Sensor Attackers as Supervisor Synthesis  -  IFAC-PapersOnLine
-Observer design for labeled finite automata with inputs under stealthy actuators attacks  -  IFAC-PapersOnLine
-Malicious Origin of Deadlocks in Flexible Manufacturing Systems  -  IFAC-PapersOnLine
-Sensor and Actuator Attacks in Discrete Event Systems  -  IFAC-PapersOnLine
-Tamper-Tolerant Diagnosability Under Bounded or Unbounded Attacks  -  IFAC-PapersOnLine
-Attackable detectability of partially-observed discrete-event systems under sensor attack  -  IFAC-PapersOnLine
-Reduced-complexity verification for initial-state opacity in modular discrete event systems  -  IFAC Proceedings Volumes (IFAC-PapersOnline)
-On-line Algorithm for Current State Opacity Enforcement in a Petri Net Framework  -  IFAC PAPERSONLINE
-Depth-first Search Approach for Language-based Opacity Verification Using Petri Nets  -  IFAC-PapersOnLine
-You Don't Know What I Know: On Notion of High-Order Opacity in Discrete-Event Systems  -  IFAC-PapersOnLine
-Event-based cryptography for automation networks of cyber-physical systems using the stream cipher ChaCha20  -  IFAC-PapersOnLine
-On Verification of Weak and Strong k-Step Opacity for Discrete-Event Systems  -  IFAC PAPERSONLINE
-Detectable and Undetectable Network Attack Security of Cyber-physical Systems  -  14th IFAC Workshop on Discrete Event Systems WODES 2018
-Modeling and detection of cyber attacks on discrete event systems  -  14th IFAC Workshop on Discrete Event Systems WODES 2018
-An algebraic characterization of language-based opacity in labeled Petri nets  -  14th IFAC Workshop on Discrete Event Systems WODES 2018
-Enforcing current-state opacity through shuffle in event observations⁎  -  14th IFAC Workshop on Discrete Event Systems WODES 2018
-*Conference on Decision and Control (CDC) - 23
-Intrusion Detection in Controlled Discrete Event Systems  -  Proceedings of the 45th IEEE Conference on Decision and Control
-Stealthy deception attacks for cyber-physical systems  -  2017 IEEE 56th Annual Conference on Decision and Control (CDC)
-Attack-Resilient Supervisory Control with Intermittently Secure Communication  -  2019 IEEE 58th Conference on Decision and Control (CDC)
-Supervisory Control of Discrete Event Systems in the Presence of Sensor and Actuator Attacks  -  2019 IEEE 58th Conference on Decision and Control (CDC)
-Towards Bounded Synthesis of Resilient Supervisors  -  2019 IEEE 58th Conference on Decision and Control (CDC)
-Towards resilient supervisors against sensor deception attacks  -  2019 IEEE 58th Conference on Decision and Control (CDC)
-On Attack Mitigation in Supervisory Control Systems: A Tolerant Control Approach  -  2020 59th IEEE Conference on Decision and Control (CDC)
-Heuristic Synthesis of Covert Attackers Against Unknown Supervisors  -  2021 60th IEEE Conference on Decision and Control (CDC)
-Sensor Deception Attacks Against Initial-State Privacy in Supervisory Control Systems  -  2022 IEEE 61st Conference on Decision and Control (CDC)
-Notions of security and opacity in discrete event systems  -  2007 46th IEEE Conference on Decision and Control
-Opacity-enforcing supervisory strategies for secure discrete event systems  -  2008 47th IEEE Conference on Decision and Control
-Verification of K-step opacity and analysis of its complexity  -  Proceedings of the 48h IEEE Conference on Decision and Control (CDC) held jointly with 2009 28th Chinese Control Conference
-Opacity verification in stochastic discrete event systems  -  49th IEEE Conference on Decision and Control (CDC)
-Enforcement of opacity properties using insertion functions  -  2012 IEEE 51st IEEE Conference on Decision and Control (CDC)
-Verification of initial-state opacity in Petri nets  -  2015 54th IEEE Conference on Decision and Control (CDC)
-Verification of Opacity in Networked Supervisory Control Systems with Insecure Control Channels  -  2018 IEEE Conference on Decision and Control (CDC)
-Current-State Opacity Verification in Modular Discrete Event Systems  -  2019 IEEE 58th Conference on Decision and Control (CDC)
-Opacity of Networked Discrete Event Systems  -  2019 IEEE 58th Conference on Decision and Control (CDC)
-Opacity of Networked Supervisory Control Systems over Insecure Multiple Channel Networks  -  Proceedings of the IEEE Conference on Decision and Control
-Secret Securing with Multiple Protections and Minimum Costs  -  2019 IEEE 58th Conference on Decision and Control (CDC)
-Enforcing State-Based Opacity using Synchronizing Automata  -  2021 60TH IEEE CONFERENCE ON DECISION AND CONTROL (CDC)
-Local Opacity Verification for Distributed Discrete Event Systems  -  2021 60th IEEE Conference on Decision and Control (CDC)
-Secure-by-Construction Controller Synthesis for Stochastic Systems under Linear Temporal Logic Specifications  -  2021 60TH IEEE CONFERENCE ON DECISION AND CONTROL (CDC)
-*American Control Conference (ACC) - 13
-A cyber attack model with bounded sensor reading alterations  -  Proceedings of the American Control Conference
-Synthesis of Sensor Deception Attacks for Systems Modeled as Probabilistic Automata  -  2019 American Control Conference (ACC)
-Synthesis of Supremal Successful Normal Actuator Attackers on Normal Supervisors  -  2019 American Control Conference (ACC)
-Verification of current-state opacity using Petri nets  -  2015 American Control Conference (ACC)
-Verification of language-based opacity in Petri nets using verifier  -  2016 American Control Conference (ACC)
-Non-interference assessment in bounded Petri nets via Integer Linear Programming  -  2018 Annual American Control Conference (ACC)
-Parameter and Insertion Function Co-synthesis for Opacity Enhancement in Parametric Stochastic Discrete Event Systems  -  Proceedings of the American Control Conference
-Synthesis of Insertion Functions to Enforce Decentralized and Joint Opacity Properties of Discrete-event Systems  -  Proceedings of the American Control Conference
-Controller encryption for discrete event systems  -  2019 American Control Conference (ACC)
-Note that each information-Supervisory Control of Discrete-Event Systems for Infinite-Step Opacity  -  2020 American Control Conference (ACC)
-Supervisory Control of Discrete-Event Systems for Infinite-Step Opacity  -  2020 AMERICAN CONTROL CONFERENCE (ACC)
-Secret Protections in Discrete-Event Systems with Minimum Costs  -  2022 American Control Conference (ACC)
-How attacks affect detectability in discrete-event systems?  -  Proceedings of the American Control Conference
-*IFAC WORLD CONGRESS - 7
-Discrete control of response for cybersecurity in industrial control  -  IFAC-PapersOnLine
-Confidentiality of cyber-physical systems using event-based cryptography  -  IFAC-PapersOnLine
-Enforcing opacity in modular systems  -  IFAC-PapersOnLine
-On opacity verification for discrete-event systems  -  IFAC-PapersOnLine
-Verification of infinite-step opacity using labeled petri nets  -  IFAC-PapersOnLine
-Opacity Enforcing Supervisory Control using Non-deterministic Supervisors  -  IFAC-PapersOnLine
-Security Against Network Attacks in Supervisory Control Systems  -  20th IFAC World Congress
-*European Control Conference (ECC) - 5
-Modeling of cyber attacks and a time guard detection for ICS based on discrete event systems  -  2019 18th European Control Conference, ECC 2019
-Supervisor Obfuscation Against Actuator Enablement Attack  -  2019 18th European Control Conference (ECC)
-Error- and Tamper-Tolerant Decentralized Diagnosability of Discrete Event Systems under Cost Constraints  -  2021 European Control Conference, ECC 2021
-Monitoring confidentiality by diagnosis techniques  -  2009 European Control Conference (ECC)
-Exposure Time as a Measure of Opacity in Timed Discrete Event Systems  -  2019 18th European Control Conference (ECC)
-*Conference on Systems, Man and Cybernetics (SMC) - 4
-Multiple Attacks Detection on Discrete Event Systems  -  2019 IEEE International Conference on Systems, Man and Cybernetics (SMC)
-An opacity approach for security exposure of IoT components in critical infrastructures  -  2019 IEEE International Conference on Systems, Man and Cybernetics (SMC)
-Revelation Time for Initial-State Opacity Measurement in Timed Discrete Event Systems  -  2019 IEEE International Conference on Systems, Man and Cybernetics (SMC)
-On Transformations among Opacity Notions -  2022 IEEE International Conference on Systems, Man, and Cybernetics (SMC)
-*Chinese Control Conference (CCC) - 3
-Construction of false sequence attack against PLC based power control system  -  2016 35th Chinese Control Conference (CCC)
-Sensor and Actuator Attack Identification in Discrete Event Systems  -  2022 41st Chinese Control Conference (CCC)
-Transformations between opacity for discrete-event systems  -  2022 41st Chinese Control Conference (CCC)
-*Mediterranean Conference on Control and Automation (MED) - 3
-Critical Observability of Finite State Machines Under Attacks  -  2021 29TH MEDITERRANEAN CONFERENCE ON CONTROL AND AUTOMATION (MED)
-Resolution of initial-state in security applications of DES  -  2012 20th Mediterranean Conference on Control & Automation (MED)
-Assessment of Initial-State-Opacity in Live Bounded and Reversible Discrete Event Systems via Integer Linear Programming  -  2022 30th Mediterranean Conference on Control and Automation (MED)
-*Conference on Emerging Technologies and Factory Automation (ETFA) - 2
-Stealthy Attacks for Partially-Observed Discrete Event Systems  -  2018 IEEE 23rd International Conference on Emerging Technologies and Factory Automation (ETFA)
-Initial state opacity in stochastic DES  -  2013 IEEE 18th Conference on Emerging Technologies & Factory Automation (ETFA)
-*Conference on Systems and Control (ICSC)
-Sensor and actuator attacks of cyber-physical systems: A study based on supervisory control of discrete event systems
-*Conference on Automation Science and Engineering (CASE)
-Costs analysis of stealthy attacks with bounded output synchronized Petri nets
-*Conference on Automation, Control and Robotics Engineering (CACRE)
-Modeling and Control of Discrete Event Systems under Joint Sensor-Actuator Cyber Attacks
-*Conference on Consumer Electronics (CCE)
-Synthesis of resilient third-party monitoring system against cyberattacks via supervisory control
-*WETICE CONFERENCE (WETICE)
-An On-The-Fly Approach for the Verification of Opacity in Critical Systems
-*Asian Control Conference (ASCC)
-Infinite-step opacity of stochastic discrete-event systems
-*Conference of the Society of Instrument and Control Engineers of Japan (SICE)
-Decentralized Opacity Enforcement in Discrete Event Systems Using Supervisory Control
-*Chinese Control And Decision Conference (CCDC)
-Opacity of Fuzzy Discrete Event Systems
-*Conference on Control, Decision and Information Technologies (CoDIT)
-Hyper Symbolic Observation Graph to Enforce Opacity of Discrete Event Systems using Supervisory Control
-*Workshop on Dependable Control of Discrete Systems - 1
-Verification of Infinite-Step Opacity and Analysis of its Complexity
-*Automatica - 18
-Detection and mitigation of classes of attacks in supervisory control systems  -  Automatica
-Supervisor synthesis to thwart cyber attack with bounded sensor reading alterations  -  Automatica
-Synthesis of sensor deception attacks at the supervisory layer of Cyber–Physical Systems  -  Automatica
-Performance safety enforcement in strongly connected timed event graphs  -  Automatica
-Synthesis of covert actuator and sensor attackers  -  Automatica
-Synthesis of insertion functions for enforcement of opacity security properties  -  Automatica
-A new approach for the verification of infinite-step and K-step opacity using two-way observers  -  Automatica
-Decidability of opacity verification problems in labeled Petri net systems  -  Automatica
-Enforcement of opacity by public and private insertion functions  -  Automatica
-On-line verification of current-state opacity by Petri nets and integer linear programming  -  Automatica
-Enforcing opacity by insertion functions under multiple energy constraints  -  Automatica
-Infinite-step opacity and K-step opacity of stochastic discrete-event systems  -  Automatica
-Current-state opacity modelling and verification in partially observed Petri nets  -  Automatica
-Enforcing current-state opacity through shuffle and deletions of event observations  -  Automatica
-Verification and enforcement of strong infinite- and k-step opacity using state recognizers  -  Automatica
-A framework for current-state opacity under dynamic information release mechanism  -  Automatica
-Enforcement for infinite-step opacity and K-step opacity via insertion mechanism  -  Automatica
-Verification of K-step and infinite-step opacity of bounded labeled Petri nets  -  Automatica
-*IEEE Transactions on Automatic Control - 18
-Synthesis of Supervisors Robust Against Sensor Deception Attacks  -  IEEE Transactions on Automatic Control
-Supervisory Control of Petri Nets in the Presence of Replacement Attacks  -  IEEE Transactions on Automatic Control
-Synthesis of Optimal Multiobjective Attack Strategies for Controlled Systems Modeled by Probabilistic Automata  -  IEEE Transactions on Automatic Control
-Synthesis of the Supremal Covert Attacker Against Unknown Supervisors by Using Observations  -  IEEE Transactions on Automatic Control
-Opacity-Enforcing Supervisory Strategies via State Estimator Constructions  -  IEEE Transactions on Automatic Control
-Verification of Infinite-Step Opacity and Complexity Considerations  -  IEEE Transactions on Automatic Control
-Current-State Opacity Formulations in Probabilistic Finite Automata  -  IEEE Transactions on Automatic Control
-Verification of State-Based Opacity Using Petri Nets  -  IEEE Transactions on Automatic Control
-Synthesis of Dynamic Masks for Infinite-Step Opacity  -  IEEE Transactions on Automatic Control
-Opacity Enforcement Using Nondeterministic Publicly Known Edit Functions  -  IEEE Transactions on Automatic Control
-Compositional and Abstraction-Based Approach for Synthesis of Edit Functions for Opacity Enforcement  -  IEEE Transactions on Automatic Control
-Synthesis of Dynamic Masks for Infinite-Step Opacity  -  IEEE Transactions on Automatic Control 
-Exposure and Revelation Times as a Measure of Opacity in Timed Stochastic Discrete Event Systems  -  IEEE Transactions on Automatic Control
-Noninterference Enforcement via Supervisory Control in Bounded Petri Nets  -  IEEE Transactions on Automatic Control
-On Approximate Opacity of Cyber-Physical Systems  -  IEEE TRANSACTIONS ON AUTOMATIC CONTROL
-Opacity Enforcing Supervisory Control Using Non-deterministic Supervisors  -  IEEE TRANSACTIONS ON AUTOMATIC CONTROL
-Optimal Secret Protections in Discrete-Event Systems  -  IEEE TRANSACTIONS ON AUTOMATIC CONTROL
-Secure Your Intention: On Notions of Pre-Opacity in Discrete-Event Systems  -  IEEE Transactions on Automatic Control
-*IEEE Control Systems Letters - 8
-A Polynomial Approach to Verifying the Existence of a Threatening Sensor Attacker  -  IEEE Control Systems Letters
-Identification of System Vulnerability Under a Smart Sensor Attack via Attack Model Reduction  -  IEEE Control Systems Letters
-On Resilient Supervisory Control Against Indefinite Actuator Attacks in Discrete-Event Systems  -  IEEE Control Systems Letters
-Synthesizing Attack-Aware Control and Active Sensing Strategies Under Reactive Sensor Attacks  -  IEEE Control Systems Letters
-Assessment of Bisimulation Non-Interference in Discrete Event Systems Modelled With Bounded Petri Nets  -  IEEE Control Systems Letters
-Assessment of Multilevel Intransitive Non-Interference for Discrete Event Systems  -  IEEE Control Systems Letters
-Necessary and Sufficient Condition to Assess Initial-State-Opacity in Live Bounded and Reversible Discrete Event Systems  -  IEEE Control Systems Letters
-Modular Verification of Opacity for Interconnected Control Systems via Barrier Certificates  -  IEEE Control Systems Letters
-*Discrete Event Dynamic Systems (DEDS) - 7
-Synthesis of Covert Actuator Attackers for Free  -  Discrete Event Dynamic Systems (DEDS)
-Discrete-event systems subject to unknown sensor attacks  -  Discrete Event Dynamic Systems: Theory and Applications
-Observation-assisted heuristic synthesis of covert attackers against unknown supervisors  -  Discrete Event Dynamic Systems: Theory and Applications
-Synthesis of winning attacks on communication protocols using supervisory control theory: two case studies  -  Discrete Event Dynamic Systems: Theory and Applications
-Current-state opacity enforcement in discrete event systems under incomparable observations  -  Discrete Event Dynamic Systems: Theory and Applications
-Probabilistic system opacity in discrete event systems -  Discrete Event Dynamic Systems (DEDS)
-A general language-based framework for specifying and verifying notions of opacity  -  Discrete Event Dynamic Systems: Theory and Applications
-*IEEE Transactions on Automation Science and Engineering - 5
-Secure Recovery Procedure for Manufacturing Systems Using Synchronizing Automata and Supervisory Control Theory  -  IEEE Transactions on Automation Science and Engineering
-Security of Cyber-Physical Systems: Design of a Security Supervisor to Thwart Attacks  -  IEEE Transactions on Automation Science and Engineering
-Security Analysis for Distributed IoT-Based Industrial Automation  -  IEEE Transactions on Automation Science and Engineering
-Verification of $K$-Step Opacity and Analysis of Its Complexity  -  IEEE Transactions on Automation Science and Engineering
-Quantification of Secrecy in Partially Observed Stochastic Discrete Event Systems  -  IEEE Transactions on Automation Science and Engineering
-*Information Sciences - 4
-Supervisory control of discrete-event systems under external attacks  -  Information Sciences
-Secret inference and attacktability analysis of discrete event systems  -  Information Sciences
-Verification of initial-state opacity in security applications of discrete event systems  -  Information Sciences
-Opacity of Networked Discrete Event Systems  -  Information Sciences
-*IEEE Access - 2
-Joint State Estimation Under Attack of Discrete Event Systems  -  IEEE Access
-Homomorphic Encryption of Supervisory Control Systems Using Automata  -  IEEE Access
-*IEEE Transactions on Systems, Man, and Cybernetics: Systems - 2
-A Liveness-Enforcing Supervisor Tolerant to Sensor-Reading Modification Attacks  -  IEEE Transactions on Systems, Man, and Cybernetics: Systems
-Symbolic Verification of Current-State Opacity of Discrete Event Systems Using Petri Nets  -  IEEE Transactions on Systems, Man, and Cybernetics: Systems
-*IEEE Transactions on Fuzzy Systems - 2
-Opacity Measures of Fuzzy Discrete Event Systems  -  IEEE Transactions on Fuzzy Systems
-Fuzzy Infinite-Step Opacity Measure of Discrete Event Systems and Its Applications  -  IEEE Transactions on Fuzzy Systems
-*Nonlinear Analysis: Hybrid Systems - 2
-Robust decentralized diagnosability of networked discrete event systems against DoS and deception attacks  -  Nonlinear Analysis: Hybrid Systems
-Usability aware secret protection with minimum cost  -  Nonlinear Analysis: Hybrid Systems
-*Dynamic Games and Applications  - 1
-Supervisory Control of Discrete-event Systems under Attacks
-*Journal of Control, Automation and Electrical Systems - 1
-Security Against Communication Network Attacks of Cyber-Physical Systems
-*IEEE Transactions on Industrial Informatics - 1
-Attacks on Distributed Sequential Control in Manufacturing Automation
-*Scientific Reports - 1
-Selection of a stealthy and harmful attack function in discrete event systems
-*INTERNATIONAL JOURNAL OF NAVAL ARCHITECTURE AND OCEAN ENGINEERING - 1
-Enforcement of opacity security properties for ship information system
-*ISA Transactions - 1
-On-line verification of initial-state opacity by Petri nets and integer linear programming
-*Systems and Control Letters - 1
-K-memory-embedded insertion mechanism for opacity enforcement
-*Circuits, Systems, and Signal Processing - 1
-Matrix Approach for Verification of Opacity of Partially Observed Discrete Event Systems
-*Journal of Information Security and Applications - 1
-Bounded opacity for timed systems
-*IEEE Transactions on Control of Network Systems - 1
-Opacity of Networked Supervisory Control Systems over Insecure Communication Channels
-*Journal of the Society of Instrument and Control Engineers (SICE) - 1
-Application of supervisory control to secret protection in discrete-event systems
-*Science Progress - 1
-Language-based Opacity Verification and Enforcement in the Framework of Labeled Petri Nets
-*ASIAN JOURNAL OF CONTROL - 1
-Security and privacy with opacity-based state observation for finite state machine
+1 :  Intrusion Detection in Controlled Discrete Event Systems  -  Proceedings of the 45th IEEE Conference on Decision and Control
+2 :  Construction of false sequence attack against PLC based power control system  -  2016 35th Chinese Control Conference (CCC)
+3 :  Detection and prevention of actuator enablement attacks in supervisory control systems  -  2016 13th International Workshop on Discrete Event Systems (WODES)
+4 :  A cyber attack model with bounded sensor reading alterations  -  Proceedings of the American Control Conference
+5 :  Security Against Network Attacks in Supervisory Control Systems  -  Erro1: Unknown venue
+6 :  Stealthy deception attacks for cyber-physical systems  -  2017 IEEE 56th Annual Conference on Decision and Control (CDC)
+7 :  Supervisory Control of Discrete-event Systems under Attacks  -  arXiv
+8 :  Detectable and Undetectable Network Attack Security of Cyber-physical Systems  -  Erro1: Unknown venue
+9 :  Detection and mitigation of classes of attacks in supervisory control systems  -  Automatica
+10 :  Modeling and detection of cyber attacks on discrete event systems  -  Erro1: Unknown venue
+11 :  Stealthy Attacks for Partially-Observed Discrete Event Systems  -  2018 IEEE 23rd International Conference on Emerging Technologies and Factory Automation (ETFA)
+12 :  Supervisor synthesis to thwart cyber attack with bounded sensor reading alterations  -  Automatica
+13 :  Attack-Resilient Supervisory Control with Intermittently Secure Communication  -  2019 IEEE 58th Conference on Decision and Control (CDC)
+14 :  Modeling of cyber attacks and a time guard detection for ICS based on discrete event systems  -  2019 18th European Control Conference, ECC 2019
+15 :  Multiple Attacks Detection on Discrete Event Systems  -  2019 IEEE International Conference on Systems, Man and Cybernetics (SMC)
+16 :  Security Against Communication Network Attacks of Cyber-Physical Systems  -  Journal of Control, Automation and Electrical Systems
+17 :  Sensor and actuator attacks of cyber-physical systems: A study based on supervisory control of discrete event systems  -  2019 8th International Conference on Systems and Control, ICSC 2019
+18 :  Supervisor Obfuscation Against Actuator Enablement Attack  -  2019 18th European Control Conference (ECC)
+19 :  Supervisory Control of Discrete Event Systems in the Presence of Sensor and Actuator Attacks  -  2019 IEEE 58th Conference on Decision and Control (CDC)
+20 :  Synthesis of Covert Actuator Attackers for Free  -  arXiv
+21 :  Synthesis of Sensor Deception Attacks for Systems Modeled as Probabilistic Automata  -  2019 American Control Conference (ACC)
+22 :  Synthesis of Supremal Successful Normal Actuator Attackers on Normal Supervisors  -  2019 American Control Conference (ACC)
+23 :  Towards Bounded Synthesis of Resilient Supervisors  -  2019 IEEE 58th Conference on Decision and Control (CDC)
+24 :  Towards resilient supervisors against sensor deception attacks  -  2019 IEEE 58th Conference on Decision and Control (CDC)
+25 :  Detection and Prevention of Cyber-Attacks in Networked Control Systems  -  IFAC-PapersOnLine
+26 :  Discrete control of response for cybersecurity in industrial control  -  IFAC-PapersOnLine
+27 :  Mitigation of Classes of Attacks using a Probabilistic Discrete Event System Framework  -  IFAC-PapersOnLine
+28 :  Moving Target Defense based on Switched Supervisory Control: A New Technique for Mitigating Sensor Deception Attacks  -  IFAC-PapersOnLine
+29 :  On Attack Mitigation in Supervisory Control Systems: A Tolerant Control Approach  -  2020 59th IEEE Conference on Decision and Control (CDC)
+30 :  Stealthy Sensor Attacks for Plants Modeled by Labeled Petri Nets  -  IFAC-PapersOnLine
+31 :  Synthesis of Covert Actuator and Sensor Attackers as Supervisor Synthesis  -  IFAC-PapersOnLine
+32 :  Synthesis of sensor deception attacks at the supervisory layer of Cyber–Physical Systems  -  Automatica
+33 :  Attacks on Distributed Sequential Control in Manufacturing Automation  -  IEEE Transactions on Industrial Informatics
+34 :  Costs analysis of stealthy attacks with bounded output synchronized Petri nets  -  2021 IEEE 17th International Conference on Automation Science and Engineering (CASE)
+35 :  Critical Observability of Finite State Machines Under Attacks  -  2021 29TH MEDITERRANEAN CONFERENCE ON CONTROL AND AUTOMATION (MED)
+36 :  Error- and Tamper-Tolerant Decentralized Diagnosability of Discrete Event Systems under Cost Constraints  -  2021 European Control Conference, ECC 2021
+37 :  Heuristic Synthesis of Covert Attackers Against Unknown Supervisors  -  2021 60th IEEE Conference on Decision and Control (CDC)
+38 :  Joint State Estimation Under Attack of Discrete Event Systems  -  IEEE Access
+39 :  Modeling and Control of Discrete Event Systems under Joint Sensor-Actuator Cyber Attacks  -  2021 6th International Conference on Automation, Control and Robotics Engineering (CACRE)
+40 :  Performance safety enforcement in strongly connected timed event graphs  -  Automatica
+41 :  Supervisory control of discrete-event systems under external attacks  -  Information Sciences
+42 :  Synthesis of covert actuator and sensor attackers  -  Automatica
+43 :  Synthesis of covert sensor attacks in networked discrete-event systems with non-FIFO channels  -  arXiv
+44 :  Synthesis of resilient third-party monitoring system against cyberattacks via supervisory control  -  Digest of Technical Papers - IEEE International Conference on Consumer Electronics
+45 :  Synthesis of Supervisors Robust Against Sensor Deception Attacks  -  IEEE Transactions on Automatic Control
+46 :  A Liveness-Enforcing Supervisor Tolerant to Sensor-Reading Modification Attacks  -  IEEE Transactions on Systems, Man, and Cybernetics: Systems
+47 :  A Polynomial Approach to Verifying the Existence of a Threatening Sensor Attacker  -  IEEE Control Systems Letters
+48 :  Discrete-event systems subject to unknown sensor attacks  -  Discrete Event Dynamic Systems: Theory and Applications
+49 :  Identification of System Vulnerability Under a Smart Sensor Attack via Attack Model Reduction  -  IEEE Control Systems Letters
+50 :  Observation-assisted heuristic synthesis of covert attackers against unknown supervisors  -  Discrete Event Dynamic Systems: Theory and Applications
+51 :  On Resilient Supervisory Control Against Indefinite Actuator Attacks in Discrete-Event Systems  -  IEEE Control Systems Letters
+52 :  Robust decentralized diagnosability of networked discrete event systems against DoS and deception attacks  -  Nonlinear Analysis: Hybrid Systems
+53 :  Secure Recovery Procedure for Manufacturing Systems Using Synchronizing Automata and Supervisory Control Theory  -  IEEE Transactions on Automation Science and Engineering
+54 :  Security of Cyber-Physical Systems: Design of a Security Supervisor to Thwart Attacks  -  IEEE Transactions on Automation Science and Engineering
+55 :  Supervisory Control of Petri Nets in the Presence of Replacement Attacks  -  IEEE Transactions on Automatic Control
+56 :  Synthesis of Optimal Multiobjective Attack Strategies for Controlled Systems Modeled by Probabilistic Automata  -  IEEE Transactions on Automatic Control
+57 :  Synthesizing Attack-Aware Control and Active Sensing Strategies Under Reactive Sensor Attacks  -  IEEE Control Systems Letters
+58 :  Secret inference and attacktability analysis of discrete event systems  -  Information Sciences
+59 :  Synthesis of the Supremal Covert Attacker Against Unknown Supervisors by Using Observations  -  IEEE Transactions on Automatic Control
+60 :  Sensor and Actuator Attack Identification in Discrete Event Systems  -  2022 41st Chinese Control Conference (CCC)
+61 :  Security Analysis for Distributed IoT-Based Industrial Automation  -  IEEE Transactions on Automation Science and Engineering
+62 :  Synthesis of winning attacks on communication protocols using supervisory control theory: two case studies  -  Discrete Event Dynamic Systems: Theory and Applications
+63 :  Selection of a stealthy and harmful attack function in discrete event systems  -  Scientific Reports
+64 :  Observer design for labeled finite automata with inputs under stealthy actuators attacks  -  IFAC-PapersOnLine
+65 :  Malicious Origin of Deadlocks in Flexible Manufacturing Systems  -  IFAC-PapersOnLine
+66 :  Sensor and Actuator Attacks in Discrete Event Systems  -  IFAC-PapersOnLine
+67 :  Tamper-Tolerant Diagnosability Under Bounded or Unbounded Attacks  -  IFAC-PapersOnLine
+68 :  Attackable detectability of partially-observed discrete-event systems under sensor attack  -  IFAC-PapersOnLine
+69 :  About Existence of Resilient Supervisors against Smart Sensor Attacks  -  2022 IEEE 61st Conference on Decision and Control (CDC)
+70 :  A Framework for the Analysis of Supervised Discrete Event Systems Under Attack  -  15th European Workshop on Advanced Control and Diagnosis (ACD 2019)
+71 :  Sensor Deception Attacks Against Initial-State Privacy in Supervisory Control Systems  -  2022 IEEE 61st Conference on Decision and Control (CDC)
+72 :  Robust Stealthy Attacks Based on Uncertain Costs and Labeled Finite Automata with Inputs  -  IEEE Robotics and Automation Letters
+73 :  Detection and Localization of Stealthy Cyber Attacks in Cyber-Physical Discrete Event Systems  -  IEEE Transactions on Automatic Control
+74 :  Error- and Tamper-Tolerant State Estimation for Discrete Event Systems under Cost Constraints  -  IEEE Transactions on Automatic Control
+75 :  Attack-Resilient Supervisory Control of Discrete-Event Systems: A Finite-State Transducer Approach  -  IEEE Open Journal of Control Systems
+76 :  Detection of Actuator Enablement Attacks by Petri Nets in Supervisory Control Systems  -  Mathematics
+77 :  Robust predictability in discrete event systems under sensor attacks  -  Frontiers in Physics
+78 :  On decidability of existence of nonblocking supervisors resilient to smart sensor attacks  -  Automatica
+79 :  Language Recovery in Discrete-Event Systems against Sensor Deception Attacks  -  Mathematics
+80 :  (Erro 2)  {'nao': 'acheiSCOPUSSYNTHESIS OF OPTIMAL COVERT SENSOR�ACTUATOR ATTACKERS FOR DISCRETE-EVENT SYSTEMS'}
+81 :  Dealing with sensor and actuator deception attacks in supervisory control  -  Automatica
+82 :  On the verification of intransitive noninterference in mulitlevel security  -  IEEE Transactions on Systems, Man, and Cybernetics, Part B (Cybernetics)
+83 :  Notions of security and opacity in discrete event systems  -  2007 46th IEEE Conference on Decision and Control
+84 :  Opacity enforcing control synthesis  -  2008 9th International Workshop on Discrete Event Systems
+85 :  Opacity-enforcing supervisory strategies for secure discrete event systems  -  2008 47th IEEE Conference on Decision and Control
+86 :  Verification of initial-state opacity in security applications of DES  -  2008 9th International Workshop on Discrete Event Systems
+87 :  Monitoring confidentiality by diagnosis techniques  -  2009 European Control Conference (ECC)
+88 :  Verification of infinite-step opacity and analysis of its complexity  -  IFAC Proceedings Volumes (IFAC-PapersOnline)
+89 :  Verification of K-step opacity and analysis of its complexity  -  Proceedings of the 48h IEEE Conference on Decision and Control (CDC) held jointly with 2009 28th Chinese Control Conference
+90 :  Supervisory Control for Opacity  -  IEEE Transactions on Automatic Control
+91 :  Opacity verification in stochastic discrete event systems  -  49th IEEE Conference on Decision and Control (CDC)
+92 :  Reduced-complexity verification for initial-state opacity in modular discrete event systems  -  IFAC Proceedings Volumes (IFAC-PapersOnline)
+93 :  Opacity of discrete event systems and its applications  -  Automatica
+94 :  (Erro 2)  {'nao': 'acheiIEEEVERIFICATION OF $K$-STEP OPACITY AND ANALYSIS OF ITS COMPLEXITY (2011)'}
+95 :  Opacity-Enforcing Supervisory Strategies via State Estimator Constructions  -  IEEE Transactions on Automatic Control
+96 :  Enforcement of opacity properties using insertion functions  -  2012 IEEE 51st IEEE Conference on Decision and Control (CDC)
+97 :  Resolution of initial-state in security applications of DES  -  2012 20th Mediterranean Conference on Control & Automation (MED)
+98 :  Verification of Infinite-Step Opacity and Complexity Considerations  -  IEEE Transactions on Automatic Control
+99 :  Initial state opacity in stochastic DES  -  2013 IEEE 18th Conference on Emerging Technologies & Factory Automation (ETFA)
+100 :  Verification of initial-state opacity in security applications of discrete event systems  -  Information Sciences
+101 :  An On-The-Fly Approach for the Verification of Opacity in Critical
+Systems  -  2014 IEEE 23RD INTERNATIONAL WETICE CONFERENCE (WETICE)
+102 :  Current-State Opacity Formulations in Probabilistic Finite Automata  -  IEEE Transactions on Automatic Control
+103 :  Synthesis of insertion functions for enforcement of opacity security properties  -  Automatica
+104 :  Verification of current-state opacity using Petri nets  -  2015 American Control Conference (ACC)
+105 :  Verification of initial-state opacity in Petri nets  -  2015 54th IEEE Conference on Decision and Control (CDC)
+106 :  Enforcement of opacity security properties for ship information system  -  INTERNATIONAL JOURNAL OF NAVAL ARCHITECTURE AND OCEAN ENGINEERING
+107 :  Enforcing opacity with Orwellian observation  -  2016 13th International Workshop on Discrete Event Systems (WODES)
+108 :  On two-way observer and its application to the verification of infinite-step and K-step opacity  -  2016 13th International Workshop on Discrete Event Systems (WODES)
+109 :  Probabilistic system opacity in discrete event systems  -  2016 13th International Workshop on Discrete Event Systems (WODES)
+110 :  Quantification of distributed secrecy loss in stochastic discrete event systems under bounded-delay communications  -  2016 13th International Workshop on Discrete Event Systems (WODES)
+111 :  Supervisory enforcement of current-state opacity with uncomparable observations  -  2016 13th International Workshop on Discrete Event Systems (WODES)
+112 :  Verification of language-based opacity in Petri nets using verifier  -  2016 American Control Conference (ACC)
+113 :  A new approach for the verification of infinite-step and K-step opacity using two-way observers  -  Automatica
+114 :  Decidability of opacity verification problems in labeled Petri net systems  -  Automatica
+115 :  Infinite-step opacity of stochastic discrete-event systems  -  2017 11th Asian Control Conference (ASCC)
+116 :  Quantification of Secrecy in Partially Observed Stochastic Discrete Event Systems  -  IEEE Transactions on Automation Science and Engineering
+117 :  Verification of State-Based Opacity Using Petri Nets  -  IEEE Transactions on Automatic Control
+118 :  An algebraic characterization of language-based opacity in labeled Petri nets  -  Erro1: Unknown venue
+119 :  Current-state opacity enforcement in discrete event systems under incomparable observations  -  Discrete Event Dynamic Systems: Theory and Applications
+120 :  Decentralized Opacity Enforcement in Discrete Event Systems Using Supervisory Control  -  2018 57th Annual Conference of the Society of Instrument and Control Engineers of Japan (SICE)
+121 :  Enforcement of opacity by public and private insertion functions  -  Automatica
+122 :  Enforcing current-state opacity through shuffle in event observations⁎  -  Erro1: Unknown venue
+123 :  Non-interference assessment in bounded Petri nets via Integer Linear Programming  -  2018 Annual American Control Conference (ACC)
+124 :  On-line Algorithm for Current State Opacity Enforcement in a Petri Net
+Framework  -  IFAC PAPERSONLINE
+125 :  On-line verification of current-state opacity by Petri nets and integer linear programming  -  Automatica
+126 :  Parameter and Insertion Function Co-synthesis for Opacity Enhancement in Parametric Stochastic Discrete Event Systems  -  Proceedings of the American Control Conference
+127 :  (Erro 2)  {'nao': 'acheiSCOPUSPROBABILISTIC SYSTEM OPACITY IN DISCRETE EVENT SYSTEMS (2018)'}
+128 :  Synthesis of Dynamic Masks for Infinite-Step Opacity  -  IEEE Transactions on Automatic Control
+129 :  Synthesis of Insertion Functions to Enforce Decentralized and Joint Opacity Properties of Discrete-event Systems  -  Proceedings of the American Control Conference
+130 :  Verification of Opacity in Networked Supervisory Control Systems with Insecure Control Channels  -  2018 IEEE Conference on Decision and Control (CDC)
+131 :  An opacity approach for security exposure of IoT components in critical infrastructures  -  2019 IEEE International Conference on Systems, Man and Cybernetics (SMC)
+132 :  Controller encryption for discrete event systems  -  2019 American Control Conference (ACC)
+133 :  Current-State Opacity Verification in Modular Discrete Event Systems  -  2019 IEEE 58th Conference on Decision and Control (CDC)
+134 :  Enforcing opacity by insertion functions under multiple energy constraints  -  Automatica
+135 :  Exposure Time as a Measure of Opacity in Timed Discrete Event Systems  -  2019 18th European Control Conference (ECC)
+136 :  Infinite-step opacity and K-step opacity of stochastic discrete-event systems  -  Automatica
+137 :  On-line verification of initial-state opacity by Petri nets and integer linear programming  -  ISA Transactions
+138 :  Opacity Enforcement Using Nondeterministic Publicly Known Edit Functions  -  IEEE Transactions on Automatic Control
+139 :  Opacity of Fuzzy Discrete Event Systems  -  2019 Chinese Control And Decision Conference (CCDC)
+140 :  Opacity of Networked Discrete Event Systems  -  2019 IEEE 58th Conference on Decision and Control (CDC)
+141 :  Opacity of Networked Supervisory Control Systems over Insecure Multiple Channel Networks  -  Proceedings of the IEEE Conference on Decision and Control
+142 :  Revelation Time for Initial-State Opacity Measurement in Timed Discrete Event Systems  -  2019 IEEE International Conference on Systems, Man and Cybernetics (SMC)
+143 :  Secret Securing with Multiple Protections and Minimum Costs  -  2019 IEEE 58th Conference on Decision and Control (CDC)
+144 :  Compositional and Abstraction-Based Approach for Synthesis of Edit Functions for Opacity Enforcement  -  IEEE Transactions on Automatic Control
+145 :  Confidentiality of cyber-physical systems using event-based cryptography  -  IFAC-PapersOnLine
+146 :  Current-state opacity modelling and verification in partially observed Petri nets  -  Automatica
+147 :  Depth-first Search Approach for Language-based Opacity Verification Using Petri Nets  -  IFAC-PapersOnLine
+148 :  Enforcing opacity in modular systems  -  IFAC-PapersOnLine
+149 :  Homomorphic Encryption of Supervisory Control Systems Using Automata  -  IEEE Access
+150 :  K-memory-embedded insertion mechanism for opacity enforcement  -  Systems and Control Letters
+151 :  Matrix Approach for Verification of Opacity of Partially Observed Discrete Event Systems  -  Circuits, Systems, and Signal Processing
+152 :  Note that each information-Supervisory Control of Discrete-Event Systems for Infinite-Step Opacity  -  2020 American Control Conference (ACC)
+153 :  On opacity verification for discrete-event systems  -  IFAC-PapersOnLine
+154 :  Opacity Enforcing Supervisory Control using Non-deterministic Supervisors  -  IFAC-PapersOnLine
+155 :  Supervisory Control of Discrete-Event Systems for Infinite-Step Opacity  -  2020 AMERICAN CONTROL CONFERENCE (ACC)
+156 :  (Erro 2)  {'nao': 'acheiIEEESYNTHESIS OF DYNAMIC MASKS FOR INFINITE-STEP OPACITY (2020)'}
+157 :  Verification of infinite-step opacity using labeled petri nets  -  IFAC-PapersOnLine
+158 :  Assessment of Bisimulation Non-Interference in Discrete Event Systems Modelled With Bounded Petri Nets  -  IEEE Control Systems Letters
+159 :  Bounded opacity for timed systems  -  Journal of Information Security and Applications
+160 :  Enforcing current-state opacity through shuffle and deletions of event observations  -  Automatica
+161 :  Enforcing State-Based Opacity using Synchronizing Automata  -  2021 60TH IEEE CONFERENCE ON DECISION AND CONTROL (CDC)
+162 :  Exposure and Revelation Times as a Measure of Opacity in Timed Stochastic Discrete Event Systems  -  IEEE Transactions on Automatic Control
+163 :  Local Opacity Verification for Distributed Discrete Event Systems  -  2021 60th IEEE Conference on Decision and Control (CDC)
+164 :  Noninterference Enforcement via Supervisory Control in Bounded Petri Nets  -  IEEE Transactions on Automatic Control
+165 :  On Approximate Opacity of Cyber-Physical Systems  -  IEEE TRANSACTIONS ON AUTOMATIC CONTROL
+166 :  (Erro 2)  {'nao': 'acheiIEEEOPACITY ENFORCING SUPERVISORY CONTROL USING NON-DETERMINISTIC SUPERVISORS (2021)'}
+167 :  Opacity Measures of Fuzzy Discrete Event Systems  -  IEEE Transactions on Fuzzy Systems
+168 :  (Erro 2)  {'nao': 'acheiSCOPUSOPACITY OF NETWORKED DISCRETE EVENT SYSTEMS (2021)'}
+169 :  Opacity of Networked Supervisory Control Systems over Insecure Communication Channels  -  IEEE Transactions on Control of Network Systems
+170 :  Secure-by-Construction Controller Synthesis for Stochastic Systems under
+Linear Temporal Logic Specifications  -  2021 60TH IEEE CONFERENCE ON DECISION AND CONTROL (CDC)
+171 :  Usability aware secret protection with minimum cost  -  Nonlinear Analysis: Hybrid Systems
+172 :  Verification and enforcement of strong infinite- and k-step opacity using state recognizers  -  Automatica
+173 :  Application of supervisory control to secret protection in discrete-event systems  -  Journal of the Society of Instrument and Control Engineers (SICE)
+174 :  A Dynamic Obfuscation Framework for Security and Utility  -  2022 ACM/IEEE 13th International Conference on Cyber-Physical Systems (ICCPS)
+175 :  Optimal Secret Protections in Discrete-Event Systems  -  IEEE TRANSACTIONS ON AUTOMATIC CONTROL
+176 :  A framework for current-state opacity under dynamic information release mechanism  -  Automatica
+177 :  A general language-based framework for specifying and verifying notions of opacity  -  Discrete Event Dynamic Systems: Theory and Applications
+178 :  Assessment of Multilevel Intransitive Non-Interference for Discrete Event Systems  -  IEEE Control Systems Letters
+179 :  Enforcement for infinite-step opacity and K-step opacity via insertion mechanism  -  Automatica
+180 :  Fuzzy Infinite-Step Opacity Measure of Discrete Event Systems and Its Applications  -  IEEE Transactions on Fuzzy Systems
+181 :  Hyper Symbolic Observation Graph to Enforce Opacity of Discrete Event Systems using Supervisory Control  -  2022 8th International Conference on Control, Decision and Information Technologies (CoDIT)
+182 :  Language-based Opacity Verification and Enforcement in the Framework of Labeled Petri Nets  -  Science Progress
+183 :  Necessary and Sufficient Condition to Assess Initial-State-Opacity in Live Bounded and Reversible Discrete Event Systems  -  IEEE Control Systems Letters
+184 :  Security and privacy with opacity-based state observation for finite
+state machine  -  ASIAN JOURNAL OF CONTROL
+185 :  Symbolic Verification of Current-State Opacity of Discrete Event Systems Using Petri Nets  -  IEEE Transactions on Systems, Man, and Cybernetics: Systems
+186 :  Verification of K-step and infinite-step opacity of bounded labeled Petri nets  -  Automatica
+187 :  Assessment of Initial-State-Opacity in Live Bounded and Reversible Discrete Event Systems via Integer Linear Programming  -  2022 30th Mediterranean Conference on Control and Automation (MED)
+188 :  Secret Protections in Discrete-Event Systems with Minimum Costs  -  2022 American Control Conference (ACC)
+189 :  How attacks affect detectability in discrete-event systems?  -  Proceedings of the American Control Conference
+190 :  Secure Your Intention: On Notions of Pre-Opacity in Discrete-Event Systems  -  IEEE Transactions on Automatic Control
+191 :  Transformations between opacity for discrete-event systems  -  2022 41st Chinese Control Conference (CCC)
+192 :  Modular Verification of Opacity for Interconnected Control Systems via Barrier Certificates  -  IEEE Control Systems Letters
+193 :  On Transformations among Opacity Notions  -  2022 IEEE International Conference on Systems, Man, and Cybernetics (SMC)
+194 :  You Don't Know What I Know: On Notion of High-Order Opacity in Discrete-Event Systems  -  IFAC-PapersOnLine
+195 :  Event-based cryptography for automation networks of cyber-physical systems using the stream cipher ChaCha20  -  IFAC-PapersOnLine
+196 :  Optimal Supervisory Control of Opacity for Modular Systems  -  2022 IEEE Intl Conf on Parallel & Distributed Processing with Applications, Big Data & Cloud Computing, Sustainable Computing & Communications, Social Computing & Networking (ISPA/BDCloud/SocialCom/SustainCom)
+197 :  Verification of Strong K-Step Opacity for Discrete-Event Systems  -  2022 IEEE 61st Conference on Decision and Control (CDC)
+198 :  On Verification of Weak and Strong k-Step Opacity for Discrete-Event
+Systems  -  IFAC PAPERSONLINE
+199 :  Ensuring confidentiality of cyber-physical systems using event-based cryptography  -  Information Sciences
+200 :  Active opacity of discrete-event systems  -  International Journal of Control
+201 :  Secure Your Intention: On Notions of Pre-Opacity in Discrete-Event Systems  -  IEEE Transactions on Automatic Control
+202 :  Edit Mechanism Synthesis for Opacity Enforcement Under Uncertain Observations  -  IEEE Control Systems Letters
+203 :  Abstraction-Based Verification of Approximate Preopacity for Control Systems  -  IEEE Control Systems Letters
+204 :  Strong current-state and initial-state opacity of discrete-event systems  -  Automatica
+205 :  Assessment of initial-state-opacity in live and bounded labeled Petri net systems via optimization techniques  -  Automatica
+206 :  State-Based Differential Privacy Verification and Enforcement for Probabilistic Automata  -  Mathematics
+207 :  Verifying weak and strong k-step opacity in discrete-event systems  -  Automatica
+208 :  On Securing Cryptographic ICs against Scan-based Attacks: A Hamming Weight Distribution Perspective  -  ACM Journal on Emerging Technologies in Computing Systems
+209 :  (Erro 2)  {'nao': 'acheiWOSVERIFYING WEAK AND STRONG K-STEP OPACITY IN DISCRETE-EVENT SYSTEMS'}
+210 :  STP-based verification and synthesis of state opacity for logical finite
+state machines  -  INFORMATION SCIENCES

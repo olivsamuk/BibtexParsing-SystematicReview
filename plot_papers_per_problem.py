@@ -52,7 +52,7 @@ def get_data(csv_file):
             data[each_paper['problem']] = 1
     return data
 
-papers = get_data('papers-categorized-final.csv')
+papers = get_data('papers-categorized-final_WAIT.csv')
 
 names = change_names(list(papers.keys()))
 print(papers)

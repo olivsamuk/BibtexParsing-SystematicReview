@@ -21,7 +21,7 @@ def new_csv(dict):
     fields = ['id']
     for item in list(dict[0].keys()): fields.append(item)
 
-    with open('papers-categorized-2023.csv', 'w', newline='') as csvfile:
+    with open('final_list_papers_categorized.csv', 'w', newline='') as csvfile:
         w = csv.DictWriter(csvfile, fieldnames=fields)
         w.writeheader()
         for key, val in sorted(dict.items()):
@@ -155,15 +155,15 @@ def join_bases(dict):
 
 def main():
 
-    with open('citations_2023/EV.bib') as ev:
+    with open('citations_FULL/EV.bib') as ev:
         ev_database = bibtexparser.load(ev)
-    with open('citations_2023/ieeexplore.bib') as ieeexplore:
+    with open('citations_FULL/ieeexplore.bib') as ieeexplore:
         ieeexplore_database = bibtexparser.load(ieeexplore)
-    with open('citations_2023/scopus.bib') as scopus:
+    with open('citations_FULL/scopus.bib') as scopus:
         scopus_database = bibtexparser.load(scopus)
-    with open('citations_2023/SD.bib') as sd:
+    with open('citations_FULL/SD.bib') as sd:
         sd_database = bibtexparser.load(sd)
-    with open('citations_2023/WOS.bib') as wos:
+    with open('citations_FULL/WOS.bib') as wos:
         wos_database = bibtexparser.load(wos)
 
     ev_citations_list = ev_database.entries
@@ -175,12 +175,12 @@ def main():
     BasesList = [ev_citations_list, ieeexplore_citations_list, scopus_citations_list, sd_citations_list, wos_citations_list]
     FullList = GetFullList(BasesList)
 
-    # print(FullList)
-    # print("EV: ", len(ev_citations_list), "\nIEEE: ", len(ieeexplore_citations_list), "\nSCOPUS", len(scopus_citations_list), "\nSD: ", len(sd_citations_list), "\nWOS: ", len(wos_citations_list), "\nTOTAL: ", len(ev_citations_list)+len(ieeexplore_citations_list)+len(scopus_citations_list)+len(sd_citations_list)+len(wos_citations_list))
+    print(FullList)
+    print("EV: ", len(ev_citations_list), "\nIEEE: ", len(ieeexplore_citations_list), "\nSCOPUS", len(scopus_citations_list), "\nSD: ", len(sd_citations_list), "\nWOS: ", len(wos_citations_list), "\nTOTAL: ", len(ev_citations_list)+len(ieeexplore_citations_list)+len(scopus_citations_list)+len(sd_citations_list)+len(wos_citations_list))
 
     # # LIST OF ALL PAPERS (DUPLICATIONS REMOVED)
-    # after_ce1 = ce1(FullList, ev_citations_list, ieeexplore_citations_list, scopus_citations_list, sd_citations_list, wos_citations_list)
-    # print(after_ce1)
+    after_ce1 = ce1(FullList, ev_citations_list, ieeexplore_citations_list, scopus_citations_list, sd_citations_list, wos_citations_list)
+    print('LIST AFTER DUPLICATIONS REMOVED: ', len(after_ce1))
     # WRITE JSON
     # new_json(after_ce1)
 

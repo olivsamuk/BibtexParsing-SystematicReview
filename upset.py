@@ -12,7 +12,7 @@ plt.rc('font', **font)
 # plt.rc('legend', fontsize=18)    # legend fontsize
 # plt.rc('figure', titlesize=18)  # fontsize of the figure title
 
-movies = pd.read_csv("papers-categorized-final.csv")
+movies = pd.read_csv("final_list_papers_categorized.csv")
 movies_by_genre = from_memberships(movies.bases.str.split('-'), data=movies)
 
 UpSet(movies_by_genre, show_counts=True, facecolor='#365841', shading_color='#efefef').plot()
