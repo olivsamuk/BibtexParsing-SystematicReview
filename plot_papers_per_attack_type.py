@@ -43,7 +43,7 @@ def get_data(csv_file):
             data[each_paper['attack']] = 1
     return data
 
-papers = get_data('papers-categorized-final_WAIT.csv')
+papers = get_data('papers-categorized-final.csv')
 print(papers)
 
 names = change_names(list(papers.keys()))
@@ -80,12 +80,12 @@ def make_autopct(values):
 ax.pie([papers['actuator'], papers['sensor'], papers['sensor-actuator'], papers['denial of service'],papers['passive']],
        # labels=['Actuator attacks', 'Sensor attacks', 'Sensor-actuator attacks', 'Denail of Service (DoS)', 'Passive attacks (Eavesdropping)'],
         colors=['#929afc', '#929afc', '#929afc', '#929afc', '#FFFFFF','#40E0D0', '#FFBF00', '#FF7F50', '#7A1B9D'],
-        # autopct=make_autopct([papers['actuator'], papers['sensor'], papers['sensor-actuator'], papers['denail of service'],papers['passive']]),
+        autopct=make_autopct([papers['actuator'], papers['sensor'], papers['sensor-actuator'], papers['denial of service'],papers['passive']]),
         pctdistance=0.8,
         radius=1, wedgeprops=dict(width=size, edgecolor='w', linewidth=2))
 ax.pie([papers['actuator']+papers['sensor']+papers['sensor-actuator']+papers['denial of service'], papers['passive']],
        colors=['#636efa', '#4ddbb6'],
-       # autopct=make_autopct([papers['actuator']+papers['sensor']+papers['sensor-actuator']+papers['denail of service'], papers['passive']]),
+       autopct=make_autopct([papers['actuator']+papers['sensor']+papers['sensor-actuator']+papers['denial of service'], papers['passive']]),
        pctdistance=.7,
        radius=1-size, wedgeprops=dict(width=size, edgecolor='w', linewidth=2))
 # plt.title('Population')

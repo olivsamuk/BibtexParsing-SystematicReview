@@ -24,7 +24,7 @@ id,title,year,bases,problem,attack,methods,modeling
 23,TOWARDS BOUNDED SYNTHESIS OF RESILIENT SUPERVISORS,2019,IEEExplore-Scopus-Web of Science,supervisor synthesis,sensor-actuator,reduction of Quantified Boolean Formula Problem,finite-state automata
 24,TOWARDS RESILIENT SUPERVISORS AGAINST SENSOR DECEPTION ATTACKS,2019,IEEExplore-Scopus-Web of Science,supervisor synthesis,sensor,sct,finite-state automata
 25,DETECTION AND PREVENTION OF CYBER-ATTACKS IN NETWORKED CONTROL SYSTEMS,2020,Scopus-Web of Science,attack detection and mitigation,actuator,AE-safe controllability,finite-state automata
-26,DISCRETE CONTROL OF RESPONSE FOR CYBERSECURITY IN INDUSTRIAL CONTROL,2020,Scopus-Science Direct-Web of Science,attack detection and mitigation,denail of service,reconfiguration,Labeled Transition System (LTS)
+26,DISCRETE CONTROL OF RESPONSE FOR CYBERSECURITY IN INDUSTRIAL CONTROL,2020,Scopus-Science Direct-Web of Science,attack detection and mitigation,denial of service,reconfiguration,Labeled Transition System (LTS)
 27,MITIGATION OF CLASSES OF ATTACKS USING A PROBABILISTIC DISCRETE EVENT SYSTEM FRAMEWORK,2020,Engineering Village-Scopus-Web of Science,attack detection and mitigation,sensor,Markov decision processes (MDPs),probabilistic finite-state automata
 28,MOVING TARGET DEFENSE BASED ON SWITCHED SUPERVISORY CONTROL: A NEW TECHNIQUE FOR MITIGATING SENSOR DECEPTION ATTACKS,2020,Scopus-Web of Science,attack detection and mitigation,sensor,moving target defense,finite-state automata
 29,ON ATTACK MITIGATION IN SUPERVISORY CONTROL SYSTEMS: A TOLERANT CONTROL APPROACH,2020,IEEExplore-Scopus-Web of Science,attack detection and mitigation,actuator,sct,finite-state automata
@@ -38,10 +38,10 @@ id,title,year,bases,problem,attack,methods,modeling
 37,HEURISTIC SYNTHESIS OF COVERT ATTACKERS AGAINST UNKNOWN SUPERVISORS,2021,IEEExplore-Scopus-Web of Science,attack model,sensor-actuator,heuristic synthesis algorithm,finite-state automata
 38,JOINT STATE ESTIMATION UNDER ATTACK OF DISCRETE EVENT SYSTEMS,2021,IEEExplore-Scopus-Web of Science,state estimation,sensor,joint estimator,finite-state automata
 39,MODELING AND CONTROL OF DISCRETE EVENT SYSTEMS UNDER JOINT SENSOR-ACTUATOR CYBER ATTACKS,2021,IEEExplore-Scopus,supervisor synthesis,sensor-actuator,state estimate based supervisors,finite-state automata
-40,PERFORMANCE SAFETY ENFORCEMENT IN STRONGLY CONNECTED TIMED EVENT GRAPHS,2021,Scopus-Science Direct-Web of Science,attack detection and mitigation,denail of service,mixed integer linear programming,petri nets
+40,PERFORMANCE SAFETY ENFORCEMENT IN STRONGLY CONNECTED TIMED EVENT GRAPHS,2021,Scopus-Science Direct-Web of Science,attack detection and mitigation,denial of service,mixed integer linear programming,petri nets
 41,SUPERVISORY CONTROL OF DISCRETE-EVENT SYSTEMS UNDER EXTERNAL ATTACKS,2021,Scopus-Science Direct-Web of Science,supervisor synthesis,sensor-actuator,product observation reachability graph,petri nets
 42,SYNTHESIS OF COVERT ACTUATOR AND SENSOR ATTACKERS,2021,Scopus-Science Direct-Web of Science,attack model,sensor-actuator,sct,finite-state automata
-43,SYNTHESIS OF RESILIENT THIRD-PARTY MONITORING SYSTEM AGAINST CYBERATTACKS VIA SUPERVISORY CONTROL,2021,Engineering Village-IEEExplore-Scopus-Web of Science,attack detection and mitigation,denail of service,timed des,finite-state automata
+43,SYNTHESIS OF RESILIENT THIRD-PARTY MONITORING SYSTEM AGAINST CYBERATTACKS VIA SUPERVISORY CONTROL,2021,Engineering Village-IEEExplore-Scopus-Web of Science,attack detection and mitigation,denial of service,timed des,finite-state automata
 44,SYNTHESIS OF SUPERVISORS ROBUST AGAINST SENSOR DECEPTION ATTACKS,2021,IEEExplore-Scopus-Web of Science,supervisor synthesis,sensor,game theory-sct,finite-state automata
 45,A LIVENESS-ENFORCING SUPERVISOR TOLERANT TO SENSOR-READING MODIFICATION ATTACKS,2022,IEEExplore-Scopus-Web of Science,supervisor synthesis,sensor,liveness enforcement,petri nets
 46,A POLYNOMIAL APPROACH TO VERIFYING THE EXISTENCE OF A THREATENING SENSOR ATTACKER,2022,IEEExplore-Web of Science,attack detection and mitigation,sensor,sct,finite-state automata
@@ -49,7 +49,7 @@ id,title,year,bases,problem,attack,methods,modeling
 48,IDENTIFICATION OF SYSTEM VULNERABILITY UNDER A SMART SENSOR ATTACK VIA ATTACK MODEL REDUCTION,2022,IEEExplore,attack detection and mitigation,sensor,supervisor reduction,finite-state automata
 49,OBSERVATION-ASSISTED HEURISTIC SYNTHESIS OF COVERT ATTACKERS AGAINST UNKNOWN SUPERVISORS,2022,Scopus-Web of Science,attack model,sensor-actuator,heuristic synthesis algorithm,finite-state automata
 50,ON RESILIENT SUPERVISORY CONTROL AGAINST INDEFINITE ACTUATOR ATTACKS IN DISCRETE-EVENT SYSTEMS,2022,IEEExplore-Scopus-Web of Science,supervisor synthesis,actuator,resiliency automaton-sct,finite-state automata
-51,ROBUST DECENTRALIZED DIAGNOSABILITY OF NETWORKED DISCRETE EVENT SYSTEMS AGAINST DOS AND DECEPTION ATTACKS,2022,Scopus-Science Direct-Web of Science,diagnosability,denail of service,diagnosability theory,finite-state automata
+51,ROBUST DECENTRALIZED DIAGNOSABILITY OF NETWORKED DISCRETE EVENT SYSTEMS AGAINST DOS AND DECEPTION ATTACKS,2022,Scopus-Science Direct-Web of Science,diagnosability,denial of service,diagnosability theory,finite-state automata
 52,SECURE RECOVERY PROCEDURE FOR MANUFACTURING SYSTEMS USING SYNCHRONIZING AUTOMATA AND SUPERVISORY CONTROL THEORY,2022,Engineering Village-IEEExplore-Scopus-Web of Science,system recovery,sensor-actuator,Synchronizing Automata-sct,finite-state automata
 53,SECURITY OF CYBER-PHYSICAL SYSTEMS: DESIGN OF A SECURITY SUPERVISOR TO THWART ATTACKS,2022,IEEExplore-Scopus-Web of Science,supervisor synthesis,sensor-actuator,sct,finite-state automata
 54,SUPERVISORY CONTROL OF PETRI NETS IN THE PRESENCE OF REPLACEMENT ATTACKS,2022,IEEExplore-Scopus-Web of Science,supervisor synthesis,sensor,Generalized Mutual Exclusion Constraints,petri nets
