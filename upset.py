@@ -1,19 +1,27 @@
 from matplotlib import pyplot as plt
 import pandas as pd
 from upsetplot import plot, from_indicators, generate_counts, from_memberships, UpSet
+from difflib import SequenceMatcher
+
+def similar(a, b):
+    return SequenceMatcher(None, a, b).ratio()
+
 font = {'family' : 'Latin Modern Roman'}
 plt.rc('font', **font)
 
-# plt.rc('font', size=18)          # controls default text sizes
-# plt.rc('axes', titlesize=18)     # fontsize of the axes title
-# plt.rc('axes', labelsize=18)    # fontsize of the x and y labels
-# plt.rc('xtick', labelsize=18)    # fontsize of the tick labels
-# plt.rc('ytick', labelsize=18)    # fontsize of the tick labels
-# plt.rc('legend', fontsize=18)    # legend fontsize
-# plt.rc('figure', titlesize=18)  # fontsize of the figure title
 
-movies = pd.read_csv("final_list_papers_categorized.csv")
-movies_by_genre = from_memberships(movies.bases.str.split('-'), data=movies)
+# movies = pd.read_csv("final_list_papers_categorized.csv")
+# movies_by_genre = from_memberships(movies.bases.str.split('-'), data=movies)
+#
+# UpSet(movies_by_genre, show_counts=True, facecolor='#365841', shading_color='#efefef').plot()
+# plt.show()
 
-UpSet(movies_by_genre, show_counts=True, facecolor='#365841', shading_color='#efefef').plot()
-plt.show()
+papers = pd.read_csv("papers-categorized-final.csv")
+
+for index, each_paper in papers.iterrows():
+    for index2, each_paper2 in papers.iterrows():
+        if index != index2:
+            # print(index, index2)
+            if similar(each_paper['title'],each_paper2['title']) > .9:
+                print('Paper 1: ', each_paper['title'], '\n Paper2: ', each_paper2['title'], '\n Similarity: ',
+                    similar(each_paper['title'],each_paper2['title']))

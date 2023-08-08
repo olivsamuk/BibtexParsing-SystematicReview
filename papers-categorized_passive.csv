@@ -107,24 +107,22 @@ id,title,year,bases,problem,attack,methods,modeling
 106,ASSESSMENT OF INITIAL-STATE-OPACITY IN LIVE BOUNDED AND REVERSIBLE DISCRETE EVENT SYSTEMS VIA INTEGER LINEAR PROGRAMMING,2022,IEEExplore,verification,passive,Integer Linear Programming,petri nets
 107,SECRET PROTECTIONS IN DISCRETE-EVENT SYSTEMS WITH MINIMUM COSTS,2022, Complementary,verification,passive, -,finite-state automata
 108,HOW ATTACKS AFFECT DETECTABILITY IN DISCRETE-EVENT SYSTEMS?,2022,Engineering Village-IEEExplore-Scopus-Web of Science,verification,passive,,finite-state automata
-109,SECURE YOUR INTENTION: ON NOTIONS OF PRE-OPACITY IN DISCRETE-EVENT SYSTEMS,2022,IEEExplore-Scopus,verification,passive,,finite-state automata
-110,TRANSFORMATIONS BETWEEN OPACITY FOR DISCRETE-EVENT SYSTEMS,2022,IEEExplore-Scopus,verification,passive,,finite-state automata
-111,MODULAR VERIFICATION OF OPACITY FOR INTERCONNECTED CONTROL SYSTEMS VIA BARRIER CERTIFICATES,2022,IEEExplore-Scopus-Web of Science,verification,passive,,finite-state automata
-112,ON TRANSFORMATIONS AMONG OPACITY NOTIONS,2022,IEEExplore,verification,passive,,finite-state automata
-113,YOU DON'T KNOW WHAT I KNOW: ON NOTION OF HIGH-ORDER OPACITY IN DISCRETE-EVENT SYSTEMS,2022,Science Direct-Web of Science,verification,passive,,finite-state automata
-114,EVENT-BASED CRYPTOGRAPHY FOR AUTOMATION NETWORKS OF CYBER-PHYSICAL SYSTEMS USING THE STREAM CIPHER CHACHA20,2022,Science Direct-Web of Science,enforcement,passive,cryptpgraphy,finite-state automata
-115,OPTIMAL SUPERVISORY CONTROL OF OPACITY FOR MODULAR SYSTEMS,2022,IEEExplore,enforcement,passive,,Labeled Transition System (LTS)
-116,VERIFICATION OF STRONG K-STEP OPACITY FOR DISCRETE-EVENT SYSTEMS,2022,IEEExplore,verification,passive,,finite-state automata
-117,ON VERIFICATION OF WEAK AND STRONG K-STEP OPACITY FOR DISCRETE-EVENT SYSTEMS,2022,Web of Science,verification,passive,,finite-state automata
-118,ENSURING CONFIDENTIALITY OF CYBER-PHYSICAL SYSTEMS USING EVENT-BASED CRYPTOGRAPHY,2023,Engineering Village-Scopus-Science Direct,enforcement,passive,Event-based cryptography,finite-state automata
-119,ACTIVE OPACITY OF DISCRETE-EVENT SYSTEMS,2023,Engineering Village-Scopus,verification,passive,active current-state opacity ,finite-state automata
-120,SECURE YOUR INTENTION: ON NOTIONS OF PRE-OPACITY IN DISCRETE-EVENT SYSTEMS,2023,IEEExplore,verification,passive,preopacity,finite-state automata
-121,EDIT MECHANISM SYNTHESIS FOR OPACITY ENFORCEMENT UNDER UNCERTAIN OBSERVATIONS,2023,IEEExplore-Scopus-Web of Science,enforcement,passive,opacity,finite-state automata
-122,ABSTRACTION-BASED VERIFICATION OF APPROXIMATE PREOPACITY FOR CONTROL SYSTEMS,2023,IEEExplore-Scopus-Web of Science,verification,passive,preopacity,finite-state automata
-123,STRONG CURRENT-STATE AND INITIAL-STATE OPACITY OF DISCRETE-EVENT SYSTEMS,2023,Scopus-Science Direct,verification,passive,strong opacity,finite-state automata
-124,ASSESSMENT OF INITIAL-STATE-OPACITY IN LIVE AND BOUNDED LABELED PETRI NET SYSTEMS VIA OPTIMIZATION TECHNIQUES,2023,Scopus-Science Direct-Web of Science,verification,passive,initial state opacity,petri nets
-125,STATE-BASED DIFFERENTIAL PRIVACY VERIFICATION AND ENFORCEMENT FOR PROBABILISTIC AUTOMATA,2023,Scopus-Web of Science,verification,passive,State-Based Differential Privacy,probabilistic finite-state automata
-126,VERIFYING WEAK AND STRONG K-STEP OPACITY IN DISCRETE-EVENT SYSTEMS,2023,Scopus-Science Direct,verification,passive,weak and strong k-step opacity,finite-state automata
-127,ON SECURING CRYPTOGRAPHIC ICS AGAINST SCAN-BASED ATTACKS: A HAMMING WEIGHT DISTRIBUTION PERSPECTIVE,2023,Scopus,verification,passive,cryptography and opacity,finite-state automata
-128,VERIFYING WEAK AND STRONG K-STEP OPACITY IN DISCRETE-EVENT SYSTEMS,2023,Web of Science,verification,passive,,finite-state automata
-129,STP-BASED VERIFICATION AND SYNTHESIS OF STATE OPACITY FOR LOGICAL FINITE STATE MACHINES,2023,Web of Science,verification,passive,,finite-state automata
+109,TRANSFORMATIONS BETWEEN OPACITY FOR DISCRETE-EVENT SYSTEMS,2022,IEEExplore-Scopus,verification,passive,,finite-state automata
+110,MODULAR VERIFICATION OF OPACITY FOR INTERCONNECTED CONTROL SYSTEMS VIA BARRIER CERTIFICATES,2022,IEEExplore-Scopus-Web of Science,verification,passive,,finite-state automata
+111,ON TRANSFORMATIONS AMONG OPACITY NOTIONS,2022,IEEExplore,verification,passive,,finite-state automata
+112,YOU DON'T KNOW WHAT I KNOW: ON NOTION OF HIGH-ORDER OPACITY IN DISCRETE-EVENT SYSTEMS,2022,Science Direct-Web of Science,verification,passive,,finite-state automata
+113,EVENT-BASED CRYPTOGRAPHY FOR AUTOMATION NETWORKS OF CYBER-PHYSICAL SYSTEMS USING THE STREAM CIPHER CHACHA20,2022,Science Direct-Web of Science,enforcement,passive,cryptpgraphy,finite-state automata
+114,OPTIMAL SUPERVISORY CONTROL OF OPACITY FOR MODULAR SYSTEMS,2022,IEEExplore,enforcement,passive,,Labeled Transition System (LTS)
+115,VERIFICATION OF STRONG K-STEP OPACITY FOR DISCRETE-EVENT SYSTEMS,2022,IEEExplore,verification,passive,,finite-state automata
+116,ON VERIFICATION OF WEAK AND STRONG K-STEP OPACITY FOR DISCRETE-EVENT SYSTEMS,2022,Web of Science,verification,passive,,finite-state automata
+117,ENSURING CONFIDENTIALITY OF CYBER-PHYSICAL SYSTEMS USING EVENT-BASED CRYPTOGRAPHY,2023,Engineering Village-Scopus-Science Direct,enforcement,passive,Event-based cryptography,finite-state automata
+118,ACTIVE OPACITY OF DISCRETE-EVENT SYSTEMS,2023,Engineering Village-Scopus,verification,passive,active current-state opacity ,finite-state automata
+119,SECURE YOUR INTENTION: ON NOTIONS OF PRE-OPACITY IN DISCRETE-EVENT SYSTEMS,2023,IEEExplore-Scopus,verification,passive,preopacity,finite-state automata
+120,EDIT MECHANISM SYNTHESIS FOR OPACITY ENFORCEMENT UNDER UNCERTAIN OBSERVATIONS,2023,IEEExplore-Scopus-Web of Science,enforcement,passive,opacity,finite-state automata
+121,ABSTRACTION-BASED VERIFICATION OF APPROXIMATE PREOPACITY FOR CONTROL SYSTEMS,2023,IEEExplore-Scopus-Web of Science,verification,passive,preopacity,finite-state automata
+122,STRONG CURRENT-STATE AND INITIAL-STATE OPACITY OF DISCRETE-EVENT SYSTEMS,2023,Scopus-Science Direct,verification,passive,strong opacity,finite-state automata
+123,ASSESSMENT OF INITIAL-STATE-OPACITY IN LIVE AND BOUNDED LABELED PETRI NET SYSTEMS VIA OPTIMIZATION TECHNIQUES,2023,Scopus-Science Direct-Web of Science,verification,passive,initial state opacity,petri nets
+124,STATE-BASED DIFFERENTIAL PRIVACY VERIFICATION AND ENFORCEMENT FOR PROBABILISTIC AUTOMATA,2023,Scopus-Web of Science,verification,passive,State-Based Differential Privacy,probabilistic finite-state automata
+125,VERIFYING WEAK AND STRONG K-STEP OPACITY IN DISCRETE-EVENT SYSTEMS,2023,Scopus-Science Direct,verification,passive,weak and strong k-step opacity,finite-state automata
+126,ON SECURING CRYPTOGRAPHIC ICS AGAINST SCAN-BASED ATTACKS: A HAMMING WEIGHT DISTRIBUTION PERSPECTIVE,2023,Scopus,verification,passive,cryptography and opacity,finite-state automata
+127,STP-BASED VERIFICATION AND SYNTHESIS OF STATE OPACITY FOR LOGICAL FINITE STATE MACHINES,2023,Web of Science,verification,passive,,finite-state automata

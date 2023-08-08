@@ -44,6 +44,8 @@ print('active: ', papers_active)
 papers_passive = get_data('papers-categorized_passive.csv')
 print('\npassive: ', papers_passive)
 
+
+
 fig, ax = plt.subplots()
 
 x_axis = np.arange(19)

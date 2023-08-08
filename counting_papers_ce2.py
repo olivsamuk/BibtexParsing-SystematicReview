@@ -11,9 +11,9 @@ with open('citations_FULL/EV.bib') as ev:
     ev_database = bibtexparser.load(ev)
 with open('citations_FULL/ieeexplore.bib') as ieeexplore:
     ieeexplore_database = bibtexparser.load(ieeexplore)
-with open('citations_FULL/scopus.bib') as scopus:
+with open('citations_FULL/scopus.bib', encoding="utf8") as scopus:
     scopus_database = bibtexparser.load(scopus)
-with open('citations_FULL/SD.bib') as sd:
+with open('citations_FULL/SD.bib', encoding="utf8") as sd:
     sd_database = bibtexparser.load(sd)
 with open('citations_FULL/WOS.bib') as wos:
     wos_database = bibtexparser.load(wos)
