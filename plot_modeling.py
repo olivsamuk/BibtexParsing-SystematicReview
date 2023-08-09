@@ -140,7 +140,7 @@ def update_mf(data):
 
     return modeling_formalisms
 
-papers = pd.read_csv("papers-categorized-final_WAIT.csv")
+papers = pd.read_csv("papers-categorized-final.csv")
 data = {}
 # COUNT PAPERS PER YEAR
 counter = 0
@@ -178,7 +178,7 @@ ax.pie([final['finite-state automata'], final['probabilistic finite-state automa
 # 'Stochastic Petri nets',
 # 'finite-state transducer',
 # 'Labeled Transition System (LTS)'],
-        colors=['#85C1E9', '#2E86C1', '#21618C', '#143d58', '#FFFFFF','#FFFFFF', '#D68910', '#F4D03F', '#F9E79F', '#FFFFFF','#FFFFFF' ],
+        colors=['#c7c7c7', '#c7c7c7', '#c7c7c7', '#c7c7c7', '#FFFFFF','#FFFFFF', '#dadd82', '#dadd82', '#dadd82', '#FFFFFF','#FFFFFF' ],
         # autopct=make_autopct([papers['actuator'], papers['sensor'], papers['sensor-actuator'], papers['denail of service'],papers['passive']]),
         pctdistance=0.8,
         radius=1, wedgeprops=dict(width=size, edgecolor='w', linewidth=2))
@@ -190,11 +190,11 @@ ax.pie([final['finite-state automata']+final['probabilistic finite-state automat
        # 'finite-state transducer',
        # 'Labeled Transition System (LTS)'],
        # colors=['#929afc','#40E0D0', '#FFBF00', '#FF7F50', '#7A1B9D', '#cccccc'],
-        colors=['#1B4F72', '#186A3B', '#7E5109', '#626567', '#78281F'],
+        colors=['#7f7f7f', '#cb9a92', '#bbbf00', '#80e37f', '#539a76'],
        # autopct=make_autopct([papers['actuator']+papers['sensor']+papers['sensor-actuator']+papers['denail of service'], papers['passive']]),
        pctdistance=.7,
        radius=1-size, wedgeprops=dict(width=size, edgecolor='w', linewidth=2))
 # plt.title('Population')
 
 
-plt.show()
+# plt.show()

@@ -40,6 +40,9 @@ def change_names(values):
         elif i == 'system recovery':
             if 'System recovery' not in new_values:
                 new_values.append('System recovery')
+        elif i == 'prognosability':
+            if 'prognosability' not in new_values:
+                new_values.append('Prognosability')
     return new_values
 
 def get_data(csv_file):
@@ -52,16 +55,16 @@ def get_data(csv_file):
             data[each_paper['problem']] = 1
     return data
 
-papers = get_data('papers-categorized-final_WAIT.csv')
+papers = get_data('papers-categorized-final.csv')
 
 names = change_names(list(papers.keys()))
 print(papers)
 amount = list(papers.values())
 
-strategies_grouped          = [papers['verification']+papers['enforcement'], papers['attack model'], papers['attack detection and mitigation']+papers['supervisor synthesis']+papers['system recovery'], papers['diagnosability'], papers['state estimation']]
-strategies_grouped_label    = ['Protection of secrets', 'Attack synthesis', 'Attack-tolerant control', 'Fault diagnosis', 'State estimation']
-strategies_ungrouped        = [papers['verification'],papers['enforcement'], papers['attack model'], papers['attack detection and mitigation'],papers['supervisor synthesis'],papers['system recovery'], papers['diagnosability'], papers['state estimation']]
-strategies_ungrouped_label  = ['Verification', 'Enforcement', 'Attack synthesis', 'Attack detection', 'Supervisor synthesis', 'System recovery', 'Fault diagnosis', 'State estimation']
+strategies_grouped          = [papers['verification']+papers['enforcement'], papers['attack model'], papers['attack detection and mitigation']+papers['supervisor synthesis']+papers['system recovery'], papers['diagnosability'], papers['prognosability'], papers['state estimation']]
+strategies_grouped_label    = ['Protection of secrets', 'Attack synthesis', 'Attack-tolerant control', 'Fault diagnosis', 'Fault prognosis', 'State estimation']
+strategies_ungrouped        = [papers['verification'],papers['enforcement'], papers['attack model'], papers['attack detection and mitigation'],papers['supervisor synthesis'],papers['system recovery'], papers['diagnosability'], papers['prognosability'], papers['state estimation']]
+strategies_ungrouped_label  = ['Verification', 'Enforcement', 'Attack synthesis', 'Attack detection', 'Supervisor synthesis', 'System recovery', 'Fault diagnosis', 'Fault prognosis', 'State estimation']
 
 fig, ax = plt.subplots()
 size = 0.3
@@ -76,7 +79,7 @@ def make_autopct(values):
 
 ax.pie(strategies_ungrouped,
        # labels=strategies_ungrouped_label,
-        colors=['#4ddbb6', '#4ddbb6', '#FFFFFF', '#929afc', '#929afc', '#929afc','#FFFFFF', '#FFFFFF'],
+        colors=['#4ddbb6', '#4ddbb6', '#FFFFFF', '#929afc', '#929afc', '#929afc', '#ffffff', '#ffffff', '#ffffff'],
         # autopct=make_autopct(strategies_ungrouped),
         pctdistance=0.8,
         radius=1, wedgeprops=dict(width=size, edgecolor='w', linewidth=2))
@@ -84,7 +87,7 @@ ax.pie(strategies_ungrouped,
 
 ax.pie(strategies_grouped,
        # labels=strategies_grouped_label,
-       colors=['#4dbbb6', '#4047a3', '#636efa', '#9763fa', '#fa63ee'],
+       colors=['#4dbbb6', '#636efa', '#636efa', '#636efa', '#636efa', '#636efa'],
        # autopct=make_autopct(strategies_grouped),
        pctdistance=.7,
        radius=1-size, wedgeprops=dict(width=size, edgecolor='w', linewidth=2))

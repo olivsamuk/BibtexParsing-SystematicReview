@@ -85,7 +85,7 @@ ax.pie([papers['actuator'], papers['sensor'], papers['sensor-actuator'], papers[
         radius=1, wedgeprops=dict(width=size, edgecolor='w', linewidth=2))
 ax.pie([papers['actuator']+papers['sensor']+papers['sensor-actuator']+papers['denial of service'], papers['passive']],
        colors=['#636efa', '#4ddbb6'],
-       autopct=make_autopct([papers['actuator']+papers['sensor']+papers['sensor-actuator']+papers['denial of service'], papers['passive']]),
+       # autopct=make_autopct([papers['actuator']+papers['sensor']+papers['sensor-actuator']+papers['denial of service'], papers['passive']]),
        pctdistance=.7,
        radius=1-size, wedgeprops=dict(width=size, edgecolor='w', linewidth=2))
 # plt.title('Population')
