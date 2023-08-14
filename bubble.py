@@ -223,6 +223,19 @@ for each_problem in data2.keys():
         temp.append(i)
     final_list.append(temp)
 
+
+print(final_list)
+
+
+def TotalByAttackAndFormalism(multilist):
+    result = []
+    for each_item in multilist:
+        result.append(sum(each_item))
+    return(result)
+
+print(TotalByAttackAndFormalism(list(zip(*final_list))))
+
+
 df = pd.DataFrame(list(zip(*final_list)), columns=y_cols, index=x_cols)
 df = df.transpose()
 dfu = df.unstack().reset_index()
@@ -232,7 +245,7 @@ dfu_orig = dfu.copy()
 
 dfu["S"] *= 40
 
-print(dfu)
+# print(dfu)
 
 plt.scatter(x="X", y="Y", s="S", data=dfu, zorder=3, alpha=.8)
 papers_count = 0
@@ -253,7 +266,7 @@ for each_line in range(len(dfu_orig)):
 plt.xticks(x_cols, x_labels, rotation=30, ha='right')
 plt.yticks(y_cols, y_labels)
 
-plt.gca().invert_xaxis()
+# plt.gca().invert_xaxis()
 
 
 plt.margins(.2)
@@ -264,4 +277,4 @@ plt.gca().spines['right'].set_visible(False)
 plt.gca().spines['top'].set_visible(False)
 # plt.text(6, 1-.3, 'teste', fontsize=10)
 
-plt.show()
+# plt.show()
