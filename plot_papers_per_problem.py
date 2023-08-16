@@ -80,7 +80,7 @@ def make_autopct(values):
 ax.pie(strategies_ungrouped,
        # labels=strategies_ungrouped_label,
         colors=['#4ddbb6', '#4ddbb6', '#FFFFFF', '#929afc', '#929afc', '#929afc', '#ffffff', '#ffffff', '#ffffff'],
-        # autopct=make_autopct(strategies_ungrouped),
+        autopct=make_autopct(strategies_ungrouped),
         pctdistance=0.8,
         radius=1, wedgeprops=dict(width=size, edgecolor='w', linewidth=2))
 
@@ -88,7 +88,7 @@ ax.pie(strategies_ungrouped,
 ax.pie(strategies_grouped,
        # labels=strategies_grouped_label,
        colors=['#4dbbb6', '#636efa', '#636efa', '#636efa', '#636efa', '#636efa'],
-       # autopct=make_autopct(strategies_grouped),
+       autopct=make_autopct(strategies_grouped),
        pctdistance=.7,
        radius=1-size, wedgeprops=dict(width=size, edgecolor='w', linewidth=2))
 # plt.title('Population')
